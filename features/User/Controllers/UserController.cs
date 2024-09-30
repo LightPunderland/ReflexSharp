@@ -24,13 +24,20 @@ public class UserController : ControllerBase
     {
         Guid? guid = null;
 
+        //Patikrina userID formatas valid
         try{
             guid = Guid.Parse(userID);
         } catch (Exception){};
 
         if(guid is not null){
             var user = await _userService.GetUserAsync(guid.GetValueOrDefault());
-            return Ok(user);
+
+            if(user is not null){
+                return Ok(user);
+            }
+            else{
+                return NotFound();
+            }
         }
 
         return NotFound();
