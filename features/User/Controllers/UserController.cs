@@ -22,21 +22,14 @@ public class UserController : ControllerBase
     [HttpGet("api/users/{userID}")]
     public async Task<ActionResult<User>> GetUser(String userID)
     {
-        Guid? guid = null;
 
-        //Patikrina userID formatas valid
-        try{
-            guid = Guid.Parse(userID);
-        } catch (Exception){};
+        if (Guid.TryParse(userID, out Guid guid))
+        {
+            var user = await _userService.GetUserAsync(guid);
 
-        if(guid is not null){
-            var user = await _userService.GetUserAsync(guid.GetValueOrDefault());
-
-            if(user is not null){
+            if (user is not null)
+            {
                 return Ok(user);
-            }
-            else{
-                return NotFound();
             }
         }
 
