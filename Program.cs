@@ -21,6 +21,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IScoreService, ScoreService>();
+
 
 var app = builder.Build();
 
