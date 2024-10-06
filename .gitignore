@@ -1,5 +1,5 @@
 bin/
-/obj/
+obj/
 *.db
 *.sqlite
 *.suo

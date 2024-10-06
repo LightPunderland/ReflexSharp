@@ -10,6 +10,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Configuration.AddEnvironmentVariables();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        builder => builder.WithOrigins("http://localhost:5173") // Your React app's URL
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
+
+
 var host = builder.Configuration["PSI_PROJECT_HOST"];
 var database = builder.Configuration["PSI_PROJECT_DATABASE"];
 var user = builder.Configuration["PSI_PROJECT_USER"];
@@ -25,6 +34,8 @@ builder.Services.AddScoped<IScoreService, ScoreService>();
 
 
 var app = builder.Build();
+
+app.UseCors("AllowReactApp");
 
 if (app.Environment.IsDevelopment())
 {

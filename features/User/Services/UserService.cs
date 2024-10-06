@@ -16,5 +16,7 @@ public class UserService : IUserService
         return await _context.Users.ToListAsync();
     }
 
-
+    public async Task<User?> GetUserAsync(Guid userID){
+        return await _context.Users.FindAsync(userID);
+    }
 }
