@@ -1,14 +1,64 @@
+using Data;
+using Features.Sprite.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore;
+using System.IO;
+using System.Threading.Tasks;
 
 [ApiController]
+[Route("api/[controller]")]
 public class SpriteController : ControllerBase
 {
-    [HttpGet("sprites/ninja")]
-    public IActionResult Get()
+    private readonly AppDbContext _context;
+
+    public SpriteController(AppDbContext context)
     {
-        FileStream stream = System.IO.File.Open(@"features\Sprites\assets\ninja.png", FileMode.Open);
-        return File(stream, "image/jpeg");
+        _context = context;
     }
+
+    // POST endpoint to upload a new sprite
+    [HttpPost("upload")]
+    public async Task<IActionResult> UploadSprite(IFormFile file, string name)
+    {
+    if (file == null || file.Length == 0)
+        return BadRequest("No file uploaded.");
+
+    using (var memoryStream = new MemoryStream())
+    {
+        await file.CopyToAsync(memoryStream);
+        var sprite = new SpriteEntity
+        {
+            Name = name,
+            ImageData = memoryStream.ToArray()
+        };
+
+        _context.Sprites.Add(sprite); // This should work now with the correct casing
+        await _context.SaveChangesAsync();
+    }
+
+    return Ok(new { message = "Sprite uploaded successfully!" });
 }
 
+    // GET endpoint to retrieve a sprite by ID
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetSprite(string id)
+    {
+        var sprite = await _context.Sprites.FindAsync(id);
+        if (sprite == null)
+            return NotFound();
+
+        return File(sprite.ImageData, "image/png");
+    }
+
+    // GET endpoint to retrieve a sprite by name
+    [HttpGet("by-name/{name}")]
+    public async Task<IActionResult> GetSpriteByName(string name)
+    {
+    var sprite = await _context.Sprites.FirstOrDefaultAsync(s => s.Name == name);
+    if (sprite == null)
+        return NotFound();
+
+    return File(sprite.ImageData, "image/png");
+    }
+}

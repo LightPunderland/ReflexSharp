@@ -2,6 +2,7 @@ using Data.Configurations;
 using Features.Score;
 using Features.User.Entities;
 using Microsoft.EntityFrameworkCore;
+using Features.Sprite.Entities;
 
 
 namespace Data
@@ -14,8 +15,13 @@ namespace Data
 
         public DbSet<ScoreEntity> Scores { get; set; }
 
+        public DbSet<SpriteEntity> Sprites { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<SpriteEntity>()
+            .ToTable("sprites"); 
 
             modelBuilder.Entity<ScoreEntity>()
                 .HasIndex(s => s.Score)

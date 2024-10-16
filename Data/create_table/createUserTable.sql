@@ -8,3 +8,4 @@ CREATE TABLE users (
 );
 
 CREATE INDEX idx_google_user_id ON users(google_user_id);
+
