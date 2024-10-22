@@ -13,7 +13,7 @@ builder.Configuration.AddEnvironmentVariables();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
-        builder => builder.WithOrigins("http://localhost:5173") // Your React app's URL
+        builder => builder.WithOrigins("http://localhost:5173", "https://localhost:5173") // Your React app's URL
                           .AllowAnyHeader()
                           .AllowAnyMethod());
 });
