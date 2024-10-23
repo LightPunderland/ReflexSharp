@@ -2,6 +2,7 @@
 
 using Data;
 using Features.Score;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 public class ScoreService : IScoreService
@@ -47,5 +48,41 @@ public class ScoreService : IScoreService
     public async Task<bool> UserExistsAsync(Guid userId)
     {
         return await _context.Users.AnyAsync(u => u.Id == userId);
+    }
+
+    // Method to calculate the average score across all users
+    public async Task<double> CalculateAverageScoreAsync()
+    {
+        var scores = await _context.Scores.ToListAsync();
+        var scoreStats = new ScoreStatistics(0, 0); 
+
+        foreach (var score in scores)
+        {
+            scoreStats.AddScore(score.Score);
+        }
+
+        return scoreStats.GetAverageScore();
+    }
+
+    // Method to calculate the average score for a specific user
+    public async Task<double> GetAverageScoreByUser(Guid userId)
+    {
+        var userScores = await _context.Scores
+            .Where(s => s.UserId == userId)
+            .ToListAsync();
+
+        var scoreStats = new ScoreStatistics(0, 0); 
+
+        foreach (var score in userScores)
+        {
+            scoreStats.AddScore(score.Score); 
+        }
+
+        return scoreStats.GetAverageScore(); 
+    }
+
+    Task<ActionResult<double>> IScoreService.GetAverageScoreByUser(Guid userId)
+    {
+        throw new NotImplementedException();
     }
 }
