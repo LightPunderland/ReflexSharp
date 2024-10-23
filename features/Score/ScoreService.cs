@@ -14,7 +14,7 @@ public class ScoreService : IScoreService
         _context = context;
     }
 
-    public async Task<IEnumerable<ScoreEntity>> GetTopScoresAsync(int count)
+    public async Task<IEnumerable<ScoreEntity>> GetTopScoresAsync(int count = 5)
     {
         return await _context.Scores
         .OrderByDescending(s => s.Score)
@@ -22,7 +22,7 @@ public class ScoreService : IScoreService
         .ToListAsync();
     }
 
-    public async Task<IEnumerable<ScoreEntity>> GetTopScoresbyUser(Guid guid, int count)
+    public async Task<IEnumerable<ScoreEntity>> GetTopScoresbyUser(Guid guid, int count = 5)
     {
         return await _context.Scores
         .Where(s => s.UserId == guid)
