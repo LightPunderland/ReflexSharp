@@ -19,16 +19,20 @@ public class ScoreController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<ScoreEntity>>> GetTopScores(int count)
     {
+        IEnumerable<ScoreEntity>? scores;
 
+        // Jeigu neprovidina counto, tai default count value = 5
         if (count <= 0)
         {
-            return BadRequest("Count must be greater than 0");
+            scores = await _scoreService.GetTopScoresAsync();
+        }
+        else
+        {
+            scores = await _scoreService.GetTopScoresAsync(count: count);
         }
 
         try
         {
-            var scores = await _scoreService.GetTopScoresAsync(count);
-
             if (scores == null || !scores.Any())
             {
                 return NotFound();
@@ -46,15 +50,20 @@ public class ScoreController : ControllerBase
     [HttpGet("{userId}")]
     public async Task<ActionResult<IEnumerable<ScoreEntity>>> GetTopScoresByUser(Guid userId, int count)
     {
+        IEnumerable<ScoreEntity>? scores;
+
+        // Jeigu neprovidina counto, tai default count value = 5
         if (count <= 0)
         {
-            return BadRequest("Count must be greater than 0");
+            scores = await _scoreService.GetTopScoresAsync();
+        }
+        else
+        {
+            scores = await _scoreService.GetTopScoresAsync(count: count);
         }
 
         try
         {
-            var scores = await _scoreService.GetTopScoresbyUser(userId, count);
-
             if (scores == null || !scores.Any())
             {
                 return NotFound();
