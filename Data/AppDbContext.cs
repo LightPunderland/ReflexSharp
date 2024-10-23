@@ -3,7 +3,7 @@ using Features.Score;
 using Features.User.Entities;
 using Microsoft.EntityFrameworkCore;
 using Features.Sprite.Entities;
-
+using Features.Audio.Entities;
 
 namespace Data
 {
@@ -17,6 +17,7 @@ namespace Data
 
         public DbSet<SpriteEntity> Sprites { get; set; }
 
+        public DbSet<AudioFileEntity> AudioFiles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +25,9 @@ namespace Data
                 .ToTable("sprites")
                 .HasKey(s => s.Id);
 
+            modelBuilder.Entity<AudioFileEntity>()
+                .ToTable("audiofiles")
+                .HasKey(a => a.Id);
 
 
             modelBuilder.Entity<ScoreEntity>()
