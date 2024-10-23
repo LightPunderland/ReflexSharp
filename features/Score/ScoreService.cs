@@ -54,7 +54,7 @@ public class ScoreService : IScoreService
     public async Task<double> CalculateAverageScoreAsync()
     {
         var scores = await _context.Scores.ToListAsync();
-        var scoreStats = new ScoreStatistics(0, 0); 
+        var scoreStats = new ScoreStatistics(0, 0);
 
         foreach (var score in scores)
         {
@@ -64,25 +64,19 @@ public class ScoreService : IScoreService
         return scoreStats.GetAverageScore();
     }
 
-    // Method to calculate the average score for a specific user
-    public async Task<double> GetAverageScoreByUser(Guid userId)
-    {
+    public async Task<ActionResult<double>> GetAverageScoreByUser(Guid userId){
         var userScores = await _context.Scores
             .Where(s => s.UserId == userId)
             .ToListAsync();
 
-        var scoreStats = new ScoreStatistics(0, 0); 
+        var scoreStats = new ScoreStatistics(0, 0);
 
         foreach (var score in userScores)
         {
-            scoreStats.AddScore(score.Score); 
+            scoreStats.AddScore(score.Score);
         }
 
-        return scoreStats.GetAverageScore(); 
+        return scoreStats.GetAverageScore();
     }
 
-    Task<ActionResult<double>> IScoreService.GetAverageScoreByUser(Guid userId)
-    {
-        throw new NotImplementedException();
-    }
 }
