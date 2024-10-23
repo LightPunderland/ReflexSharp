@@ -2814,19 +2814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kipra\\.nuget\\packages\\": {}
+    "C:\\Users\\noahm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kipra\\Desktop\\BE repo\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+      "projectUniqueName": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
       "projectName": "ReflexSharp-BE",
-      "projectPath": "C:\\Users\\kipra\\Desktop\\BE repo\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
-      "packagesPath": "C:\\Users\\kipra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kipra\\Desktop\\BE repo\\ReflexSharp-BE\\obj\\",
+      "projectPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+      "packagesPath": "C:\\Users\\noahm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kipra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\noahm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

@@ -1,9 +1,15 @@
 using Features.User.Entities;
+using Features.User.DTOs;
 
 public interface IUserService
 {
-    Task<IEnumerable<User>> GetAllUsersAsync();
+    Task<IEnumerable<UserDTO>> GetAllUsersAsync();
 
-    Task<User?> GetUserAsync(Guid userID);
+    Task<UserDTO?> GetUserAsync(Guid userID);
+
+
+    Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank);
+    Task<bool> CheckUsernameAvailabilityAsync(string username);
+
 }
 

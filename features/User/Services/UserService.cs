@@ -1,6 +1,8 @@
 using Data;
 using Features.User.Entities;
+using Features.User.DTOs;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 public class UserService : IUserService
 {
@@ -11,12 +13,68 @@ public class UserService : IUserService
         _context = context;
     }
 
-    public async Task<IEnumerable<User>> GetAllUsersAsync()
+    public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
     {
-        return await _context.Users.ToListAsync();
+
+        var users = await _context.Users.ToListAsync();
+
+        var userList = new UserList(users);
+
+        userList.Sort(new UserList.UserComparer());
+
+        return userList.Select(user => new UserDTO
+        {
+            Id = user.Id,
+            Email = user.Email,
+            DisplayName = user.DisplayName,
+            PublicRank = Enum.TryParse(user.Rank, out Rank rank) ? rank : Rank.None
+        }).ToList();
     }
 
-    public async Task<User?> GetUserAsync(Guid userID){
-        return await _context.Users.FindAsync(userID);
+    public async Task<UserDTO?> GetUserAsync(Guid userID)
+    {
+
+        var user = await _context.Users.FindAsync(userID);
+
+        if (user is null)
+            return null;
+
+        return new UserDTO
+        {
+            Id = user.Id,
+            Email = user.Email,
+            DisplayName = user.DisplayName,
+            PublicRank = Enum.TryParse(user.Rank, out Rank rank) ? rank : Rank.None
+        };
+    }
+
+    public async Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank)
+    {
+
+        var users = await _context.Users.ToListAsync();
+
+        var userList = new UserList(users);
+
+        var filteredUsers = userList
+            .Where(u => Enum.TryParse(u.Rank, out Rank userRank) && userRank == rank)
+            .ToList();
+
+        filteredUsers.Sort(new UserList.UserComparer());
+
+        return filteredUsers.Select(user => new UserDTO
+        {
+            Id = user.Id,
+            Email = user.Email,
+            DisplayName = user.DisplayName,
+            PublicRank = rank
+        }).ToList();
+    }
+
+    public async Task<bool> CheckUsernameAvailabilityAsync(string username)
+    {
+        var users = await _context.Users.ToListAsync();
+
+        var userList = new UserList(users);
+        return userList.All(u => u.Email != username);
     }
 }

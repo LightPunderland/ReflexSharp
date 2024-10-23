@@ -21,7 +21,10 @@ namespace Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<SpriteEntity>()
-            .ToTable("sprites"); 
+                .ToTable("sprites")
+                .HasKey(s => s.Id);
+
+
 
             modelBuilder.Entity<ScoreEntity>()
                 .HasIndex(s => s.Score)

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ReflexSharp_BE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241016131601_AddSpritesTable")]
-    partial class AddSpritesTable
+    [Migration("20241023121942_UserRankChanges1")]
+    partial class UserRankChanges1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -58,21 +58,24 @@ namespace ReflexSharp_BE.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<byte[]>("ImageData")
                         .IsRequired()
-                        .HasColumnType("bytea");
+                        .HasColumnType("bytea")
+                        .HasColumnName("image_data");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("text")
+                        .HasColumnName("name");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sprites");
+                    b.ToTable("sprites", (string)null);
                 });
 
             modelBuilder.Entity("Features.User.Entities.User", b =>
@@ -92,6 +95,10 @@ namespace ReflexSharp_BE.Migrations
                     b.Property<string>("GoogleId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Rank")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("Id");
 

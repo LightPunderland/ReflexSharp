@@ -17,7 +17,6 @@ public class SpriteController : ControllerBase
         _context = context;
     }
 
-    // POST endpoint to upload a new sprite
     [HttpPost("upload")]
     public async Task<IActionResult> UploadSprite(IFormFile file, string name)
     {
@@ -33,7 +32,7 @@ public class SpriteController : ControllerBase
             ImageData = memoryStream.ToArray()
         };
 
-        _context.Sprites.Add(sprite); // This should work now with the correct casing
+        _context.Sprites.Add(sprite);
         await _context.SaveChangesAsync();
     }
 
@@ -51,7 +50,6 @@ public class SpriteController : ControllerBase
         return File(sprite.ImageData, "image/png");
     }
 
-    // GET endpoint to retrieve a sprite by name
     [HttpGet("by-name/{name}")]
     public async Task<IActionResult> GetSpriteByName(string name)
     {
