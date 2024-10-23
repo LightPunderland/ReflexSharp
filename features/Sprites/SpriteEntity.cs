@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Features.Sprite.Entities
 {
     [Table("sprites")]
-    public class SpriteEntity
+    public record SpriteEntity
     {
         [Key]
         [Column("id")]

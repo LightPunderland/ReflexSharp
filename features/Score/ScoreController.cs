@@ -105,6 +105,35 @@ public class ScoreController : ControllerBase
 
         return Ok(newScore);
     }
+
+    [HttpGet("average")]
+    public async Task<ActionResult<double>> GetAverageScore()
+{
+    try
+    {
+        var averageScore = await _scoreService.CalculateAverageScoreAsync();
+        return Ok(averageScore);
+    }
+    catch (Exception e)
+    {
+        return StatusCode(500, e.Message);
+    }
+}
+
+    [HttpGet("average/{userId}")]
+    public async Task<ActionResult<double>> GetAverageScoreByUser(Guid userId)
+{
+    try
+    {
+        var averageScore = await _scoreService.GetAverageScoreByUser(userId);
+        return Ok(averageScore);
+    }
+    catch (Exception e)
+    {
+        return StatusCode(500, e.Message);
+    }
+}
+
 }
 
 
