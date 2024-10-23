@@ -15,12 +15,8 @@ public class UserService : IUserService
    public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
     {
         var users = await _context.Users.ToListAsync();
-        return users.Select(user => new UserDTO
-        {
-            Id = user.Id,
-            Email = user.Email,
-            DisplayName = user.DisplayName
-        });
+        var userList = new UserList(users);
+        return userList.GetUserListDTO();
     }
 
     public async Task<UserDTO?> GetUserAsync(Guid userID)
@@ -28,38 +24,29 @@ public class UserService : IUserService
         var user = await _context.Users.FindAsync(userID);
         if (user == null) return null;
 
-        return new UserDTO
+        var userList = new UserList(new List<User> { user });
+
+        return userList.GetUserListDTO().FirstOrDefault();
+    }
+
+    public async Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank)
+    {
+        var users = await _context.Users.ToListAsync();
+        var userList = new UserList(users);
+        return userList.GetUserListByRank(rank).Select(user => new UserDTO
         {
             Id = user.Id,
             Email = user.Email,
             DisplayName = user.DisplayName,
-            Activity = user.Activity
-        };
+            PublicRank = Enum.TryParse(user.Rank, out Rank parsedRank) ? parsedRank : Rank.Noob
+        });
     }
 
-    public async Task<IEnumerable<UserDTO>> GetOnlineUsersAsync()
+    public async Task<bool> CheckUsernameAvailabilityAsync(string username)
     {
         var users = await _context.Users.ToListAsync();
-        var onlineUsers = new List<UserDTO>();
-
-        // iterating
-        foreach (var user in users)
-        {
-            if (user.Activity == Status.Online)
-            {
-                onlineUsers.Add(new UserDTO
-                {
-                    Id = user.Id,
-                    Email = user.Email,
-                    DisplayName = user.DisplayName
-                });
-            }
-        }
-
-        return onlineUsers;
+        var userList = new UserList(users);
+        return userList.CheckUsernameAvailability(username);
     }
-
-
-
 
 }

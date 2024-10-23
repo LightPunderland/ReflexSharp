@@ -39,12 +39,13 @@ public class SpriteController : ControllerBase
     return Ok(new { message = "Sprite uploaded successfully!" });
 }
 
-
+    // GET endpoint to retrieve a sprite by ID
     [HttpGet("{id}")]
     public async Task<IActionResult> GetSprite(string id)
     {
         var sprite = await _context.Sprites.FindAsync(id);
-        if (sprite == null) return NotFound();
+        if (sprite == null)
+            return NotFound();
 
         return File(sprite.ImageData, "image/png");
     }
@@ -52,9 +53,10 @@ public class SpriteController : ControllerBase
     [HttpGet("by-name/{name}")]
     public async Task<IActionResult> GetSpriteByName(string name)
     {
-        var sprite = await _context.Sprites.FirstOrDefaultAsync(s => s.Name == name);
-        if (sprite == null) return NotFound();
+    var sprite = await _context.Sprites.FirstOrDefaultAsync(s => s.Name == name);
+    if (sprite == null)
+        return NotFound();
 
-        return File(sprite.ImageData, "image/png");
+    return File(sprite.ImageData, "image/png");
     }
 }

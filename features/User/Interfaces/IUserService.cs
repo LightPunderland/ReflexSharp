@@ -7,6 +7,9 @@ public interface IUserService
 
     Task<UserDTO?> GetUserAsync(Guid userID);
 
-    Task<IEnumerable<UserDTO>> GetOnlineUsersAsync();
+
+    Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank);
+    Task<bool> CheckUsernameAvailabilityAsync(string username);
+
 }
 

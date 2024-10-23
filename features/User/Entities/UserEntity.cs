@@ -19,6 +19,6 @@ namespace Features.User.Entities
         public string DisplayName { get; set; } = null!;
 
         [Required, Column(TypeName = "varchar(50)")]
-        public Status Activity { get; set; } = Status.Offline;
+        public string Rank { get; set; } = null!;
     }
 }
