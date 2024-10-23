@@ -1,12 +1,8 @@
-
-
 using Features.Score;
 using Microsoft.AspNetCore.Mvc;
 
-
 [ApiController]
 [Route("api/leaderboard")]
-
 public class ScoreController : ControllerBase
 {
     private readonly IScoreService _scoreService;
@@ -21,14 +17,13 @@ public class ScoreController : ControllerBase
     {
         IEnumerable<ScoreEntity>? scores;
 
-        // Jeigu neprovidina counto, tai default count value = 5
         if (count <= 0)
         {
-            scores = await _scoreService.GetTopScoresAsync();
+            scores = await _scoreService.GetTopScoresAsync(); // Uses caching
         }
         else
         {
-            scores = await _scoreService.GetTopScoresAsync(count: count);
+            scores = await _scoreService.GetTopScoresAsync(count: count); // Uses caching
         }
 
         try
@@ -44,7 +39,6 @@ public class ScoreController : ControllerBase
         {
             return StatusCode(500, e.Message);
         }
-
     }
 
     [HttpGet("{userId}")]
@@ -52,14 +46,13 @@ public class ScoreController : ControllerBase
     {
         IEnumerable<ScoreEntity>? scores;
 
-        // Jeigu neprovidina counto, tai default count value = 5
         if (count <= 0)
         {
-            scores = await _scoreService.GetTopScoresAsync();
+            scores = await _scoreService.GetTopScoresbyUser(userId); // Uses caching
         }
         else
         {
-            scores = await _scoreService.GetTopScoresAsync(count: count);
+            scores = await _scoreService.GetTopScoresbyUser(userId, count); // Uses caching
         }
 
         try
@@ -96,44 +89,42 @@ public class ScoreController : ControllerBase
             return NotFound(new { error = "User not found" });
         }
 
-        var newScore = await _scoreService.CreateScoreAsync(createScoreDto.UserId, createScoreDto.Score);
+        var newScore = await _scoreService.CreateScoreAsync(createScoreDto.UserId, createScoreDto.Score); // Uses caching
         if (newScore == null)
         {
             return StatusCode(500, new { error = "An error occurred while creating the score" });
         }
-
 
         return Ok(newScore);
     }
 
     [HttpGet("average")]
     public async Task<ActionResult<double>> GetAverageScore()
-{
-    try
     {
-        var averageScore = await _scoreService.CalculateAverageScoreAsync();
-        return Ok(averageScore);
+        try
+        {
+            var averageScore = await _scoreService.CalculateAverageScoreAsync(); // Uses caching
+            return Ok(averageScore);
+        }
+        catch (Exception e)
+        {
+            return StatusCode(500, e.Message);
+        }
     }
-    catch (Exception e)
-    {
-        return StatusCode(500, e.Message);
-    }
-}
 
     [HttpGet("average/{userId}")]
     public async Task<ActionResult<double>> GetAverageScoreByUser(Guid userId)
-{
-    try
     {
-        var averageScore = await _scoreService.GetAverageScoreByUser(userId);
-        return Ok(averageScore);
+        try
+        {
+            var averageScore = await _scoreService.GetAverageScoreByUser(userId); // Unimplemented placeholder in service
+            return Ok(averageScore);
+        }
+        catch (Exception e)
+        {
+            return StatusCode(500, e.Message);
+        }
     }
-    catch (Exception e)
-    {
-        return StatusCode(500, e.Message);
-    }
-}
-
 }
 
 
