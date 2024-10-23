@@ -3,53 +3,54 @@ using System.Collections.Generic;
 using System.Linq;
 using Features.User.Entities;
 using Features.User.DTOs;
-public class UserList : List<User>, IEnumerable<User>
+
+// AHSAHSAHSAHSHAHSAHSH XDDDDDD
+public class UserList : List<User>, IEnumerable<User>, IComparable<UserList>
 {
     public UserList(List<User> users) : base(users) {}
 
-    public IEnumerable<UserDTO> GetUserListDTO()
-    {
-        return this.Select(user => new UserDTO
-        {
-            Id = user.Id,
-            Email = user.Email,
-            DisplayName = user.DisplayName,
-            PublicRank = Enum.TryParse(user.Rank, out Rank parsedRank) ? parsedRank : Rank.None
-        });
-    }
-
-
-
-
-    public IEnumerable<User> GetUserListByRank(Rank rank)
-    {
-        foreach(var user in this) {
-            if (Enum.TryParse(user.Rank, out Rank userRank) && userRank == rank)
-            {
-                yield return user;
-            }
-        }
-    }
-
-    public bool CheckUsernameAvailability(string username)
+    // IEnumerable implement cause we have to
+    public new IEnumerator<User> GetEnumerator()
     {
         foreach(var user in this)
         {
-            if(user.DisplayName == username){
-                return false;
-            }
+            yield return user;
         }
-        return true;
     }
 
-    IEnumerator<User> IEnumerable<User>.GetEnumerator()
-    {
-        return base.GetEnumerator();
-    }
-
-    //Overide
     IEnumerator IEnumerable.GetEnumerator()
     {
-        return base.GetEnumerator();
+        return GetEnumerator();
     }
+
+    // Icomparable...
+    // 1 - otherList is greater
+    // -1 - otherList is lesser
+    // 0 - they are equal
+    public int CompareTo(UserList otherList)
+    {
+        if (otherList == null)
+        {
+            return 1;
+        }
+
+        return this.Count.CompareTo(otherList.Count);
+    }
+
+    // We compare users based off ranks (can be changed to any other criteria)
+    public class UserComparer : IComparer<User>
+    {
+        public int Compare(User a, User b)
+        {
+            if (a == null && b == null) return 0;
+            if (a == null) return -1;
+            if (b == null) return 1;
+
+            Rank rankOfA = Enum.TryParse(a.Rank, out Rank parsedRankA) ? parsedRankA : Rank.None;
+            Rank rankOfB = Enum.TryParse(b.Rank, out Rank parsedRankB) ? parsedRankB : Rank.None;
+
+            return rankOfA.CompareTo(rankOfB);
+        }
+    }
+
 }
