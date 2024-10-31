@@ -19,14 +19,20 @@ namespace Features.User.Entities
         [Required, Column(TypeName = "varchar(100)")]
         public string DisplayName { get; set; } = null!;
 
-        [Required, Column(TypeName = "varchar(50)")]
-        public string Rank { get; set; } = "None";
+        [Required]
+        public Rank Rank { get; set; } = Rank.None;
+
+        [Required]
+        public int XP {get; set;} = 0;
+
+        [Required]
+        public int Coins {get; set;} = 0;
 
         //comapre by rank
         public int CompareTo(User? other)
         {
             if (other == null) return 1;
-            return string.Compare(this.Rank, other.Rank, StringComparison.Ordinal);
+            return Rank.CompareTo(other.Rank);
         }
 
         //equal if name and rank are equal

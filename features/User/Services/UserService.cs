@@ -27,7 +27,7 @@ public class UserService : IUserService
             Id = user.Id,
             Email = user.Email,
             DisplayName = user.DisplayName,
-            PublicRank = Enum.TryParse(user.Rank, out Rank rank) ? rank : Rank.None
+            PublicRank = user.Rank
         }).ToList();
     }
 
@@ -42,8 +42,10 @@ public class UserService : IUserService
         {
             Id = user.Id,
             Email = user.Email,
+            XP = user.XP,
+            Coins = user.Coins,
             DisplayName = user.DisplayName,
-            PublicRank = Enum.TryParse(user.Rank, out Rank rank) ? rank : Rank.None
+            PublicRank = user.Rank
         };
     }
 
@@ -53,7 +55,7 @@ public class UserService : IUserService
         var userList = new UserList(users);
 
         var filteredUsers = userList
-            .Where(u => Enum.TryParse(u.Rank, out Rank userRank) && userRank == rank)
+            .Where(u => u.Rank == rank)
             .ToList();
 
 
@@ -63,6 +65,8 @@ public class UserService : IUserService
         {
             Id = user.Id,
             Email = user.Email,
+            XP = user.XP,
+            Coins = user.Coins,
             DisplayName = user.DisplayName,
             PublicRank = rank
         }).ToList();
@@ -74,5 +78,22 @@ public class UserService : IUserService
         var userList = new UserList(users);
 
         return userList.All(u => u.Email != username);
+    }
+
+    // rank formula, when even 125*x^3 and 125*x^3 + 125 when odd, x is user rank enum
+    public async Task<int> CheckXPRequiredForLevelUp(Guid userID) {
+
+        try
+        {
+            var user = await _context.Users.FindAsync(userID) ?? throw new Exception("User not found.");
+            int rankVariable = (int)user.Rank;
+            return (rankVariable % 2 != 0) ? 125*(rankVariable)^3 : 125*(rankVariable)^3 + 125;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error: {e.Message}");
+            return -1;
+        }
+
     }
 }

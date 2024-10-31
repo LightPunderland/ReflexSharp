@@ -11,5 +11,7 @@ public interface IUserService
     Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank);
     Task<bool> CheckUsernameAvailabilityAsync(string username);
 
+   Task<int> CheckXPRequiredForLevelUp(Guid userID);
+
 }
 
