@@ -11,7 +11,7 @@ public enum Rank{
 
 }
 
-//record
+// Record
 public record UserDTO{
     public Guid Id {get; init;}
     public string Email {get; init;} = null;

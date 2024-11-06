@@ -7,11 +7,12 @@ public interface IUserService
 
     Task<UserDTO?> GetUserAsync(Guid userID);
 
-
     Task<IEnumerable<UserDTO>> GetUsersByRankAsync(Rank rank);
     Task<bool> CheckUsernameAvailabilityAsync(string username);
 
-   Task<int> CheckXPRequiredForLevelUp(Guid userID);
+    // Used for displaying how much xp is needed for a new level on the frontend
+    Task<int> CheckXPRequiredForLevelUp(Guid userID);
+
 
 }
 
