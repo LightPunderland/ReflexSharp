@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReflexSharp-BE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84cd30abbec048286df71b0eb62d80b125b4189b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d470625a2b5b7faade6f4a4bf9dd4391ac657c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReflexSharp-BE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReflexSharp-BE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
