@@ -2,13 +2,14 @@ using Data;
 using Features.Score;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Concurrent;
 
 public class ScoreService : IScoreService
 {
     private readonly AppDbContext _context;
-    
-    // In-memory cache for storing values with boxing/unboxing
-    private readonly Dictionary<string, object> _cache = new Dictionary<string, object>();
+
+    // Dictionary pakeistas į ConcurrentDictionary 
+    private readonly ConcurrentDictionary<string, object> _cache = new ConcurrentDictionary<string, object>();
 
     public ScoreService(AppDbContext context)
     {
@@ -43,7 +44,9 @@ public class ScoreService : IScoreService
         _context.Scores.Add(scoreEntity);
         await _context.SaveChangesAsync();
 
-        // Optional: You can invalidate cache related to scores if necessary
+        // Pakeičia sena average scora su updatintu
+        _cache.TryRemove("AverageScore", out _);
+        _cache.TryRemove($"AverageScore_{userId}", out _);
 
         return scoreEntity;
     }
@@ -53,61 +56,60 @@ public class ScoreService : IScoreService
         return await _context.Users.AnyAsync(u => u.Id == userId);
     }
 
-    // Method to calculate the average score across all users (with caching)
+    // Apskaičiuoja average scora 
     public async Task<double> CalculateAverageScoreAsync()
     {
         string cacheKey = "AverageScore";
 
-        // Check if average score is cached (unboxing occurs here)
-        if (_cache.ContainsKey(cacheKey))
+        
+        if (_cache.TryGetValue(cacheKey, out var cachedValue))
         {
-            return (double)_cache[cacheKey]; // Unboxing
+            return (double)cachedValue;
         }
 
-        // Calculate the average score if not cached
+        
         var scores = await _context.Scores.ToListAsync();
-        var scoreStats = new ScoreStatistics(0, 0);
 
-        foreach (var score in scores)
-        {
-            scoreStats.AddScore(score.Score);
-        }
+        // Task.run sukuria nauja threada backgrounde (turėtų skaitytis kaip multithread)
+        double averageScore = await Task.Run(() => {
+            var scoreStats = new ScoreStatistics(0, 0);
+            foreach (var score in scores)
+            {
+                scoreStats.AddScore(score.Score);
+            }
+            return scoreStats.GetAverageScore();
+        });
 
-        double averageScore = scoreStats.GetAverageScore();
-
-        // Store the result in the cache (boxing occurs here)
-        _cache[cacheKey] = averageScore; // Boxing
+        _cache[cacheKey] = averageScore;
 
         return averageScore;
     }
 
-    // Method to calculate the average score by user (with caching)
+    // Suskaičiuoja average score kiekvieno userio
     public async Task<ActionResult<double>> GetAverageScoreByUser(Guid userId)
     {
         string cacheKey = $"AverageScore_{userId}";
 
-        // Check if the user's average score is cached (unboxing occurs here)
-        if (_cache.ContainsKey(cacheKey))
+        
+        if (_cache.TryGetValue(cacheKey, out var cachedValue))
         {
-            return (double)_cache[cacheKey]; // Unboxing
+            return (double)cachedValue;
         }
 
-        // Calculate the user's average score if not cached
         var userScores = await _context.Scores
             .Where(s => s.UserId == userId)
             .ToListAsync();
 
-        var scoreStats = new ScoreStatistics(0, 0);
+        double averageScore = await Task.Run(() => {
+            var scoreStats = new ScoreStatistics(0, 0);
+            foreach (var score in userScores)
+            {
+                scoreStats.AddScore(score.Score);
+            }
+            return scoreStats.GetAverageScore();
+        });
 
-        foreach (var score in userScores)
-        {
-            scoreStats.AddScore(score.Score);
-        }
-
-        double averageScore = scoreStats.GetAverageScore();
-
-        // Store the result in the cache (boxing occurs here)
-        _cache[cacheKey] = averageScore; // Boxing
+        _cache[cacheKey] = averageScore;
 
         return averageScore;
     }
