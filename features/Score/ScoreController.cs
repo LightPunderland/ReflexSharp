@@ -48,11 +48,11 @@ public class ScoreController : ControllerBase
 
         if (count <= 0)
         {
-            scores = await _scoreService.GetTopScoresbyUser(userId); // Uses caching
+            scores = await _scoreService.GetTopScoresByUser(userId); // Uses caching
         }
         else
         {
-            scores = await _scoreService.GetTopScoresbyUser(userId, count); // Uses caching
+            scores = await _scoreService.GetTopScoresByUser(userId, count); // Uses caching
         }
 
         try

@@ -1,35 +1,30 @@
-using Data;
 using Features.Score;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Data;
 
 public class ScoreService : IScoreService
 {
+    private readonly IScoreRepository _scoreRepository;
     private readonly AppDbContext _context;
-    
+
     // In-memory cache for storing values with boxing/unboxing
     private readonly Dictionary<string, object> _cache = new Dictionary<string, object>();
 
-    public ScoreService(AppDbContext context)
+    public ScoreService(IScoreRepository scoreRepository, AppDbContext context)
     {
+        _scoreRepository = scoreRepository;
         _context = context;
     }
 
     public async Task<IEnumerable<ScoreEntity>> GetTopScoresAsync(int count = 5)
     {
-        return await _context.Scores
-            .OrderByDescending(s => s.Score)
-            .Take(count)
-            .ToListAsync();
+        return await _scoreRepository.GetTopScoresAsync(count);
     }
 
-    public async Task<IEnumerable<ScoreEntity>> GetTopScoresbyUser(Guid guid, int count = 5)
+    public async Task<IEnumerable<ScoreEntity>> GetTopScoresByUser(Guid userId, int count = 5)
     {
-        return await _context.Scores
-            .Where(s => s.UserId == guid)
-            .OrderByDescending(s => s.Score)
-            .Take(count)
-            .ToListAsync();
+        return await _scoreRepository.GetTopScoresByUserAsync(userId, count);
     }
 
     public async Task<ScoreEntity> CreateScoreAsync(Guid userId, int score)
@@ -40,10 +35,10 @@ public class ScoreService : IScoreService
             Score = score
         };
 
-        _context.Scores.Add(scoreEntity);
+        await _scoreRepository.AddAsync(scoreEntity);
         await _context.SaveChangesAsync();
 
-        // Optional: You can invalidate cache related to scores if necessary
+        // Optional: Invalidate cache if necessary
 
         return scoreEntity;
     }
@@ -65,7 +60,7 @@ public class ScoreService : IScoreService
         }
 
         // Calculate the average score if not cached
-        var scores = await _context.Scores.ToListAsync();
+        var scores = await _scoreRepository.GetAllAsync();
         var scoreStats = new ScoreStatistics(0, 0);
 
         foreach (var score in scores)
@@ -93,10 +88,7 @@ public class ScoreService : IScoreService
         }
 
         // Calculate the user's average score if not cached
-        var userScores = await _context.Scores
-            .Where(s => s.UserId == userId)
-            .ToListAsync();
-
+        var userScores = await _scoreRepository.GetScoresByUserAsync(userId);
         var scoreStats = new ScoreStatistics(0, 0);
 
         foreach (var score in userScores)
