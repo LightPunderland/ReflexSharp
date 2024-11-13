@@ -26,16 +26,16 @@ namespace Features.User.Entities
         public int XP {get; set;} = 0;
 
         [Required]
-        public int Coins {get; set;} = 0;
+        public int Gold {get; set;} = 0;
 
-        //comapre by rank
+        // Comapre by rank
         public int CompareTo(User? other)
         {
             if (other == null) return 1;
             return Rank.CompareTo(other.Rank);
         }
 
-        //equal if name and rank are equal
+        // Equal if name and rank are equal
         public bool Equals(User? other)
         {
             if (other == null) return false;

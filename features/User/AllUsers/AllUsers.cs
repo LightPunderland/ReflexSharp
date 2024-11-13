@@ -16,12 +16,9 @@ public class UserList : List<User>, IEnumerable<User>
         }
     }
 
-
     IEnumerator IEnumerable.GetEnumerator()
     {
         return GetEnumerator();
     }
-
-
 
 }

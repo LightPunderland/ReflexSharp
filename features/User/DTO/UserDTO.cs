@@ -19,5 +19,5 @@ public record UserDTO{
     public Rank PublicRank { get; init; } = Rank.None;
 
     public int XP {get; init; } = 0;
-    public int Coins{get; init; } = 0;
+    public int Gold{get; init; } = 0;
 }

@@ -43,7 +43,7 @@ public class UserService : IUserService
             Id = user.Id,
             Email = user.Email,
             XP = user.XP,
-            Coins = user.Coins,
+            Gold = user.Gold,
             DisplayName = user.DisplayName,
             PublicRank = user.Rank
         };
@@ -66,7 +66,7 @@ public class UserService : IUserService
             Id = user.Id,
             Email = user.Email,
             XP = user.XP,
-            Coins = user.Coins,
+            Gold = user.Gold,
             DisplayName = user.DisplayName,
             PublicRank = rank
         }).ToList();
@@ -80,20 +80,40 @@ public class UserService : IUserService
         return userList.All(u => u.Email != username);
     }
 
-    // rank formula, when even 125*x^3 and 125*x^3 + 125 when odd, x is user rank enum
+    // Rank formula, when even 125*x^3 and 125*x^3 + 125 when odd, x is user rank enum
     public async Task<int> CheckXPRequiredForLevelUp(Guid userID) {
-
-        try
-        {
+        try {
             var user = await _context.Users.FindAsync(userID) ?? throw new Exception("User not found.");
             int rankVariable = (int)user.Rank;
             return (rankVariable % 2 != 0) ? 125*(rankVariable)^3 : 125*(rankVariable)^3 + 125;
         }
-        catch (Exception e)
-        {
+        catch (Exception e) {
             Console.WriteLine($"Error: {e.Message}");
             return -1;
         }
 
+    }
+
+    public async Task<bool> UpdateUserGoldXp(Guid userId, int gold, int xp) {
+        try {
+            var user = await _context.Users.FindAsync(userId);
+
+            if (user == null) {
+                throw new KeyNotFoundException($"Error, could not give rewards, because the user {userId} who earned them doesn't exist.");
+            }
+            if (xp < 0) {
+                throw new KeyNotFoundException($"Error, and how exactly did we get here?");
+            }
+
+            user.Gold += gold;
+            user.XP += xp;
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e) {
+            Console.WriteLine($"Error: {e.Message}");
+            return false;
+        }
     }
 }

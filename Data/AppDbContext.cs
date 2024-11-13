@@ -35,6 +35,10 @@ namespace Data
                 .HasDatabaseName("idx_score")
                 .IsUnique(false);
 
+            modelBuilder.Entity<User>()
+                .Property(u => u.Rank)
+                .HasConversion<int>();
+
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new UserConfiguration());
