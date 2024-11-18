@@ -44,7 +44,7 @@ public class UserController : ControllerBase
             var user = await _userService.GetUserAsync(guid);
 
             int beforeGold = user.Gold;
-            int beforeXp = user.XP;
+            int beforeXp = Convert.ToInt32(user.XP);
 
             bool action = await _userService.UpdateUserGoldXp(guid, addGold, addXp);
 
