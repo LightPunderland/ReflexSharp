@@ -20,12 +20,15 @@ namespace Features.User.Entities
         public string DisplayName { get; set; } = null!;
 
         [Required]
+         [Column("Rank")]
         public Rank Rank { get; set; } = Rank.None;
 
         [Required]
-        public int XP {get; set;} = 0;
+        [Column("XP")]
+        public Int32 XP {get; set;} = 0;
 
         [Required]
+         [Column("Gold")]
         public int Gold {get; set;} = 0;
 
         // Comapre by rank
@@ -40,7 +43,7 @@ namespace Features.User.Entities
         {
             if (other == null) return false;
 
-            return this.DisplayName == other.DisplayName && this.Rank == other.Rank;
+            return this.DisplayName == other.DisplayName;
         }
 
         public override bool Equals(object? obj)

@@ -18,6 +18,6 @@ public record UserDTO{
     public string DisplayName {get; init; } = null!;
     public Rank PublicRank { get; init; } = Rank.None;
 
-    public int XP {get; init; } = 0;
+    public Int32 XP {get; init; } = 0;
     public int Gold{get; init; } = 0;
 }

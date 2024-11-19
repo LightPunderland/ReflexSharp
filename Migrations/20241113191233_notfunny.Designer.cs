@@ -3,6 +3,7 @@ using System;
 using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ReflexSharp_BE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241113191233_notfunny")]
+    partial class notfunny
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -114,20 +117,19 @@ namespace ReflexSharp_BE.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<int>("Gold")
-                        .HasColumnType("integer")
-                        .HasColumnName("Gold");
+                        .HasColumnType("integer");
 
                     b.Property<string>("GoogleId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
                     b.Property<int>("Rank")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
-                        .HasColumnName("Rank");
+                        .HasDefaultValue(0);
 
                     b.Property<int>("XP")
-                        .HasColumnType("integer")
-                        .HasColumnName("XP");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

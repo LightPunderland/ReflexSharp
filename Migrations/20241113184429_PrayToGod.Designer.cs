@@ -3,6 +3,7 @@ using System;
 using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ReflexSharp_BE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241113184429_PrayToGod")]
+    partial class PrayToGod
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -113,21 +116,21 @@ namespace ReflexSharp_BE.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
-                    b.Property<int>("Gold")
-                        .HasColumnType("integer")
-                        .HasColumnName("Gold");
+                    b.Property<string>("Gold")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("GoogleId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
-                    b.Property<int>("Rank")
-                        .HasColumnType("integer")
-                        .HasColumnName("Rank");
+                    b.Property<string>("Rank")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
-                    b.Property<int>("XP")
-                        .HasColumnType("integer")
-                        .HasColumnName("XP");
+                    b.Property<string>("XP")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.HasKey("Id");
 

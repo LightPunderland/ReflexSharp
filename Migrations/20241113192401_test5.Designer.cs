@@ -3,6 +3,7 @@ using System;
 using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ReflexSharp_BE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241113192401_test5")]
+    partial class test5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,7 +46,7 @@ namespace ReflexSharp_BE.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("audiofiles", (string)null);
+                    b.ToTable("audiofiles");
                 });
 
             modelBuilder.Entity("Features.Score.ScoreEntity", b =>
@@ -66,9 +69,6 @@ namespace ReflexSharp_BE.Migrations
                         .HasColumnName("user_id");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("Score")
-                        .HasDatabaseName("idx_score");
 
                     b.HasIndex("UserId");
 
@@ -96,7 +96,7 @@ namespace ReflexSharp_BE.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("sprites", (string)null);
+                    b.ToTable("sprites");
                 });
 
             modelBuilder.Entity("Features.User.Entities.User", b =>
@@ -114,20 +114,17 @@ namespace ReflexSharp_BE.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<int>("Gold")
-                        .HasColumnType("integer")
-                        .HasColumnName("Gold");
+                        .HasColumnType("integer");
 
                     b.Property<string>("GoogleId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
                     b.Property<int>("Rank")
-                        .HasColumnType("integer")
-                        .HasColumnName("Rank");
+                        .HasColumnType("integer");
 
                     b.Property<int>("XP")
-                        .HasColumnType("integer")
-                        .HasColumnName("XP");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
