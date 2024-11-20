@@ -130,4 +130,50 @@ public class UserService : IUserService
         return await _context.Users
             .FirstOrDefaultAsync(u => u.GoogleId == googleId && u.Email == email && u.DisplayName == displayName);
     }
+
+    public async Task<bool> IsUsernameTakenAsync(string username)
+    {
+        return await _context.Users.AnyAsync(u => u.DisplayName == username);
+    }
+
+    public async Task<bool> IsEmailTakenAsync(string email)
+    {
+        return await _context.Users.AnyAsync(u => u.Email == email);
+    }
+
+    public async Task<User> CreateUserAsync(UserValidationDTO userValidationDTO)
+    {
+        var newUser = new User
+        {
+            GoogleId = userValidationDTO.GoogleId,
+            Email = userValidationDTO.Email,
+            DisplayName = userValidationDTO.DisplayName
+        };
+
+        _context.Users.Add(newUser);
+        await _context.SaveChangesAsync();
+
+        return newUser;
+    }
+
+    public async Task<UserDTO?> GetUserByGoogleIdAsync(string googleId)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.GoogleId == googleId);
+
+        if (user is null)
+            return null;
+
+        return new UserDTO
+        {
+            Id = user.Id,
+            GoogleId = user.GoogleId,
+            Email = user.Email,
+            XP = user.XP,
+            Gold = user.Gold,
+            DisplayName = user.DisplayName,
+            PublicRank = user.Rank
+        };
+    }
+
+
 }

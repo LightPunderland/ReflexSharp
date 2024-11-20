@@ -15,5 +15,10 @@ public interface IUserService
 
     Task<bool> UpdateUserGoldXp(Guid userId, int gold, int xp);
     Task<User?> ValidateUserAsync(string googleId, string email, string displayName);
+    Task<bool> IsUsernameTakenAsync(string username);
+    Task<bool> IsEmailTakenAsync(string email);
+    Task<User> CreateUserAsync(UserValidationDTO userValidationDTO);
+
+    Task<UserDTO?> GetUserByGoogleIdAsync(string googleId);
 }
 

@@ -16,7 +16,7 @@ public enum Rank
 public record UserDTO
 {
     public Guid Id { get; init; }
-    public String GoogleId { get; init; } = null!;
+    public string GoogleId { get; init; } = null!;
     public string Email { get; init; } = null;
     public string DisplayName { get; init; } = null!;
     public Rank PublicRank { get; init; } = Rank.None;

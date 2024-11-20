@@ -35,6 +35,19 @@ public class UserController : ControllerBase
         return NotFound();
     }
 
+    [HttpGet("api/users/google-id/{googleId}")]
+    public async Task<ActionResult<UserDTO>> GetUserByGoogleId(string googleId)
+    {
+        var user = await _userService.GetUserByGoogleIdAsync(googleId);
+
+        if (user is not null)
+        {
+            return Ok(user);
+        }
+
+        return NotFound();
+    }
+
     [HttpPost("api/users/{userID}/rewardGoldXp")]
     public async Task<ActionResult<UserDTO>> UpdateUserGoldXp(string userID, int addGold, int addXp)
     {
@@ -58,22 +71,5 @@ public class UserController : ControllerBase
         return NotFound();
     }
 
-    [HttpPost("api/users/validate")]
-    public async Task<ActionResult<string>> ValidateUser([FromBody] UserValidationDTO userValidationDTO)
-    {
-        var user = await _userService.ValidateUserAsync(
-            userValidationDTO.GoogleId,
-            userValidationDTO.Email,
-            userValidationDTO.DisplayName
-        );
 
-        if (user != null)
-        {
-            return Ok($"User {user.DisplayName} validated");
-        }
-        else
-        {
-            return NotFound("User not found.");
-        }
-    }
 }
