@@ -1,3 +1,4 @@
+using Google.Apis.Auth;
 using Microsoft.AspNetCore.Mvc;
 
 namespace features.Login
@@ -7,13 +8,38 @@ namespace features.Login
     public class LoginController : ControllerBase
     {
         [HttpPost("google-signin")]
-        public IActionResult GoogleSignIn([FromBody] GoogleSignInRequest request)
+        public async Task<IActionResult> GoogleSignIn([FromBody] GoogleSignInRequest request)
         {
-            Console.WriteLine($"Received username: {request.Username}");
-            Console.WriteLine($"Received token: {request.Token}");
+            try
+            {
+                var clientId = Environment.GetEnvironmentVariable("GOOGLE_API_CLIENT_ID");
 
-            return Ok("Google Sign-In endpoint received the request successfully.");
+                if (string.IsNullOrEmpty(clientId))
+                {
+                    return BadRequest("Google API Client ID is not set.");
+                }
+
+                var payload = await GoogleJsonWebSignature.ValidateAsync(request.Token, new GoogleJsonWebSignature.ValidationSettings
+                {
+                    Audience = new[] { clientId }
+
+                });
+
+                Console.WriteLine($"Token is valid. User: {payload.Name}, Email: {payload.Email}");
+
+                return Ok($"""Token validated successfully for {payload.Email} and username: "{request.Username}".""");
+            }
+            catch (InvalidJwtException e)
+            {
+                Console.WriteLine($"Invalid token: {e.Message}");
+                return Unauthorized("Invalid token.");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error: {e.Message}");
+                return StatusCode(500, "An error occurred while validating the token.");
+            }
+
         }
-
     }
 }
