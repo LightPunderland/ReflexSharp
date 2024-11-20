@@ -13,3 +13,4 @@ obj/
 *.nupkg
 *.log
 Thumbs.db
+.env
