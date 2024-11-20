@@ -40,25 +40,31 @@ namespace features.Login
                 var existingUser = await _userService.ValidateUserAsync(googleId, email, request.Username);
                 if (existingUser != null)
                 {
-                    // User exists
-                    return Ok($"User validated successfully. Welcome back, {existingUser.DisplayName}!");
+                    return Ok(new
+                    {
+                        message = $"User validated successfully. Welcome back, {existingUser.DisplayName}!",
+                        user = existingUser
+                    });
                 }
 
-                // Validate username uniqueness
                 var isUsernameTaken = await _userService.IsUsernameTakenAsync(request.Username);
                 if (isUsernameTaken)
                 {
-                    return Conflict("Username is already in use. Please choose a different username.");
+                    return Conflict(new
+                    {
+                        message = "Username is already in use. Please choose a different username."
+                    });
                 }
 
-                // Validate email uniqueness
                 var isEmailInUse = await _userService.IsEmailTakenAsync(email);
                 if (isEmailInUse)
                 {
-                    return Conflict("Email is already in use. Please use a different email.");
+                    return Conflict(new
+                    {
+                        message = "Email is already in use. Please use a different email."
+                    });
                 }
 
-                // Create a new user
                 var newUser = await _userService.CreateUserAsync(new UserValidationDTO
                 {
                     GoogleId = googleId,
@@ -66,18 +72,27 @@ namespace features.Login
                     DisplayName = request.Username
                 });
 
-                return CreatedAtAction("GoogleSignIn", new { userId = newUser.Id },
-                    $"User created successfully. Welcome, {newUser.DisplayName}!");
+                return CreatedAtAction(nameof(GoogleSignIn), new { userId = newUser.Id }, new
+                {
+                    message = $"User created successfully. Welcome, {newUser.DisplayName}!",
+                    user = newUser
+                });
             }
             catch (InvalidJwtException e)
             {
                 Console.WriteLine($"Invalid token: {e.Message}");
-                return Unauthorized("Invalid token.");
+                return Unauthorized(new
+                {
+                    message = "Invalid token."
+                });
             }
             catch (Exception e)
             {
                 Console.WriteLine($"Error: {e.Message}");
-                return StatusCode(500, "An error occurred while validating the token.");
+                return StatusCode(500, new
+                {
+                    message = "An error occurred while validating the token."
+                });
             }
 
         }
