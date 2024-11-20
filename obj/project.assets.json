@@ -2814,27 +2814,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\noahm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+      "projectUniqueName": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
       "projectName": "ReflexSharp-BE",
-      "projectPath": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\obj\\",
+      "projectPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+      "packagesPath": "C:\\Users\\noahm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\noahm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2908,7 +2905,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
