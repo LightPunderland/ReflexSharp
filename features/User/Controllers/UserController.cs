@@ -51,10 +51,29 @@ public class UserController : ControllerBase
             // TO-DO, add rank-up check, if xp exceeds next rank-up xp then user is promoted.
             if (user is not null)
             {
-                return Ok(new {message = $"Gold {beforeGold} -> {user.Gold}, XP {beforeXp} -> {user.XP}"});
+                return Ok(new { message = $"Gold {beforeGold} -> {user.Gold}, XP {beforeXp} -> {user.XP}" });
             }
         }
 
         return NotFound();
+    }
+
+    [HttpPost("api/users/validate")]
+    public async Task<ActionResult<string>> ValidateUser([FromBody] UserValidationDTO userValidationDTO)
+    {
+        var user = await _userService.ValidateUserAsync(
+            userValidationDTO.GoogleId,
+            userValidationDTO.Email,
+            userValidationDTO.DisplayName
+        );
+
+        if (user != null)
+        {
+            return Ok($"User {user.DisplayName} validated");
+        }
+        else
+        {
+            return NotFound("User not found.");
+        }
     }
 }

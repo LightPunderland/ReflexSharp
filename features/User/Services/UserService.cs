@@ -25,6 +25,7 @@ public class UserService : IUserService
         return userList.Select(user => new UserDTO
         {
             Id = user.Id,
+            GoogleId = user.GoogleId,
             Email = user.Email,
             DisplayName = user.DisplayName,
             PublicRank = user.Rank
@@ -81,27 +82,34 @@ public class UserService : IUserService
     }
 
     // Rank formula, when even 125*x^3 and 125*x^3 + 125 when odd, x is user rank enum
-    public async Task<int> CheckXPRequiredForLevelUp(Guid userID) {
-        try {
+    public async Task<int> CheckXPRequiredForLevelUp(Guid userID)
+    {
+        try
+        {
             var user = await _context.Users.FindAsync(userID) ?? throw new Exception("User not found.");
             int rankVariable = (int)user.Rank;
-            return (rankVariable % 2 != 0) ? 125*(rankVariable)^3 : 125*(rankVariable)^3 + 125;
+            return (rankVariable % 2 != 0) ? 125 * (rankVariable) ^ 3 : 125 * (rankVariable) ^ 3 + 125;
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
             Console.WriteLine($"Error: {e.Message}");
             return -1;
         }
 
     }
 
-    public async Task<bool> UpdateUserGoldXp(Guid userId, int gold, int xp) {
-        try {
+    public async Task<bool> UpdateUserGoldXp(Guid userId, int gold, int xp)
+    {
+        try
+        {
             var user = await _context.Users.FindAsync(userId);
 
-            if (user == null) {
+            if (user == null)
+            {
                 throw new KeyNotFoundException($"Error, could not give rewards, because the user {userId} who earned them doesn't exist.");
             }
-            if (xp < 0) {
+            if (xp < 0)
+            {
                 throw new KeyNotFoundException($"Error, and how exactly did we get here?");
             }
 
@@ -111,9 +119,15 @@ public class UserService : IUserService
             await _context.SaveChangesAsync();
             return true;
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
             Console.WriteLine($"Error: {e.Message}");
             return false;
         }
+    }
+    public async Task<User?> ValidateUserAsync(string googleId, string email, string displayName)
+    {
+        return await _context.Users
+            .FirstOrDefaultAsync(u => u.GoogleId == googleId && u.Email == email && u.DisplayName == displayName);
     }
 }

@@ -25,9 +25,15 @@ namespace features.Login
 
                 });
 
-                Console.WriteLine($"Token is valid. User: {payload.Name}, Email: {payload.Email}");
+                var googleId = payload.Subject; // Unique Google ID (sub claim)
+                var email = payload.Email;
+                var name = payload.Name;
 
-                return Ok($"""Token validated successfully for {payload.Email} and username: "{request.Username}".""");
+                Console.WriteLine($"Token is valid. Google ID: {googleId}, User: {name}, Email: {email}");
+
+
+
+                return Ok($"""Token validated successfully for {email}, username: "{request.Username}", and Google ID: {googleId}.""");
             }
             catch (InvalidJwtException e)
             {
