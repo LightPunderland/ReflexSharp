@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qOhIBG/ORkE=",
+  "dgSpecHash": "uwLASi9F0zs=",
   "success": true,
   "projectFilePath": "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\ReflexSharp-BE.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edgar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\edgar\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\edgar\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
