@@ -991,21 +991,77 @@
       "UserController": {
         "System.Void UserController::.ctor(IUserService)": {
           "Lines": {
-            "10": 11,
-            "11": 11,
             "12": 11,
-            "13": 11
+            "13": 11,
+            "14": 11,
+            "15": 11
           },
           "Branches": []
+        }
+      },
+      "UserController/<CheckUserRankUp>d__6": {
+        "System.Void UserController/<CheckUserRankUp>d__6::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "117": 0
+          },
+          "Branches": [
+            {
+              "Line": 81,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 78,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
         }
       },
       "UserController/<GetAllUsers>d__2": {
         "System.Void UserController/<GetAllUsers>d__2::MoveNext()": {
           "Lines": {
-            "17": 2,
-            "18": 2,
             "19": 2,
-            "20": 2
+            "20": 2,
+            "21": 2,
+            "22": 2
           },
           "Branches": []
         }
@@ -1013,20 +1069,20 @@
       "UserController/<GetUser>d__3": {
         "System.Void UserController/<GetUser>d__3::MoveNext()": {
           "Lines": {
-            "24": 4,
-            "25": 4,
-            "26": 3,
-            "27": 3,
+            "26": 4,
+            "27": 4,
+            "28": 3,
             "29": 3,
-            "30": 1,
-            "31": 1,
-            "33": 2,
-            "35": 3,
-            "36": 4
+            "31": 3,
+            "32": 1,
+            "33": 1,
+            "35": 2,
+            "37": 3,
+            "38": 4
           },
           "Branches": [
             {
-              "Line": 25,
+              "Line": 27,
               "Offset": 34,
               "EndOffset": 39,
               "Path": 0,
@@ -1034,7 +1090,7 @@
               "Hits": 3
             },
             {
-              "Line": 29,
+              "Line": 31,
               "Offset": 190,
               "EndOffset": 192,
               "Path": 0,
@@ -1042,7 +1098,7 @@
               "Hits": 1
             },
             {
-              "Line": 29,
+              "Line": 31,
               "Offset": 190,
               "EndOffset": 218,
               "Path": 1,
@@ -1050,7 +1106,7 @@
               "Hits": 2
             },
             {
-              "Line": 25,
+              "Line": 27,
               "Offset": 34,
               "EndOffset": 226,
               "Path": 1,
@@ -1063,17 +1119,17 @@
       "UserController/<GetUserByGoogleId>d__4": {
         "System.Void UserController/<GetUserByGoogleId>d__4::MoveNext()": {
           "Lines": {
-            "40": 2,
-            "41": 2,
+            "42": 2,
             "43": 2,
-            "44": 1,
-            "45": 1,
-            "48": 1,
-            "49": 2
+            "45": 2,
+            "46": 1,
+            "47": 1,
+            "50": 1,
+            "51": 2
           },
           "Branches": [
             {
-              "Line": 43,
+              "Line": 45,
               "Offset": 164,
               "EndOffset": 166,
               "Path": 0,
@@ -1081,7 +1137,7 @@
               "Hits": 1
             },
             {
-              "Line": 43,
+              "Line": 45,
               "Offset": 164,
               "EndOffset": 192,
               "Path": 1,
@@ -1094,23 +1150,23 @@
       "UserController/<UpdateUserGoldXp>d__5": {
         "System.Void UserController/<UpdateUserGoldXp>d__5::MoveNext()": {
           "Lines": {
-            "53": 3,
             "55": 3,
-            "56": 2,
-            "57": 2,
+            "57": 3,
+            "58": 2,
             "59": 2,
-            "60": 2,
+            "61": 2,
             "62": 2,
-            "65": 2,
-            "66": 2,
+            "64": 2,
             "67": 2,
-            "69": 0,
-            "71": 1,
-            "72": 3
+            "68": 2,
+            "69": 2,
+            "71": 0,
+            "73": 1,
+            "74": 3
           },
           "Branches": [
             {
-              "Line": 55,
+              "Line": 57,
               "Offset": 45,
               "EndOffset": 50,
               "Path": 0,
@@ -1118,7 +1174,7 @@
               "Hits": 2
             },
             {
-              "Line": 65,
+              "Line": 67,
               "Offset": 385,
               "EndOffset": 390,
               "Path": 0,
@@ -1126,7 +1182,7 @@
               "Hits": 2
             },
             {
-              "Line": 65,
+              "Line": 67,
               "Offset": 385,
               "EndOffset": 550,
               "Path": 1,
@@ -1134,7 +1190,7 @@
               "Hits": 0
             },
             {
-              "Line": 55,
+              "Line": 57,
               "Offset": 45,
               "EndOffset": 558,
               "Path": 1,
@@ -1149,10 +1205,10 @@
       "UserService": {
         "System.Void UserService::.ctor(Data.AppDbContext)": {
           "Lines": {
-            "13": 12,
             "14": 12,
             "15": 12,
-            "16": 12
+            "16": 12,
+            "17": 12
           },
           "Branches": []
         }
@@ -1160,14 +1216,14 @@
       "UserService/<>c": {
         "Features.User.DTOs.UserDTO UserService/<>c::<GetAllUsersAsync>b__2_0(Features.User.Entities.User)": {
           "Lines": {
-            "25": 7,
             "26": 7,
             "27": 7,
             "28": 7,
             "29": 7,
             "30": 7,
             "31": 7,
-            "32": 7
+            "32": 7,
+            "33": 7
           },
           "Branches": []
         }
@@ -1175,13 +1231,12 @@
       "UserService/<>c__DisplayClass4_0": {
         "System.Boolean UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__0(Features.User.Entities.User)": {
           "Lines": {
-            "59": 0
+            "60": 0
           },
           "Branches": []
         },
         "Features.User.DTOs.UserDTO UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__1(Features.User.Entities.User)": {
           "Lines": {
-            "65": 0,
             "66": 0,
             "67": 0,
             "68": 0,
@@ -1189,7 +1244,8 @@
             "70": 0,
             "71": 0,
             "72": 0,
-            "73": 0
+            "73": 0,
+            "74": 0
           },
           "Branches": []
         }
@@ -1197,18 +1253,126 @@
       "UserService/<>c__DisplayClass5_0": {
         "System.Boolean UserService/<>c__DisplayClass5_0::<CheckUsernameAvailabilityAsync>b__0(Features.User.Entities.User)": {
           "Lines": {
-            "81": 0
+            "82": 0
           },
           "Branches": []
+        }
+      },
+      "UserService/<CheckAndApplyRankUpAsync>d__7": {
+        "System.Void UserService/<CheckAndApplyRankUpAsync>d__7::MoveNext()": {
+          "Lines": {
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0
+          },
+          "Branches": [
+            {
+              "Line": 108,
+              "Offset": 270,
+              "EndOffset": 272,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 270,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 436,
+              "EndOffset": 438,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 436,
+              "EndOffset": 468,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1049,
+              "Path": 2,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1362,
+              "Path": 3,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1672,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
         }
       },
       "UserService/<CheckUsernameAvailabilityAsync>d__5": {
         "System.Void UserService/<CheckUsernameAvailabilityAsync>d__5::MoveNext()": {
           "Lines": {
-            "77": 0,
             "78": 0,
             "79": 0,
-            "82": 0
+            "80": 0,
+            "83": 0
           },
           "Branches": []
         }
@@ -1216,20 +1380,20 @@
       "UserService/<CheckXPRequiredForLevelUp>d__6": {
         "System.Void UserService/<CheckXPRequiredForLevelUp>d__6::MoveNext()": {
           "Lines": {
-            "86": 0,
-            "88": 0,
+            "87": 0,
             "89": 0,
             "90": 0,
             "91": 0,
-            "93": 0,
+            "92": 0,
             "94": 0,
             "95": 0,
             "96": 0,
-            "99": 0
+            "97": 0,
+            "100": 0
           },
           "Branches": [
             {
-              "Line": 89,
+              "Line": 90,
               "Offset": 172,
               "EndOffset": 174,
               "Path": 0,
@@ -1237,7 +1401,7 @@
               "Hits": 0
             },
             {
-              "Line": 89,
+              "Line": 90,
               "Offset": 172,
               "EndOffset": 186,
               "Path": 1,
@@ -1245,7 +1409,7 @@
               "Hits": 0
             },
             {
-              "Line": 91,
+              "Line": 92,
               "Offset": 223,
               "EndOffset": 225,
               "Path": 0,
@@ -1253,7 +1417,7 @@
               "Hits": 0
             },
             {
-              "Line": 91,
+              "Line": 92,
               "Offset": 223,
               "EndOffset": 242,
               "Path": 1,
@@ -1263,20 +1427,20 @@
           ]
         }
       },
-      "UserService/<CreateUserAsync>d__11": {
-        "System.Void UserService/<CreateUserAsync>d__11::MoveNext()": {
+      "UserService/<CreateUserAsync>d__12": {
+        "System.Void UserService/<CreateUserAsync>d__12::MoveNext()": {
           "Lines": {
-            "145": 1,
-            "146": 1,
-            "147": 1,
-            "148": 1,
-            "149": 1,
-            "150": 1,
-            "151": 1,
-            "153": 1,
-            "154": 1,
-            "156": 1,
-            "157": 1
+            "197": 1,
+            "198": 1,
+            "199": 1,
+            "200": 1,
+            "201": 1,
+            "202": 1,
+            "203": 1,
+            "205": 1,
+            "206": 1,
+            "208": 1,
+            "209": 1
           },
           "Branches": []
         }
@@ -1284,11 +1448,11 @@
       "UserService/<GetAllUsersAsync>d__2": {
         "System.Void UserService/<GetAllUsersAsync>d__2::MoveNext()": {
           "Lines": {
-            "19": 2,
             "20": 2,
             "21": 2,
-            "23": 2,
-            "33": 2
+            "22": 2,
+            "24": 2,
+            "34": 2
           },
           "Branches": []
         }
@@ -1296,11 +1460,10 @@
       "UserService/<GetUserAsync>d__3": {
         "System.Void UserService/<GetUserAsync>d__3::MoveNext()": {
           "Lines": {
-            "36": 5,
             "37": 5,
-            "39": 5,
-            "40": 3,
-            "42": 2,
+            "38": 5,
+            "40": 5,
+            "41": 3,
             "43": 2,
             "44": 2,
             "45": 2,
@@ -1309,11 +1472,12 @@
             "48": 2,
             "49": 2,
             "50": 2,
-            "51": 5
+            "51": 2,
+            "52": 5
           },
           "Branches": [
             {
-              "Line": 39,
+              "Line": 40,
               "Offset": 187,
               "EndOffset": 189,
               "Path": 0,
@@ -1321,7 +1485,7 @@
               "Hits": 3
             },
             {
-              "Line": 39,
+              "Line": 40,
               "Offset": 187,
               "EndOffset": 196,
               "Path": 1,
@@ -1331,28 +1495,28 @@
           ]
         }
       },
-      "UserService/<GetUserByGoogleIdAsync>d__12": {
-        "System.Void UserService/<GetUserByGoogleIdAsync>d__12::MoveNext()": {
+      "UserService/<GetUserByGoogleIdAsync>d__13": {
+        "System.Void UserService/<GetUserByGoogleIdAsync>d__13::MoveNext()": {
           "Lines": {
-            "160": 2,
-            "161": 2,
-            "163": 2,
-            "164": 1,
-            "166": 1,
-            "167": 1,
-            "168": 1,
-            "169": 1,
-            "170": 1,
-            "171": 1,
-            "172": 1,
-            "173": 1,
-            "174": 1,
-            "175": 1,
-            "176": 2
+            "212": 2,
+            "213": 2,
+            "215": 2,
+            "216": 1,
+            "218": 1,
+            "219": 1,
+            "220": 1,
+            "221": 1,
+            "222": 1,
+            "223": 1,
+            "224": 1,
+            "225": 1,
+            "226": 1,
+            "227": 1,
+            "228": 2
           },
           "Branches": [
             {
-              "Line": 163,
+              "Line": 215,
               "Offset": 303,
               "EndOffset": 305,
               "Path": 0,
@@ -1360,7 +1524,7 @@
               "Hits": 1
             },
             {
-              "Line": 163,
+              "Line": 215,
               "Offset": 303,
               "EndOffset": 312,
               "Path": 1,
@@ -1373,62 +1537,62 @@
       "UserService/<GetUsersByRankAsync>d__4": {
         "System.Void UserService/<GetUsersByRankAsync>d__4::MoveNext()": {
           "Lines": {
-            "54": 0,
             "55": 0,
             "56": 0,
-            "58": 0,
-            "60": 0,
-            "63": 0,
-            "74": 0
+            "57": 0,
+            "59": 0,
+            "61": 0,
+            "64": 0,
+            "75": 0
           },
           "Branches": []
         }
       },
-      "UserService/<IsEmailTakenAsync>d__10": {
-        "System.Void UserService/<IsEmailTakenAsync>d__10::MoveNext()": {
+      "UserService/<IsEmailTakenAsync>d__11": {
+        "System.Void UserService/<IsEmailTakenAsync>d__11::MoveNext()": {
           "Lines": {
-            "140": 0,
-            "141": 0,
-            "142": 0
+            "192": 0,
+            "193": 0,
+            "194": 0
           },
           "Branches": []
         }
       },
-      "UserService/<IsUsernameTakenAsync>d__9": {
-        "System.Void UserService/<IsUsernameTakenAsync>d__9::MoveNext()": {
+      "UserService/<IsUsernameTakenAsync>d__10": {
+        "System.Void UserService/<IsUsernameTakenAsync>d__10::MoveNext()": {
           "Lines": {
-            "135": 0,
-            "136": 0,
-            "137": 0
+            "187": 0,
+            "188": 0,
+            "189": 0
           },
           "Branches": []
         }
       },
-      "UserService/<UpdateUserGoldXp>d__7": {
-        "System.Void UserService/<UpdateUserGoldXp>d__7::MoveNext()": {
+      "UserService/<UpdateUserGoldXp>d__8": {
+        "System.Void UserService/<UpdateUserGoldXp>d__8::MoveNext()": {
           "Lines": {
-            "102": 3,
-            "104": 3,
-            "105": 3,
-            "107": 3,
-            "108": 1,
-            "109": 1,
-            "111": 2,
-            "112": 0,
-            "113": 0,
-            "116": 2,
-            "117": 2,
-            "119": 2,
-            "120": 2,
-            "122": 1,
-            "123": 1,
-            "124": 1,
-            "125": 1,
-            "127": 3
+            "154": 3,
+            "156": 3,
+            "157": 3,
+            "159": 3,
+            "160": 1,
+            "161": 1,
+            "163": 2,
+            "164": 0,
+            "165": 0,
+            "168": 2,
+            "169": 2,
+            "171": 2,
+            "172": 2,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "179": 3
           },
           "Branches": [
             {
-              "Line": 107,
+              "Line": 159,
               "Offset": 208,
               "EndOffset": 210,
               "Path": 0,
@@ -1436,7 +1600,7 @@
               "Hits": 1
             },
             {
-              "Line": 107,
+              "Line": 159,
               "Offset": 208,
               "EndOffset": 274,
               "Path": 1,
@@ -1444,7 +1608,7 @@
               "Hits": 2
             },
             {
-              "Line": 111,
+              "Line": 163,
               "Offset": 287,
               "EndOffset": 289,
               "Path": 0,
@@ -1452,7 +1616,7 @@
               "Hits": 0
             },
             {
-              "Line": 111,
+              "Line": 163,
               "Offset": 287,
               "EndOffset": 301,
               "Path": 1,
@@ -1462,13 +1626,13 @@
           ]
         }
       },
-      "UserService/<ValidateUserAsync>d__8": {
-        "System.Void UserService/<ValidateUserAsync>d__8::MoveNext()": {
+      "UserService/<ValidateUserAsync>d__9": {
+        "System.Void UserService/<ValidateUserAsync>d__9::MoveNext()": {
           "Lines": {
-            "129": 0,
-            "130": 0,
-            "131": 0,
-            "132": 0
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0
           },
           "Branches": []
         }
@@ -1500,6 +1664,7 @@
             "32": 1,
             "34": 1,
             "35": 1,
+            "36": 1,
             "38": 1,
             "40": 1,
             "42": 1,
@@ -1516,16 +1681,16 @@
           "Branches": [
             {
               "Line": 42,
-              "Offset": 383,
-              "EndOffset": 385,
+              "Offset": 395,
+              "EndOffset": 397,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
               "Line": 42,
-              "Offset": 383,
-              "EndOffset": 413,
+              "Offset": 395,
+              "EndOffset": 425,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 1
@@ -2005,48 +2170,53 @@
     },
     "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioFileController.cs": {
       "Features.Audio.Controllers.AudioController": {
-        "System.Void Features.Audio.Controllers.AudioController::.ctor(Data.AppDbContext)": {
+        "System.Void Features.Audio.Controllers.AudioController::.ctor(Data.AppDbContext,IAudioServices)": {
           "Lines": {
-            "19": 7,
-            "20": 7,
             "21": 7,
-            "22": 7
+            "22": 7,
+            "23": 7,
+            "24": 7,
+            "25": 7
           },
           "Branches": []
         }
       },
-      "Features.Audio.Controllers.AudioController/<DownloadAudio>d__5": {
-        "System.Void Features.Audio.Controllers.AudioController/<DownloadAudio>d__5::MoveNext()": {
+      "Features.Audio.Controllers.AudioController/<DownloadAudio>d__6": {
+        "System.Void Features.Audio.Controllers.AudioController/<DownloadAudio>d__6::MoveNext()": {
           "Lines": {
-            "85": 0,
-            "86": 0,
-            "87": 0,
-            "88": 0,
-            "90": 0,
-            "91": 0,
-            "92": 0,
-            "93": 0,
-            "94": 0,
-            "96": 0,
-            "97": 0,
-            "98": 0,
-            "99": 0,
-            "100": 0,
-            "101": 0
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "126": 0
           },
           "Branches": [
             {
-              "Line": 87,
-              "Offset": 201,
-              "EndOffset": 203,
+              "Line": 107,
+              "Offset": 211,
+              "EndOffset": 213,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 0
             },
             {
-              "Line": 87,
-              "Offset": 201,
-              "EndOffset": 230,
+              "Line": 107,
+              "Offset": 211,
+              "EndOffset": 240,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
@@ -2054,22 +2224,22 @@
           ]
         }
       },
-      "Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__4": {
-        "System.Void Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__4::MoveNext()": {
+      "Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__5": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__5::MoveNext()": {
           "Lines": {
-            "69": 1,
-            "70": 1,
-            "71": 1,
-            "73": 7,
-            "74": 2,
-            "75": 2,
-            "76": 2,
-            "78": 1,
-            "79": 1
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "93": 7,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "98": 1,
+            "99": 1
           },
           "Branches": [
             {
-              "Line": 73,
+              "Line": 93,
               "Offset": 267,
               "EndOffset": 191,
               "Path": 1,
@@ -2077,7 +2247,7 @@
               "Hits": 2
             },
             {
-              "Line": 73,
+              "Line": 93,
               "Offset": 267,
               "EndOffset": 269,
               "Path": 0,
@@ -2087,23 +2257,23 @@
           ]
         }
       },
-      "Features.Audio.Controllers.AudioController/<GetAudio>d__3": {
-        "System.Void Features.Audio.Controllers.AudioController/<GetAudio>d__3::MoveNext()": {
+      "Features.Audio.Controllers.AudioController/<GetAudio>d__4": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudio>d__4::MoveNext()": {
           "Lines": {
-            "55": 2,
-            "56": 2,
-            "57": 2,
-            "58": 1,
-            "60": 1,
-            "61": 1,
-            "62": 1,
-            "63": 1,
-            "64": 1,
-            "65": 2
+            "75": 2,
+            "76": 2,
+            "77": 2,
+            "78": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 2
           },
           "Branches": [
             {
-              "Line": 57,
+              "Line": 77,
               "Offset": 190,
               "EndOffset": 192,
               "Path": 0,
@@ -2111,7 +2281,7 @@
               "Hits": 1
             },
             {
-              "Line": 57,
+              "Line": 77,
               "Offset": 190,
               "EndOffset": 216,
               "Path": 1,
@@ -2121,30 +2291,35 @@
           ]
         }
       },
-      "Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__6": {
-        "System.Void Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__6::MoveNext()": {
+      "Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__7": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__7::MoveNext()": {
           "Lines": {
-            "104": 2,
-            "105": 2,
-            "106": 3,
-            "107": 1,
-            "110": 1,
-            "112": 1,
-            "113": 2
+            "130": 2,
+            "132": 2,
+            "133": 2,
+            "134": 2,
+            "135": 1,
+            "136": 1,
+            "139": 1,
+            "140": 1,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 2
           },
           "Branches": [
             {
-              "Line": 106,
-              "Offset": 190,
-              "EndOffset": 192,
+              "Line": 134,
+              "Offset": 199,
+              "EndOffset": 201,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
-              "Line": 106,
-              "Offset": 190,
-              "EndOffset": 217,
+              "Line": 134,
+              "Offset": 199,
+              "EndOffset": 229,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 1
@@ -2152,76 +2327,135 @@
           ]
         }
       },
-      "Features.Audio.Controllers.AudioController/<UploadAudio>d__2": {
-        "System.Void Features.Audio.Controllers.AudioController/<UploadAudio>d__2::MoveNext()": {
+      "Features.Audio.Controllers.AudioController/<UploadAudio>d__3": {
+        "System.Void Features.Audio.Controllers.AudioController/<UploadAudio>d__3::MoveNext()": {
           "Lines": {
-            "26": 2,
-            "27": 2,
-            "28": 1,
-            "30": 1,
-            "31": 0,
-            "33": 1,
-            "34": 1,
-            "35": 1,
-            "36": 1,
-            "37": 1,
-            "39": 1,
+            "29": 2,
+            "31": 2,
+            "32": 2,
+            "33": 0,
+            "35": 2,
+            "36": 0,
+            "38": 2,
+            "39": 2,
             "40": 1,
             "41": 1,
-            "42": 1,
-            "43": 1,
+            "44": 1,
             "45": 1,
             "46": 1,
+            "47": 1,
             "48": 1,
-            "51": 2
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "56": 1,
+            "57": 1,
+            "59": 1,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 2
           },
           "Branches": [
             {
-              "Line": 27,
-              "Offset": 22,
-              "EndOffset": 24,
+              "Line": 29,
+              "Offset": 26,
+              "EndOffset": 40,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 1
+              "Hits": 2
             },
             {
-              "Line": 27,
-              "Offset": 22,
-              "EndOffset": 41,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            },
-            {
-              "Line": 27,
-              "Offset": 44,
-              "EndOffset": 46,
+              "Line": 32,
+              "Offset": 47,
+              "EndOffset": 49,
               "Path": 0,
               "Ordinal": 2,
-              "Hits": 1
+              "Hits": 2
             },
             {
-              "Line": 27,
-              "Offset": 44,
-              "EndOffset": 68,
+              "Line": 32,
+              "Offset": 47,
+              "EndOffset": 66,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 1
+              "Hits": 0
             },
             {
-              "Line": 30,
-              "Offset": 81,
-              "EndOffset": 83,
+              "Line": 32,
+              "Offset": 69,
+              "EndOffset": 71,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 0
             },
             {
-              "Line": 30,
-              "Offset": 81,
-              "EndOffset": 105,
+              "Line": 32,
+              "Offset": 69,
+              "EndOffset": 93,
               "Path": 1,
               "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 35,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 106,
+              "EndOffset": 130,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 39,
+              "Offset": 334,
+              "EndOffset": 336,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 334,
+              "EndOffset": 365,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 26,
+              "EndOffset": 382,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 387,
+              "EndOffset": 393,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 387,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 11,
               "Hits": 1
             }
           ]
@@ -2385,7 +2619,7 @@
             "16": 1,
             "17": 1,
             "18": 1,
-            "19": 231,
+            "19": 232,
             "20": 1,
             "21": 1,
             "22": 1,
@@ -3496,59 +3730,60 @@
       "Features.Audio.Tests.AudioControllerTests": {
         "System.Void Features.Audio.Tests.AudioControllerTests::SeedDatabase()": {
           "Lines": {
-            "35": 7,
-            "36": 7,
-            "37": 7,
-            "38": 7,
-            "39": 7,
             "40": 7,
+            "41": 7,
             "42": 7,
             "43": 7,
-            "44": 7
+            "44": 7,
+            "45": 7,
+            "47": 7,
+            "48": 7,
+            "49": 7
           },
           "Branches": []
         },
         "System.Void Features.Audio.Tests.AudioControllerTests::.ctor()": {
           "Lines": {
-            "22": 7,
-            "23": 7,
             "24": 7,
             "25": 7,
             "26": 7,
+            "27": 7,
             "28": 7,
-            "29": 7,
+            "30": 7,
             "31": 7,
-            "32": 7
+            "34": 7,
+            "36": 7,
+            "37": 7
           },
           "Branches": []
         }
       },
-      "Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__8": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__8::MoveNext()": {
+      "Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__9": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__9::MoveNext()": {
           "Lines": {
-            "113": 1,
-            "115": 1,
-            "118": 1,
-            "119": 1,
-            "120": 1,
-            "121": 1
+            "146": 1,
+            "148": 1,
+            "151": 1,
+            "152": 1,
+            "153": 1,
+            "154": 1
           },
           "Branches": []
         }
       },
-      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__9": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__9::MoveNext()": {
+      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__10": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__10::MoveNext()": {
           "Lines": {
-            "125": 1,
-            "127": 1,
-            "130": 1,
-            "131": 1,
-            "132": 1,
-            "133": 1
+            "158": 1,
+            "160": 1,
+            "163": 1,
+            "164": 1,
+            "165": 1,
+            "166": 1
           },
           "Branches": [
             {
-              "Line": 132,
+              "Line": 165,
               "Offset": 185,
               "EndOffset": 189,
               "Path": 1,
@@ -3556,7 +3791,7 @@
               "Hits": 1
             },
             {
-              "Line": 132,
+              "Line": 165,
               "Offset": 185,
               "EndOffset": 252,
               "Path": 0,
@@ -3566,94 +3801,99 @@
           ]
         }
       },
-      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__10": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__10::MoveNext()": {
+      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__11": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__11::MoveNext()": {
           "Lines": {
-            "137": 1,
-            "139": 1,
-            "142": 1,
-            "143": 1,
-            "144": 1
+            "170": 1,
+            "172": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1
           },
           "Branches": []
         }
       },
-      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__6": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__6::MoveNext()": {
+      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__7": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__7::MoveNext()": {
           "Lines": {
-            "90": 1,
+            "123": 1,
+            "125": 1,
+            "128": 1,
+            "129": 1,
+            "130": 1,
+            "131": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__8": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__8::MoveNext()": {
+          "Lines": {
+            "135": 1,
+            "137": 1,
+            "140": 1,
+            "141": 1,
+            "142": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsInvalid>d__6": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsInvalid>d__6::MoveNext()": {
+          "Lines": {
+            "89": 1,
+            "91": 1,
             "92": 1,
+            "93": 1,
+            "94": 1,
             "95": 1,
             "96": 1,
             "97": 1,
-            "98": 1
-          },
-          "Branches": []
-        }
-      },
-      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__7": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__7::MoveNext()": {
-          "Lines": {
-            "102": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
             "104": 1,
-            "107": 1,
+            "105": 1,
             "108": 1,
-            "109": 1
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1
           },
           "Branches": []
         }
       },
-      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsNull>d__5": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsNull>d__5::MoveNext()": {
+      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__5": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__5::MoveNext()": {
           "Lines": {
-            "79": 1,
-            "81": 1,
-            "84": 1,
-            "85": 1,
-            "86": 1
-          },
-          "Branches": []
-        }
-      },
-      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__4": {
-        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__4::MoveNext()": {
-          "Lines": {
-            "48": 1,
-            "50": 1,
-            "51": 1,
-            "52": 1,
             "53": 1,
-            "54": 1,
             "55": 1,
             "56": 1,
+            "57": 1,
             "58": 1,
             "59": 1,
             "60": 1,
+            "61": 1,
             "63": 1,
-            "66": 1,
-            "67": 1,
+            "64": 1,
+            "65": 1,
+            "68": 1,
             "69": 1,
-            "70": 1,
-            "73": 1
+            "72": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1
           },
-          "Branches": [
-            {
-              "Line": 70,
-              "Offset": 563,
-              "EndOffset": 567,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            },
-            {
-              "Line": 70,
-              "Offset": 563,
-              "EndOffset": 630,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 1
-            }
-          ]
+          "Branches": []
         }
       }
     },
