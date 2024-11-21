@@ -1,5 +1,132 @@
 {
   "ReflexSharp-BE.dll": {
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioServices.cs": {
+      "AudioServices": {
+        "System.Void AudioServices::.ctor(Microsoft.Extensions.Logging.ILogger`1<AudioServices>)": {
+          "Lines": {
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "AudioServices/<ValidateAudioFile>d__4": {
+        "System.Void AudioServices/<ValidateAudioFile>d__4::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "58": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 74,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 163,
+              "EndOffset": 225,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 417,
+              "EndOffset": 419,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 417,
+              "EndOffset": 448,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 656,
+              "EndOffset": 658,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 656,
+              "EndOffset": 662,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
     "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\IRepositories\\Repository.cs": {
       "GenericRepository`1": {
         "System.Void GenericRepository`1::Update(T)": {
@@ -824,7 +951,7 @@
         },
         "System.Void UserList::.ctor(System.Collections.Generic.List`1<Features.User.Entities.User>)": {
           "Lines": {
-            "9": 3
+            "9": 6
           },
           "Branches": []
         }
@@ -864,10 +991,10 @@
       "UserController": {
         "System.Void UserController::.ctor(IUserService)": {
           "Lines": {
-            "10": 7,
-            "11": 7,
-            "12": 7,
-            "13": 7
+            "10": 11,
+            "11": 11,
+            "12": 11,
+            "13": 11
           },
           "Branches": []
         }
@@ -875,10 +1002,10 @@
       "UserController/<GetAllUsers>d__2": {
         "System.Void UserController/<GetAllUsers>d__2::MoveNext()": {
           "Lines": {
-            "17": 1,
-            "18": 1,
-            "19": 1,
-            "20": 1
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2
           },
           "Branches": []
         }
@@ -886,16 +1013,16 @@
       "UserController/<GetUser>d__3": {
         "System.Void UserController/<GetUser>d__3::MoveNext()": {
           "Lines": {
-            "24": 2,
-            "25": 2,
-            "26": 1,
-            "27": 1,
-            "29": 1,
+            "24": 4,
+            "25": 4,
+            "26": 3,
+            "27": 3,
+            "29": 3,
             "30": 1,
             "31": 1,
-            "33": 0,
-            "35": 1,
-            "36": 2
+            "33": 2,
+            "35": 3,
+            "36": 4
           },
           "Branches": [
             {
@@ -904,7 +1031,7 @@
               "EndOffset": 39,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 1
+              "Hits": 3
             },
             {
               "Line": 29,
@@ -920,7 +1047,7 @@
               "EndOffset": 218,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 25,
@@ -928,7 +1055,7 @@
               "EndOffset": 226,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
+              "Hits": 3
             }
           ]
         }
@@ -967,19 +1094,19 @@
       "UserController/<UpdateUserGoldXp>d__5": {
         "System.Void UserController/<UpdateUserGoldXp>d__5::MoveNext()": {
           "Lines": {
-            "53": 2,
-            "55": 2,
-            "56": 1,
-            "57": 1,
-            "59": 1,
-            "60": 1,
-            "62": 1,
-            "65": 1,
-            "66": 1,
-            "67": 1,
+            "53": 3,
+            "55": 3,
+            "56": 2,
+            "57": 2,
+            "59": 2,
+            "60": 2,
+            "62": 2,
+            "65": 2,
+            "66": 2,
+            "67": 2,
             "69": 0,
             "71": 1,
-            "72": 2
+            "72": 3
           },
           "Branches": [
             {
@@ -988,7 +1115,7 @@
               "EndOffset": 50,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 1
+              "Hits": 2
             },
             {
               "Line": 65,
@@ -996,7 +1123,7 @@
               "EndOffset": 390,
               "Path": 0,
               "Ordinal": 2,
-              "Hits": 1
+              "Hits": 2
             },
             {
               "Line": 65,
@@ -1022,10 +1149,10 @@
       "UserService": {
         "System.Void UserService::.ctor(Data.AppDbContext)": {
           "Lines": {
-            "13": 8,
-            "14": 8,
-            "15": 8,
-            "16": 8
+            "13": 12,
+            "14": 12,
+            "15": 12,
+            "16": 12
           },
           "Branches": []
         }
@@ -1033,14 +1160,14 @@
       "UserService/<>c": {
         "Features.User.DTOs.UserDTO UserService/<>c::<GetAllUsersAsync>b__2_0(Features.User.Entities.User)": {
           "Lines": {
-            "25": 3,
-            "26": 3,
-            "27": 3,
-            "28": 3,
-            "29": 3,
-            "30": 3,
-            "31": 3,
-            "32": 3
+            "25": 7,
+            "26": 7,
+            "27": 7,
+            "28": 7,
+            "29": 7,
+            "30": 7,
+            "31": 7,
+            "32": 7
           },
           "Branches": []
         }
@@ -1157,11 +1284,11 @@
       "UserService/<GetAllUsersAsync>d__2": {
         "System.Void UserService/<GetAllUsersAsync>d__2::MoveNext()": {
           "Lines": {
-            "19": 1,
-            "20": 1,
-            "21": 1,
-            "23": 1,
-            "33": 1
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "23": 2,
+            "33": 2
           },
           "Branches": []
         }
@@ -1169,20 +1296,20 @@
       "UserService/<GetUserAsync>d__3": {
         "System.Void UserService/<GetUserAsync>d__3::MoveNext()": {
           "Lines": {
-            "36": 2,
-            "37": 2,
-            "39": 2,
-            "40": 1,
-            "42": 1,
-            "43": 1,
-            "44": 1,
-            "45": 1,
-            "46": 1,
-            "47": 1,
-            "48": 1,
-            "49": 1,
-            "50": 1,
-            "51": 2
+            "36": 5,
+            "37": 5,
+            "39": 5,
+            "40": 3,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 2,
+            "50": 2,
+            "51": 5
           },
           "Branches": [
             {
@@ -1191,7 +1318,7 @@
               "EndOffset": 189,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 1
+              "Hits": 3
             },
             {
               "Line": 39,
@@ -1199,7 +1326,7 @@
               "EndOffset": 196,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
+              "Hits": 2
             }
           ]
         }
@@ -1280,24 +1407,24 @@
       "UserService/<UpdateUserGoldXp>d__7": {
         "System.Void UserService/<UpdateUserGoldXp>d__7::MoveNext()": {
           "Lines": {
-            "102": 2,
-            "104": 2,
-            "105": 2,
-            "107": 2,
+            "102": 3,
+            "104": 3,
+            "105": 3,
+            "107": 3,
             "108": 1,
             "109": 1,
-            "111": 1,
+            "111": 2,
             "112": 0,
             "113": 0,
-            "116": 1,
-            "117": 1,
-            "119": 1,
-            "120": 1,
+            "116": 2,
+            "117": 2,
+            "119": 2,
+            "120": 2,
             "122": 1,
             "123": 1,
             "124": 1,
             "125": 1,
-            "127": 2
+            "127": 3
           },
           "Branches": [
             {
@@ -1314,7 +1441,7 @@
               "EndOffset": 274,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
+              "Hits": 2
             },
             {
               "Line": 111,
@@ -1330,7 +1457,7 @@
               "EndOffset": 301,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 1
+              "Hits": 2
             }
           ]
         }
@@ -1351,40 +1478,40 @@
       "Program": {
         "System.Void Program::<Main>$(System.String[])": {
           "Lines": {
-            "5": 0,
-            "6": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 0,
-            "24": 0,
-            "25": 0,
-            "26": 0,
-            "27": 0,
-            "28": 0,
-            "31": 0,
-            "32": 0,
-            "34": 0,
-            "35": 0,
-            "38": 0,
-            "40": 0,
-            "42": 0,
-            "43": 0,
-            "44": 0,
-            "45": 0,
-            "46": 0,
-            "48": 0,
-            "50": 0,
-            "51": 0,
-            "53": 0,
-            "55": 0
+            "5": 1,
+            "6": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 1,
+            "38": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1,
+            "53": 1,
+            "55": 1
           },
           "Branches": [
             {
@@ -1393,7 +1520,7 @@
               "EndOffset": 385,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 42,
@@ -1401,7 +1528,7 @@
               "EndOffset": 413,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         }
@@ -1554,57 +1681,107 @@
         }
       }
     },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Exceptions\\UserExceptions.cs": {
+      "Features.User.Exceptions.InsufficientXPException": {
+        "System.Guid Features.User.Exceptions.InsufficientXPException::get_UserId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Exceptions.InsufficientXPException::get_CurrentXP()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Exceptions.InsufficientXPException::get_RequiredXP()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.User.Exceptions.InsufficientXPException::.ctor(System.Guid,System.Int32,System.Int32)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Features.User.Exceptions.UserNotFoundException": {
+        "System.Guid Features.User.Exceptions.UserNotFoundException::get_UserId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.User.Exceptions.UserNotFoundException::.ctor(System.Guid)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
     "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Entities\\UserEntity.cs": {
       "Features.User.Entities.User": {
         "System.Guid Features.User.Entities.User::get_Id()": {
           "Lines": {
-            "14": 17
+            "14": 31
           },
           "Branches": []
         },
         "System.String Features.User.Entities.User::get_GoogleId()": {
           "Lines": {
-            "17": 18
+            "17": 31
           },
           "Branches": []
         },
         "System.String Features.User.Entities.User::get_Email()": {
           "Lines": {
-            "20": 18
+            "20": 32
           },
           "Branches": []
         },
         "System.String Features.User.Entities.User::get_DisplayName()": {
           "Lines": {
-            "23": 18
+            "23": 32
           },
           "Branches": []
         },
         "Features.User.DTOs.Rank Features.User.Entities.User::get_Rank()": {
           "Lines": {
-            "27": 17
+            "27": 37
           },
           "Branches": []
         },
         "System.Int32 Features.User.Entities.User::get_XP()": {
           "Lines": {
-            "31": 15
+            "31": 28
           },
           "Branches": []
         },
         "System.Int32 Features.User.Entities.User::get_Gold()": {
           "Lines": {
-            "35": 15
+            "35": 28
           },
           "Branches": []
         },
         "System.Int32 Features.User.Entities.User::CompareTo(Features.User.Entities.User)": {
           "Lines": {
-            "39": 1,
-            "40": 1,
+            "39": 4,
+            "40": 4,
             "41": 0,
-            "42": 1,
-            "43": 1
+            "42": 4,
+            "43": 4
           },
           "Branches": [
             {
@@ -1621,7 +1798,7 @@
               "EndOffset": 13,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
+              "Hits": 4
             }
           ]
         },
@@ -1694,43 +1871,43 @@
       "Features.User.DTOs.UserDTO": {
         "System.Guid Features.User.DTOs.UserDTO::get_Id()": {
           "Lines": {
-            "18": 14
+            "18": 24
           },
           "Branches": []
         },
         "System.String Features.User.DTOs.UserDTO::get_GoogleId()": {
           "Lines": {
-            "19": 13
+            "19": 30
           },
           "Branches": []
         },
         "System.String Features.User.DTOs.UserDTO::get_Email()": {
           "Lines": {
-            "20": 17
+            "20": 35
           },
           "Branches": []
         },
         "System.String Features.User.DTOs.UserDTO::get_DisplayName()": {
           "Lines": {
-            "21": 17
+            "21": 35
           },
           "Branches": []
         },
         "Features.User.DTOs.Rank Features.User.DTOs.UserDTO::get_PublicRank()": {
           "Lines": {
-            "22": 13
+            "22": 31
           },
           "Branches": []
         },
         "System.Int32 Features.User.DTOs.UserDTO::get_XP()": {
           "Lines": {
-            "24": 14
+            "24": 31
           },
           "Branches": []
         },
         "System.Int32 Features.User.DTOs.UserDTO::get_Gold()": {
           "Lines": {
-            "25": 14
+            "25": 31
           },
           "Branches": []
         }
@@ -2051,6 +2228,59 @@
         }
       }
     },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioExceptions.cs": {
+      "Features.Audio.Exceptions.AudioValidationException": {
+        "System.String Features.Audio.Exceptions.AudioValidationException::get_AudioFileName()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Features.Audio.Exceptions.AudioValidationException::get_ValidationDetails()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Exceptions.AudioValidationException::.ctor(System.String,System.String,System.String,System.Exception)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Exceptions.AudioFileSizeException": {
+        "System.Double Features.Audio.Exceptions.AudioFileSizeException::get_FileSize()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Double Features.Audio.Exceptions.AudioFileSizeException::get_MaxAllowedSize()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Exceptions.AudioFileSizeException::.ctor(System.String,System.Double,System.Double)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
     "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioEntity.cs": {
       "Features.Audio.Entities.AudioFileEntity": {
         "System.Int32 Features.Audio.Entities.AudioFileEntity::get_Id()": {
@@ -2077,50 +2307,50 @@
       "Data.AppDbContext": {
         "Microsoft.EntityFrameworkCore.DbSet`1<Features.User.Entities.User> Data.AppDbContext::get_Users()": {
           "Lines": {
-            "14": 49
+            "14": 63
           },
           "Branches": []
         },
         "Microsoft.EntityFrameworkCore.DbSet`1<Features.Score.ScoreEntity> Data.AppDbContext::get_Scores()": {
           "Lines": {
-            "16": 65
+            "16": 71
           },
           "Branches": []
         },
         "Microsoft.EntityFrameworkCore.DbSet`1<Features.Sprite.Entities.SpriteEntity> Data.AppDbContext::get_Sprites()": {
           "Lines": {
-            "18": 40
+            "18": 46
           },
           "Branches": []
         },
         "Microsoft.EntityFrameworkCore.DbSet`1<Features.Audio.Entities.AudioFileEntity> Data.AppDbContext::get_AudioFiles()": {
           "Lines": {
-            "20": 49
+            "20": 55
           },
           "Branches": []
         },
         "System.Void Data.AppDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
           "Lines": {
-            "23": 1,
-            "24": 1,
-            "25": 1,
-            "26": 1,
-            "28": 1,
-            "29": 1,
-            "30": 1,
-            "32": 1,
-            "33": 1,
-            "34": 1,
-            "35": 1,
-            "38": 1,
-            "40": 1,
-            "41": 1
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "38": 2,
+            "40": 2,
+            "41": 2
           },
           "Branches": []
         },
         "System.Void Data.AppDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Data.AppDbContext>)": {
           "Lines": {
-            "12": 108
+            "12": 126
           },
           "Branches": []
         }
@@ -2130,15 +2360,15 @@
       "Data.Configurations.UserConfiguration": {
         "System.Void Data.Configurations.UserConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Features.User.Entities.User>)": {
           "Lines": {
-            "10": 1,
-            "11": 1,
-            "12": 1,
-            "13": 1,
-            "14": 1,
-            "16": 1,
-            "17": 1,
-            "18": 1,
-            "19": 1
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
           },
           "Branches": []
         }
@@ -2146,6 +2376,80 @@
     }
   },
   "ReflexSharp-BE.Test.dll": {
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\CustomWebApplicationFactory.cs": {
+      "CustomWebApplicationFactory": {
+        "System.Void CustomWebApplicationFactory::ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 231,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 5,
+            "28": 5,
+            "29": 6,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 3,
+            "61": 1
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 47,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
     "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\IRepositories\\Repository.cs": {
       "GenericRepositoryTests": {
         "System.Void GenericRepositoryTests::SeedDatabase()": {
@@ -2801,22 +3105,113 @@
         }
       }
     },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\integrationTests\\UserController.cs": {
+      "UserControllerIntegrationTests": {
+        "System.Void UserControllerIntegrationTests::.ctor(CustomWebApplicationFactory)": {
+          "Lines": {
+            "14": 4,
+            "15": 4,
+            "16": 4,
+            "17": 4
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetAllUsers_ReturnsUsers>d__2": {
+        "System.Void UserControllerIntegrationTests/<GetAllUsers_ReturnsUsers>d__2::MoveNext()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetUser_InvalidId_ReturnsNotFound>d__4": {
+        "System.Void UserControllerIntegrationTests/<GetUser_InvalidId_ReturnsNotFound>d__4::MoveNext()": {
+          "Lines": {
+            "44": 1,
+            "46": 1,
+            "49": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetUser_ValidId_ReturnsUser>d__3": {
+        "System.Void UserControllerIntegrationTests/<GetUser_ValidId_ReturnsUser>d__3::MoveNext()": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5": {
+        "System.Void UserControllerIntegrationTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "81": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1
+          },
+          "Branches": [
+            {
+              "Line": 89,
+              "Offset": 795,
+              "EndOffset": 797,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 89,
+              "Offset": 795,
+              "EndOffset": 905,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs": {
       "AutoGeneratedProgram": {
         "System.Void AutoGeneratedProgram::Main(System.String[])": {
           "Lines": {
             "4": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\UnitTest1.cs": {
-      "tests.UnitTest1": {
-        "System.Void tests.UnitTest1::Test1()": {
-          "Lines": {
-            "7": 1,
-            "9": 1
           },
           "Branches": []
         }
