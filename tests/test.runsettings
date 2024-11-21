@@ -1,0 +1,17 @@
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage">
+        <Configuration>
+          <Exclude>
+            <!-- Exclude all EF Core migration classes -->
+            <Class>Data.Migrations.*</Class>
+
+            <!-- Optionally, exclude other files or namespaces -->
+            <File>**/Migrations/*.cs</File>
+          </Exclude>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

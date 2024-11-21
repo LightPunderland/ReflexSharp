@@ -1,0 +1,3944 @@
+{
+  "ReflexSharp-BE.dll": {
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioServices.cs": {
+      "AudioServices": {
+        "System.Void AudioServices::.ctor(Microsoft.Extensions.Logging.ILogger`1<AudioServices>)": {
+          "Lines": {
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "AudioServices/<ValidateAudioFile>d__4": {
+        "System.Void AudioServices/<ValidateAudioFile>d__4::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "58": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 74,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 163,
+              "EndOffset": 225,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 417,
+              "EndOffset": 419,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 417,
+              "EndOffset": 448,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 656,
+              "EndOffset": 658,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 656,
+              "EndOffset": 662,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\IRepositories\\Repository.cs": {
+      "GenericRepository`1": {
+        "System.Void GenericRepository`1::Update(T)": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepository`1::Delete(T)": {
+          "Lines": {
+            "35": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepository`1::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "8": 12,
+            "9": 12,
+            "10": 12,
+            "11": 12,
+            "12": 12
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`1/<AddAsync>d__5": {
+        "System.Void GenericRepository`1/<AddAsync>d__5::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`1/<GetAllAsync>d__4": {
+        "System.Void GenericRepository`1/<GetAllAsync>d__4::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`1/<GetByIdAsync>d__3": {
+        "System.Void GenericRepository`1/<GetByIdAsync>d__3::MoveNext()": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Login\\LoginDto.cs": {
+      "GoogleSignInRequest": {
+        "System.String GoogleSignInRequest::get_ClientId()": {
+          "Lines": {
+            "3": 0
+          },
+          "Branches": []
+        },
+        "System.String GoogleSignInRequest::get_Username()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        },
+        "System.String GoogleSignInRequest::get_Token()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\CreateScoreDto.cs": {
+      "CreateScoreDto": {
+        "System.Guid CreateScoreDto::get_UserId()": {
+          "Lines": {
+            "3": 4
+          },
+          "Branches": []
+        },
+        "System.Int32 CreateScoreDto::get_Score()": {
+          "Lines": {
+            "4": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\ScoreController.cs": {
+      "ScoreController": {
+        "System.Void ScoreController::.ctor(IScoreService)": {
+          "Lines": {
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<CreateScore>d__4": {
+        "System.Void ScoreController/<CreateScore>d__4::MoveNext()": {
+          "Lines": {
+            "75": 2,
+            "76": 2,
+            "77": 1,
+            "78": 1,
+            "81": 1,
+            "82": 0,
+            "83": 0,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "98": 0,
+            "99": 2
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 76,
+              "Offset": 50,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 97,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 278,
+              "EndOffset": 280,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 278,
+              "EndOffset": 308,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 477,
+              "EndOffset": 479,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 477,
+              "EndOffset": 509,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ScoreController/<GetAverageScore>d__5": {
+        "System.Void ScoreController/<GetAverageScore>d__5::MoveNext()": {
+          "Lines": {
+            "103": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "113": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<GetAverageScoreByUser>d__6": {
+        "System.Void ScoreController/<GetAverageScoreByUser>d__6::MoveNext()": {
+          "Lines": {
+            "117": 1,
+            "119": 1,
+            "120": 1,
+            "121": 0,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "127": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<GetTopScores>d__2": {
+        "System.Void ScoreController/<GetTopScores>d__2::MoveNext()": {
+          "Lines": {
+            "17": 2,
+            "20": 2,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "30": 2,
+            "31": 2,
+            "32": 1,
+            "33": 1,
+            "36": 1,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 2
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 40,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 334,
+              "EndOffset": 336,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 334,
+              "EndOffset": 352,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 357,
+              "EndOffset": 359,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 357,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreController/<GetTopScoresByUser>d__3": {
+        "System.Void ScoreController/<GetTopScoresByUser>d__3::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 40,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 346,
+              "EndOffset": 348,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 346,
+              "EndOffset": 364,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 369,
+              "EndOffset": 371,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 369,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\ScoreRepository.cs": {
+      "ScoreRepository": {
+        "System.Void ScoreRepository::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "7": 6,
+            "8": 6,
+            "9": 6
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetScoresByUserAsync>d__3": {
+        "System.Void ScoreRepository/<GetScoresByUserAsync>d__3::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetTopScoresAsync>d__1": {
+        "System.Void ScoreRepository/<GetTopScoresAsync>d__1::MoveNext()": {
+          "Lines": {
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetTopScoresByUserAsync>d__2": {
+        "System.Void ScoreRepository/<GetTopScoresByUserAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\ScoreService.cs": {
+      "ScoreService": {
+        "System.Void ScoreService::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "12": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5,
+            "17": 5
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<>c__DisplayClass7_0": {
+        "System.Double ScoreService/<>c__DisplayClass7_0::<CalculateAverageScoreAsync>b__0()": {
+          "Lines": {
+            "74": 2,
+            "75": 1,
+            "76": 7,
+            "77": 2,
+            "78": 2,
+            "79": 2,
+            "80": 1,
+            "81": 2
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 56,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 76,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<>c__DisplayClass8_0": {
+        "System.Double ScoreService/<>c__DisplayClass8_0::<GetAverageScoreByUser>b__1()": {
+          "Lines": {
+            "103": 2,
+            "104": 1,
+            "105": 7,
+            "106": 2,
+            "107": 2,
+            "108": 2,
+            "109": 1,
+            "110": 2
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 56,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 105,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<CalculateAverageScoreAsync>d__7": {
+        "System.Void ScoreService/<CalculateAverageScoreAsync>d__7::MoveNext()": {
+          "Lines": {
+            "61": 1,
+            "62": 1,
+            "65": 1,
+            "66": 0,
+            "67": 0,
+            "71": 1,
+            "83": 1,
+            "85": 1,
+            "86": 1
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 81,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<CreateScoreAsync>d__5": {
+        "System.Void ScoreService/<CreateScoreAsync>d__5::MoveNext()": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "44": 1,
+            "45": 1,
+            "48": 1,
+            "49": 1,
+            "51": 1,
+            "52": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<GetAverageScoreByUser>d__8": {
+        "System.Void ScoreService/<GetAverageScoreByUser>d__8::MoveNext()": {
+          "Lines": {
+            "90": 1,
+            "91": 1,
+            "94": 1,
+            "95": 0,
+            "96": 0,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "112": 1,
+            "114": 1,
+            "115": 1
+          },
+          "Branches": [
+            {
+              "Line": 94,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 94,
+              "Offset": 141,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<GetTopScoresAsync>d__3": {
+        "System.Void ScoreService/<GetTopScoresAsync>d__3::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<GetTopScoresbyUser>d__4": {
+        "System.Void ScoreService/<GetTopScoresbyUser>d__4::MoveNext()": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<UserExistsAsync>d__6": {
+        "System.Void ScoreService/<UserExistsAsync>d__6::MoveNext()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\ScoreStatistics.cs": {
+      "ScoreStatistics": {
+        "System.Void ScoreStatistics::AddScore(System.Int32)": {
+          "Lines": {
+            "12": 10,
+            "13": 10,
+            "14": 10,
+            "15": 10
+          },
+          "Branches": []
+        },
+        "System.Double ScoreStatistics::GetAverageScore()": {
+          "Lines": {
+            "18": 6,
+            "19": 7,
+            "20": 5,
+            "21": 6
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Int32 ScoreStatistics::GetScoreCount()": {
+          "Lines": {
+            "23": 4
+          },
+          "Branches": []
+        },
+        "System.Void ScoreStatistics::.ctor(System.Int32,System.Int32)": {
+          "Lines": {
+            "7": 7,
+            "8": 7,
+            "9": 7,
+            "10": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Sprites\\SpriteController.cs": {
+      "SpriteController": {
+        "System.Void SpriteController::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "15": 4,
+            "16": 4,
+            "17": 4,
+            "18": 4
+          },
+          "Branches": []
+        }
+      },
+      "SpriteController/<GetSprite>d__3": {
+        "System.Void SpriteController/<GetSprite>d__3::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 185,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "SpriteController/<GetSpriteByName>d__4": {
+        "System.Void SpriteController/<GetSpriteByName>d__4::MoveNext()": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 1,
+            "60": 1,
+            "61": 2
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 306,
+              "EndOffset": 308,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 306,
+              "EndOffset": 322,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "SpriteController/<UploadSprite>d__2": {
+        "System.Void SpriteController/<UploadSprite>d__2::MoveNext()": {
+          "Lines": {
+            "22": 3,
+            "23": 3,
+            "24": 1,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "39": 2,
+            "40": 3
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 23,
+              "Offset": 22,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 44,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\AllUsers\\AllUsers.cs": {
+      "UserList": {
+        "System.Collections.IEnumerator UserList::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void UserList::.ctor(System.Collections.Generic.List`1<Features.User.Entities.User>)": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        }
+      },
+      "UserList/<GetEnumerator>d__1": {
+        "System.Boolean UserList/<GetEnumerator>d__1::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 133,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 133,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Controllers\\UserController.cs": {
+      "UserController": {
+        "System.Void UserController::.ctor(IUserService)": {
+          "Lines": {
+            "12": 11,
+            "13": 11,
+            "14": 11,
+            "15": 11
+          },
+          "Branches": []
+        }
+      },
+      "UserController/<CheckUserRankUp>d__6": {
+        "System.Void UserController/<CheckUserRankUp>d__6::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "117": 0
+          },
+          "Branches": [
+            {
+              "Line": 81,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 78,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UserController/<GetAllUsers>d__2": {
+        "System.Void UserController/<GetAllUsers>d__2::MoveNext()": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2
+          },
+          "Branches": []
+        }
+      },
+      "UserController/<GetUser>d__3": {
+        "System.Void UserController/<GetUser>d__3::MoveNext()": {
+          "Lines": {
+            "26": 4,
+            "27": 4,
+            "28": 3,
+            "29": 3,
+            "31": 3,
+            "32": 1,
+            "33": 1,
+            "35": 2,
+            "37": 3,
+            "38": 4
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 34,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 31,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 190,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 27,
+              "Offset": 34,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "UserController/<GetUserByGoogleId>d__4": {
+        "System.Void UserController/<GetUserByGoogleId>d__4::MoveNext()": {
+          "Lines": {
+            "42": 2,
+            "43": 2,
+            "45": 2,
+            "46": 1,
+            "47": 1,
+            "50": 1,
+            "51": 2
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 164,
+              "EndOffset": 192,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserController/<UpdateUserGoldXp>d__5": {
+        "System.Void UserController/<UpdateUserGoldXp>d__5::MoveNext()": {
+          "Lines": {
+            "55": 3,
+            "57": 3,
+            "58": 2,
+            "59": 2,
+            "61": 2,
+            "62": 2,
+            "64": 2,
+            "67": 2,
+            "68": 2,
+            "69": 2,
+            "71": 0,
+            "73": 1,
+            "74": 3
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 45,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 67,
+              "Offset": 385,
+              "EndOffset": 390,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 67,
+              "Offset": 385,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 45,
+              "EndOffset": 558,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Services\\UserService.cs": {
+      "UserService": {
+        "System.Void UserService::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "14": 12,
+            "15": 12,
+            "16": 12,
+            "17": 12
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c": {
+        "Features.User.DTOs.UserDTO UserService/<>c::<GetAllUsersAsync>b__2_0(Features.User.Entities.User)": {
+          "Lines": {
+            "26": 7,
+            "27": 7,
+            "28": 7,
+            "29": 7,
+            "30": 7,
+            "31": 7,
+            "32": 7,
+            "33": 7
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c__DisplayClass4_0": {
+        "System.Boolean UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__0(Features.User.Entities.User)": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.UserDTO UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__1(Features.User.Entities.User)": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c__DisplayClass5_0": {
+        "System.Boolean UserService/<>c__DisplayClass5_0::<CheckUsernameAvailabilityAsync>b__0(Features.User.Entities.User)": {
+          "Lines": {
+            "82": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<CheckAndApplyRankUpAsync>d__7": {
+        "System.Void UserService/<CheckAndApplyRankUpAsync>d__7::MoveNext()": {
+          "Lines": {
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0
+          },
+          "Branches": [
+            {
+              "Line": 108,
+              "Offset": 270,
+              "EndOffset": 272,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 270,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 436,
+              "EndOffset": 438,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 436,
+              "EndOffset": 468,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1049,
+              "Path": 2,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1362,
+              "Path": 3,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 714,
+              "EndOffset": 1672,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UserService/<CheckUsernameAvailabilityAsync>d__5": {
+        "System.Void UserService/<CheckUsernameAvailabilityAsync>d__5::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "83": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<CheckXPRequiredForLevelUp>d__6": {
+        "System.Void UserService/<CheckXPRequiredForLevelUp>d__6::MoveNext()": {
+          "Lines": {
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "100": 0
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 172,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 223,
+              "EndOffset": 225,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 223,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UserService/<CreateUserAsync>d__12": {
+        "System.Void UserService/<CreateUserAsync>d__12::MoveNext()": {
+          "Lines": {
+            "197": 1,
+            "198": 1,
+            "199": 1,
+            "200": 1,
+            "201": 1,
+            "202": 1,
+            "203": 1,
+            "205": 1,
+            "206": 1,
+            "208": 1,
+            "209": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<GetAllUsersAsync>d__2": {
+        "System.Void UserService/<GetAllUsersAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "24": 2,
+            "34": 2
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<GetUserAsync>d__3": {
+        "System.Void UserService/<GetUserAsync>d__3::MoveNext()": {
+          "Lines": {
+            "37": 5,
+            "38": 5,
+            "40": 5,
+            "41": 3,
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 5
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 40,
+              "Offset": 187,
+              "EndOffset": 196,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UserService/<GetUserByGoogleIdAsync>d__13": {
+        "System.Void UserService/<GetUserByGoogleIdAsync>d__13::MoveNext()": {
+          "Lines": {
+            "212": 2,
+            "213": 2,
+            "215": 2,
+            "216": 1,
+            "218": 1,
+            "219": 1,
+            "220": 1,
+            "221": 1,
+            "222": 1,
+            "223": 1,
+            "224": 1,
+            "225": 1,
+            "226": 1,
+            "227": 1,
+            "228": 2
+          },
+          "Branches": [
+            {
+              "Line": 215,
+              "Offset": 303,
+              "EndOffset": 305,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 215,
+              "Offset": 303,
+              "EndOffset": 312,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<GetUsersByRankAsync>d__4": {
+        "System.Void UserService/<GetUsersByRankAsync>d__4::MoveNext()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "61": 0,
+            "64": 0,
+            "75": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<IsEmailTakenAsync>d__11": {
+        "System.Void UserService/<IsEmailTakenAsync>d__11::MoveNext()": {
+          "Lines": {
+            "192": 0,
+            "193": 0,
+            "194": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<IsUsernameTakenAsync>d__10": {
+        "System.Void UserService/<IsUsernameTakenAsync>d__10::MoveNext()": {
+          "Lines": {
+            "187": 0,
+            "188": 0,
+            "189": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<UpdateUserGoldXp>d__8": {
+        "System.Void UserService/<UpdateUserGoldXp>d__8::MoveNext()": {
+          "Lines": {
+            "154": 3,
+            "156": 3,
+            "157": 3,
+            "159": 3,
+            "160": 1,
+            "161": 1,
+            "163": 2,
+            "164": 0,
+            "165": 0,
+            "168": 2,
+            "169": 2,
+            "171": 2,
+            "172": 2,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "179": 3
+          },
+          "Branches": [
+            {
+              "Line": 159,
+              "Offset": 208,
+              "EndOffset": 210,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 159,
+              "Offset": 208,
+              "EndOffset": 274,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 163,
+              "Offset": 287,
+              "EndOffset": 289,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 163,
+              "Offset": 287,
+              "EndOffset": 301,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UserService/<ValidateUserAsync>d__9": {
+        "System.Void UserService/<ValidateUserAsync>d__9::MoveNext()": {
+          "Lines": {
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "5": 1,
+            "6": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1,
+            "53": 1,
+            "55": 1
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 395,
+              "EndOffset": 397,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 395,
+              "EndOffset": 425,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Login\\LoginController.cs": {
+      "features.Login.LoginController": {
+        "System.Void features.Login.LoginController::.ctor(IUserService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "features.Login.LoginController/<GoogleSignIn>d__2": {
+        "System.Void features.Login.LoginController/<GoogleSignIn>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "98": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 509,
+              "EndOffset": 511,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 509,
+              "EndOffset": 566,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 714,
+              "EndOffset": 716,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 714,
+              "EndOffset": 744,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 887,
+              "EndOffset": 889,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 887,
+              "EndOffset": 917,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Exceptions\\UserExceptions.cs": {
+      "Features.User.Exceptions.InsufficientXPException": {
+        "System.Guid Features.User.Exceptions.InsufficientXPException::get_UserId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Exceptions.InsufficientXPException::get_CurrentXP()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Exceptions.InsufficientXPException::get_RequiredXP()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.User.Exceptions.InsufficientXPException::.ctor(System.Guid,System.Int32,System.Int32)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Features.User.Exceptions.UserNotFoundException": {
+        "System.Guid Features.User.Exceptions.UserNotFoundException::get_UserId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.User.Exceptions.UserNotFoundException::.ctor(System.Guid)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\Entities\\UserEntity.cs": {
+      "Features.User.Entities.User": {
+        "System.Guid Features.User.Entities.User::get_Id()": {
+          "Lines": {
+            "14": 31
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_GoogleId()": {
+          "Lines": {
+            "17": 31
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_Email()": {
+          "Lines": {
+            "20": 32
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_DisplayName()": {
+          "Lines": {
+            "23": 32
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.User.Entities.User::get_Rank()": {
+          "Lines": {
+            "27": 37
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::get_XP()": {
+          "Lines": {
+            "31": 28
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::get_Gold()": {
+          "Lines": {
+            "35": 28
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::CompareTo(Features.User.Entities.User)": {
+          "Lines": {
+            "39": 4,
+            "40": 4,
+            "41": 0,
+            "42": 4,
+            "43": 4
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Boolean Features.User.Entities.User::Equals(Features.User.Entities.User)": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Features.User.Entities.User::Equals(System.Object)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 14,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 Features.User.Entities.User::GetHashCode()": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\DTO\\UserDTO.cs": {
+      "Features.User.DTOs.UserDTO": {
+        "System.Guid Features.User.DTOs.UserDTO::get_Id()": {
+          "Lines": {
+            "18": 24
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_GoogleId()": {
+          "Lines": {
+            "19": 30
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_Email()": {
+          "Lines": {
+            "20": 35
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_DisplayName()": {
+          "Lines": {
+            "21": 35
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.User.DTOs.UserDTO::get_PublicRank()": {
+          "Lines": {
+            "22": 31
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.DTOs.UserDTO::get_XP()": {
+          "Lines": {
+            "24": 31
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.DTOs.UserDTO::get_Gold()": {
+          "Lines": {
+            "25": 31
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\User\\DTO\\UserValidationDTO.cs": {
+      "Features.User.DTOs.UserValidationDTO": {
+        "System.String Features.User.DTOs.UserValidationDTO::get_GoogleId()": {
+          "Lines": {
+            "5": 4
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserValidationDTO::get_Email()": {
+          "Lines": {
+            "6": 4
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserValidationDTO::get_DisplayName()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Sprites\\SpriteEntity.cs": {
+      "Features.Sprite.Entities.SpriteEntity": {
+        "System.Int32 Features.Sprite.Entities.SpriteEntity::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Features.Sprite.Entities.SpriteEntity::get_Name()": {
+          "Lines": {
+            "14": 4
+          },
+          "Branches": []
+        },
+        "System.Byte[] Features.Sprite.Entities.SpriteEntity::get_ImageData()": {
+          "Lines": {
+            "17": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Score\\ScoreEntity.cs": {
+      "Features.Score.ScoreEntity": {
+        "System.Guid Features.Score.ScoreEntity::get_Id()": {
+          "Lines": {
+            "11": 96
+          },
+          "Branches": []
+        },
+        "System.Guid Features.Score.ScoreEntity::get_UserId()": {
+          "Lines": {
+            "15": 57
+          },
+          "Branches": []
+        },
+        "Features.User.Entities.User Features.Score.ScoreEntity::get_User()": {
+          "Lines": {
+            "18": 52
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.Score.ScoreEntity::get_Score()": {
+          "Lines": {
+            "22": 66
+          },
+          "Branches": []
+        },
+        "System.DateTime Features.Score.ScoreEntity::get_CreatedAt()": {
+          "Lines": {
+            "26": 52
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioFileMeta.cs": {
+      "Features.Audio.Extension.AudioFileExtensions": {
+        "System.Double Features.Audio.Extension.AudioFileExtensions::GetAudioFileSize(Features.Audio.Entities.AudioFileEntity)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioFileController.cs": {
+      "Features.Audio.Controllers.AudioController": {
+        "System.Void Features.Audio.Controllers.AudioController::.ctor(Data.AppDbContext,IAudioServices)": {
+          "Lines": {
+            "21": 7,
+            "22": 7,
+            "23": 7,
+            "24": 7,
+            "25": 7
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<DownloadAudio>d__6": {
+        "System.Void Features.Audio.Controllers.AudioController/<DownloadAudio>d__6::MoveNext()": {
+          "Lines": {
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "126": 0
+          },
+          "Branches": [
+            {
+              "Line": 107,
+              "Offset": 211,
+              "EndOffset": 213,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 211,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__5": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__5::MoveNext()": {
+          "Lines": {
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "93": 7,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "98": 1,
+            "99": 1
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 267,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 93,
+              "Offset": 267,
+              "EndOffset": 269,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAudio>d__4": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudio>d__4::MoveNext()": {
+          "Lines": {
+            "75": 2,
+            "76": 2,
+            "77": 2,
+            "78": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 2
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 77,
+              "Offset": 190,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__7": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__7::MoveNext()": {
+          "Lines": {
+            "130": 2,
+            "132": 2,
+            "133": 2,
+            "134": 2,
+            "135": 1,
+            "136": 1,
+            "139": 1,
+            "140": 1,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 2
+          },
+          "Branches": [
+            {
+              "Line": 134,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 134,
+              "Offset": 199,
+              "EndOffset": 229,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<UploadAudio>d__3": {
+        "System.Void Features.Audio.Controllers.AudioController/<UploadAudio>d__3::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "31": 2,
+            "32": 2,
+            "33": 0,
+            "35": 2,
+            "36": 0,
+            "38": 2,
+            "39": 2,
+            "40": 1,
+            "41": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "56": 1,
+            "57": 1,
+            "59": 1,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 32,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 32,
+              "Offset": 47,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 69,
+              "EndOffset": 71,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 69,
+              "EndOffset": 93,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 35,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 106,
+              "EndOffset": 130,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 39,
+              "Offset": 334,
+              "EndOffset": 336,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 334,
+              "EndOffset": 365,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 26,
+              "EndOffset": 382,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 387,
+              "EndOffset": 393,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 387,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioExceptions.cs": {
+      "Features.Audio.Exceptions.AudioValidationException": {
+        "System.String Features.Audio.Exceptions.AudioValidationException::get_AudioFileName()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Features.Audio.Exceptions.AudioValidationException::get_ValidationDetails()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Exceptions.AudioValidationException::.ctor(System.String,System.String,System.String,System.Exception)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Exceptions.AudioFileSizeException": {
+        "System.Double Features.Audio.Exceptions.AudioFileSizeException::get_FileSize()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Double Features.Audio.Exceptions.AudioFileSizeException::get_MaxAllowedSize()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Exceptions.AudioFileSizeException::.ctor(System.String,System.Double,System.Double)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\features\\Audio\\AudioEntity.cs": {
+      "Features.Audio.Entities.AudioFileEntity": {
+        "System.Int32 Features.Audio.Entities.AudioFileEntity::get_Id()": {
+          "Lines": {
+            "11": 17
+          },
+          "Branches": []
+        },
+        "System.String Features.Audio.Entities.AudioFileEntity::get_Name()": {
+          "Lines": {
+            "14": 18
+          },
+          "Branches": []
+        },
+        "System.Byte[] Features.Audio.Entities.AudioFileEntity::get_FileData()": {
+          "Lines": {
+            "17": 23
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\Data\\AppDbContext.cs": {
+      "Data.AppDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.User.Entities.User> Data.AppDbContext::get_Users()": {
+          "Lines": {
+            "14": 63
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Score.ScoreEntity> Data.AppDbContext::get_Scores()": {
+          "Lines": {
+            "16": 71
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Sprite.Entities.SpriteEntity> Data.AppDbContext::get_Sprites()": {
+          "Lines": {
+            "18": 46
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Audio.Entities.AudioFileEntity> Data.AppDbContext::get_AudioFiles()": {
+          "Lines": {
+            "20": 55
+          },
+          "Branches": []
+        },
+        "System.Void Data.AppDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "38": 2,
+            "40": 2,
+            "41": 2
+          },
+          "Branches": []
+        },
+        "System.Void Data.AppDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Data.AppDbContext>)": {
+          "Lines": {
+            "12": 126
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\src\\Data\\Configurations\\UserConfiguration.cs": {
+      "Data.Configurations.UserConfiguration": {
+        "System.Void Data.Configurations.UserConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Features.User.Entities.User>)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ReflexSharp-BE.Test.dll": {
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\CustomWebApplicationFactory.cs": {
+      "CustomWebApplicationFactory": {
+        "System.Void CustomWebApplicationFactory::ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 232,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 5,
+            "28": 5,
+            "29": 6,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 3,
+            "61": 1
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 47,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\IRepositories\\Repository.cs": {
+      "GenericRepositoryTests": {
+        "System.Void GenericRepositoryTests::SeedDatabase()": {
+          "Lines": {
+            "29": 6,
+            "30": 6,
+            "31": 6,
+            "32": 6,
+            "33": 6,
+            "34": 6,
+            "36": 6,
+            "37": 6,
+            "38": 6
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepositoryTests::Update_UpdatesEntityInDatabase()": {
+          "Lines": {
+            "94": 1,
+            "96": 1,
+            "97": 1,
+            "100": 1,
+            "101": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepositoryTests::Delete_RemovesEntityFromDatabase()": {
+          "Lines": {
+            "111": 1,
+            "113": 1,
+            "116": 1,
+            "117": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepositoryTests::.ctor()": {
+          "Lines": {
+            "15": 6,
+            "16": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6,
+            "22": 6,
+            "23": 6,
+            "25": 6,
+            "26": 6
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepositoryTests/<AddAsync_AddsEntityToDatabase>d__7": {
+        "System.Void GenericRepositoryTests/<AddAsync_AddsEntityToDatabase>d__7::MoveNext()": {
+          "Lines": {
+            "78": 1,
+            "80": 1,
+            "83": 1,
+            "84": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepositoryTests/<GetAllAsync_ReturnsAllEntities>d__6": {
+        "System.Void GenericRepositoryTests/<GetAllAsync_ReturnsAllEntities>d__6::MoveNext()": {
+          "Lines": {
+            "67": 1,
+            "69": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepositoryTests/<GetByIdAsync_ReturnsEntity_WhenEntityExists>d__4": {
+        "System.Void GenericRepositoryTests/<GetByIdAsync_ReturnsEntity_WhenEntityExists>d__4::MoveNext()": {
+          "Lines": {
+            "42": 1,
+            "44": 1,
+            "47": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepositoryTests/<GetByIdAsync_ReturnsNull_WhenEntityDoesNotExist>d__5": {
+        "System.Void GenericRepositoryTests/<GetByIdAsync_ReturnsNull_WhenEntityDoesNotExist>d__5::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "59": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Scores\\ScoreService.cs": {
+      "ScoreServiceTests/<CalculateAverageScoreAsync_ShouldReturnCorrectAverage>d__3": {
+        "System.Void ScoreServiceTests/<CalculateAverageScoreAsync_ShouldReturnCorrectAverage>d__3::MoveNext()": {
+          "Lines": {
+            "90": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "103": 1,
+            "106": 1,
+            "109": 1,
+            "110": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreServiceTests/<CreateScoreAsync_ShouldAddScoreAndInvalidateCache>d__2": {
+        "System.Void ScoreServiceTests/<CreateScoreAsync_ShouldAddScoreAndInvalidateCache>d__2::MoveNext()": {
+          "Lines": {
+            "67": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "73": 1,
+            "74": 1,
+            "76": 1,
+            "79": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreServiceTests/<GetAverageScoreByUser_ShouldReturnUserSpecificAverage>d__4": {
+        "System.Void ScoreServiceTests/<GetAverageScoreByUser_ShouldReturnUserSpecificAverage>d__4::MoveNext()": {
+          "Lines": {
+            "114": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "126": 1,
+            "127": 1,
+            "129": 1,
+            "132": 1,
+            "135": 1,
+            "136": 1,
+            "137": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreServiceTests/<GetTopScoresAsync_ShouldReturnTopScores>d__0": {
+        "System.Void ScoreServiceTests/<GetTopScoresAsync_ShouldReturnTopScores>d__0::MoveNext()": {
+          "Lines": {
+            "14": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "31": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreServiceTests/<GetTopScoresByUser_ShouldReturnUserTopScores>d__1": {
+        "System.Void ScoreServiceTests/<GetTopScoresByUser_ShouldReturnUserTopScores>d__1::MoveNext()": {
+          "Lines": {
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "55": 1,
+            "58": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Sprites\\SpriteController.cs": {
+      "SpriteControllerTests": {
+        "System.Void SpriteControllerTests::.ctor()": {
+          "Lines": {
+            "16": 4,
+            "17": 4,
+            "18": 4,
+            "19": 4,
+            "20": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4,
+            "25": 4
+          },
+          "Branches": []
+        }
+      },
+      "SpriteControllerTests/<GetSpriteByName_InvalidName_ReturnsNotFound>d__6": {
+        "System.Void SpriteControllerTests/<GetSpriteByName_InvalidName_ReturnsNotFound>d__6::MoveNext()": {
+          "Lines": {
+            "106": 1,
+            "108": 1,
+            "111": 1,
+            "114": 1,
+            "115": 1
+          },
+          "Branches": []
+        }
+      },
+      "SpriteControllerTests/<GetSpriteByName_ValidName_ReturnsFile>d__5": {
+        "System.Void SpriteControllerTests/<GetSpriteByName_ValidName_ReturnsFile>d__5::MoveNext()": {
+          "Lines": {
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "90": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "96": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "102": 1
+          },
+          "Branches": []
+        }
+      },
+      "SpriteControllerTests/<UploadSprite_InvalidFile_ReturnsBadRequest>d__4": {
+        "System.Void SpriteControllerTests/<UploadSprite_InvalidFile_ReturnsBadRequest>d__4::MoveNext()": {
+          "Lines": {
+            "70": 1,
+            "72": 1,
+            "73": 1,
+            "76": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1
+          },
+          "Branches": []
+        }
+      },
+      "SpriteControllerTests/<UploadSprite_ValidFile_ReturnsOk>d__3": {
+        "System.Void SpriteControllerTests/<UploadSprite_ValidFile_ReturnsOk>d__3::MoveNext()": {
+          "Lines": {
+            "30": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "48": 1,
+            "51": 1,
+            "54": 1,
+            "55": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\User\\Controllers\\UserController.cs": {
+      "UserControllerTests": {
+        "System.Void UserControllerTests::.ctor()": {
+          "Lines": {
+            "15": 7,
+            "16": 7,
+            "17": 7,
+            "18": 7,
+            "19": 7
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<GetAllUsers_ReturnsOkResult_WithListOfUsers>d__3": {
+        "System.Void UserControllerTests/<GetAllUsers_ReturnsOkResult_WithListOfUsers>d__3::MoveNext()": {
+          "Lines": {
+            "23": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "33": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<GetUserByGoogleId_InvalidGoogleId_ReturnsNotFound>d__7": {
+        "System.Void UserControllerTests/<GetUserByGoogleId_InvalidGoogleId_ReturnsNotFound>d__7::MoveNext()": {
+          "Lines": {
+            "90": 1,
+            "92": 1,
+            "95": 1,
+            "98": 1,
+            "99": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<GetUserByGoogleId_ValidGoogleId_ReturnsOkResult_WithUser>d__6": {
+        "System.Void UserControllerTests/<GetUserByGoogleId_ValidGoogleId_ReturnsOkResult_WithUser>d__6::MoveNext()": {
+          "Lines": {
+            "73": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "80": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<GetUser_InvalidUserId_ReturnsNotFound>d__5": {
+        "System.Void UserControllerTests/<GetUser_InvalidUserId_ReturnsNotFound>d__5::MoveNext()": {
+          "Lines": {
+            "60": 1,
+            "62": 1,
+            "65": 1,
+            "68": 1,
+            "69": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<GetUser_ValidUserId_ReturnsOkResult_WithUser>d__4": {
+        "System.Void UserControllerTests/<GetUser_ValidUserId_ReturnsOkResult_WithUser>d__4::MoveNext()": {
+          "Lines": {
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "50": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<UpdateUserGoldXp_InvalidUserId_ReturnsNotFound>d__9": {
+        "System.Void UserControllerTests/<UpdateUserGoldXp_InvalidUserId_ReturnsNotFound>d__9::MoveNext()": {
+          "Lines": {
+            "129": 1,
+            "131": 1,
+            "134": 1,
+            "137": 1,
+            "138": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerTests/<UpdateUserGoldXp_ValidUserId_ReturnsOkResult_WithUpdatedGoldAndXp>d__8": {
+        "System.Void UserControllerTests/<UpdateUserGoldXp_ValidUserId_ReturnsOkResult_WithUpdatedGoldAndXp>d__8::MoveNext()": {
+          "Lines": {
+            "103": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "112": 1,
+            "114": 1,
+            "117": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1
+          },
+          "Branches": [
+            {
+              "Line": 122,
+              "Offset": 650,
+              "EndOffset": 654,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 650,
+              "EndOffset": 727,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 762,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 762,
+              "EndOffset": 814,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 123,
+              "Offset": 851,
+              "EndOffset": 855,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 123,
+              "Offset": 851,
+              "EndOffset": 928,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 123,
+              "Offset": 963,
+              "EndOffset": 967,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 123,
+              "Offset": 963,
+              "EndOffset": 1015,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\User\\Services\\UserService.cs": {
+      "UserServiceTests": {
+        "System.Void UserServiceTests::.ctor()": {
+          "Lines": {
+            "15": 8,
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8,
+            "20": 8
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<CreateUserAsync_ValidUserDetails_CreatesUser>d__9": {
+        "System.Void UserServiceTests/<CreateUserAsync_ValidUserDetails_CreatesUser>d__9::MoveNext()": {
+          "Lines": {
+            "187": 1,
+            "189": 1,
+            "190": 1,
+            "192": 1,
+            "193": 1,
+            "194": 1,
+            "195": 1,
+            "196": 1,
+            "197": 1,
+            "200": 1,
+            "203": 1,
+            "204": 1,
+            "205": 1,
+            "206": 1,
+            "207": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<GetAllUsersAsync_ReturnsAllUsers>d__2": {
+        "System.Void UserServiceTests/<GetAllUsersAsync_ReturnsAllUsers>d__2::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "39": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<GetUserAsync_InvalidUserId_ReturnsNull>d__4": {
+        "System.Void UserServiceTests/<GetUserAsync_InvalidUserId_ReturnsNull>d__4::MoveNext()": {
+          "Lines": {
+            "67": 1,
+            "69": 1,
+            "70": 1,
+            "73": 1,
+            "76": 1,
+            "77": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<GetUserAsync_ValidUserId_ReturnsUser>d__3": {
+        "System.Void UserServiceTests/<GetUserAsync_ValidUserId_ReturnsUser>d__3::MoveNext()": {
+          "Lines": {
+            "47": 1,
+            "49": 1,
+            "50": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "58": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<GetUserByGoogleIdAsync_InvalidGoogleId_ReturnsNull>d__8": {
+        "System.Void UserServiceTests/<GetUserByGoogleIdAsync_InvalidGoogleId_ReturnsNull>d__8::MoveNext()": {
+          "Lines": {
+            "173": 1,
+            "175": 1,
+            "176": 1,
+            "179": 1,
+            "182": 1,
+            "183": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<GetUserByGoogleIdAsync_ValidGoogleId_ReturnsUser>d__7": {
+        "System.Void UserServiceTests/<GetUserByGoogleIdAsync_ValidGoogleId_ReturnsUser>d__7::MoveNext()": {
+          "Lines": {
+            "154": 1,
+            "156": 1,
+            "157": 1,
+            "159": 1,
+            "160": 1,
+            "161": 1,
+            "164": 1,
+            "167": 1,
+            "168": 1,
+            "169": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<UpdateUserGoldXp_InvalidUser_ReturnsFalse>d__6": {
+        "System.Void UserServiceTests/<UpdateUserGoldXp_InvalidUser_ReturnsFalse>d__6::MoveNext()": {
+          "Lines": {
+            "104": 1,
+            "106": 1,
+            "107": 1,
+            "110": 1,
+            "113": 1,
+            "114": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserServiceTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5": {
+        "System.Void UserServiceTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5::MoveNext()": {
+          "Lines": {
+            "81": 1,
+            "83": 1,
+            "84": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "92": 1,
+            "95": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\integrationTests\\UserController.cs": {
+      "UserControllerIntegrationTests": {
+        "System.Void UserControllerIntegrationTests::.ctor(CustomWebApplicationFactory)": {
+          "Lines": {
+            "14": 4,
+            "15": 4,
+            "16": 4,
+            "17": 4
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetAllUsers_ReturnsUsers>d__2": {
+        "System.Void UserControllerIntegrationTests/<GetAllUsers_ReturnsUsers>d__2::MoveNext()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetUser_InvalidId_ReturnsNotFound>d__4": {
+        "System.Void UserControllerIntegrationTests/<GetUser_InvalidId_ReturnsNotFound>d__4::MoveNext()": {
+          "Lines": {
+            "44": 1,
+            "46": 1,
+            "49": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<GetUser_ValidId_ReturnsUser>d__3": {
+        "System.Void UserControllerIntegrationTests/<GetUser_ValidId_ReturnsUser>d__3::MoveNext()": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserControllerIntegrationTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5": {
+        "System.Void UserControllerIntegrationTests/<UpdateUserGoldXp_ValidUser_UpdatesGoldAndXp>d__5::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "81": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1
+          },
+          "Branches": [
+            {
+              "Line": 89,
+              "Offset": 795,
+              "EndOffset": 797,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 89,
+              "Offset": 795,
+              "EndOffset": 905,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Scores\\ScoreController.cs": {
+      "Features.Score.Tests.ScoreControllerTests": {
+        "System.Void Features.Score.Tests.ScoreControllerTests::.ctor()": {
+          "Lines": {
+            "17": 6,
+            "18": 6,
+            "20": 6,
+            "21": 6,
+            "22": 6
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<CreateScore_ReturnsBadRequest_WhenModelStateInvalid>d__5": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<CreateScore_ReturnsBadRequest_WhenModelStateInvalid>d__5::MoveNext()": {
+          "Lines": {
+            "60": 1,
+            "62": 1,
+            "65": 1,
+            "68": 1,
+            "69": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<CreateScore_ReturnsNotFound_WhenUserDoesNotExist>d__6": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<CreateScore_ReturnsNotFound_WhenUserDoesNotExist>d__6::MoveNext()": {
+          "Lines": {
+            "73": 1,
+            "75": 1,
+            "76": 1,
+            "79": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<GetAverageScoreByUser_ReturnsInternalServerError_OnException>d__8": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<GetAverageScoreByUser_ReturnsInternalServerError_OnException>d__8::MoveNext()": {
+          "Lines": {
+            "103": 1,
+            "105": 1,
+            "108": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<GetAverageScore_ReturnsOkResult_WithAverageScore>d__7": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<GetAverageScore_ReturnsOkResult_WithAverageScore>d__7::MoveNext()": {
+          "Lines": {
+            "88": 1,
+            "90": 1,
+            "91": 1,
+            "94": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<GetTopScores_ReturnsNotFound_WhenNoScores>d__4": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<GetTopScores_ReturnsNotFound_WhenNoScores>d__4::MoveNext()": {
+          "Lines": {
+            "47": 1,
+            "49": 1,
+            "52": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreControllerTests/<GetTopScores_ReturnsOkResult_WithScores>d__3": {
+        "System.Void Features.Score.Tests.ScoreControllerTests/<GetTopScores_ReturnsOkResult_WithScores>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "37": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Scores\\ScoreRepository.cs": {
+      "Features.Score.Tests.ScoreRepositoryTests": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests::SeedDatabase()": {
+          "Lines": {
+            "33": 5,
+            "34": 5,
+            "35": 5,
+            "36": 5,
+            "37": 5,
+            "38": 5,
+            "39": 5,
+            "40": 5,
+            "41": 5,
+            "43": 5,
+            "44": 5,
+            "45": 5
+          },
+          "Branches": []
+        },
+        "System.Void Features.Score.Tests.ScoreRepositoryTests::.ctor()": {
+          "Lines": {
+            "17": 5,
+            "18": 5,
+            "20": 5,
+            "21": 5,
+            "22": 5,
+            "24": 5,
+            "25": 5,
+            "28": 5,
+            "29": 5
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<>c__DisplayClass5_0": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<>c__DisplayClass5_0::<GetTopScoresByUserAsync_ReturnsUserTopScores>b__0(Features.Score.ScoreEntity)": {
+          "Lines": {
+            "69": 2
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<>c__DisplayClass6_0": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<>c__DisplayClass6_0::<GetScoresByUserAsync_ReturnsAllScoresForUser>b__0(Features.Score.ScoreEntity)": {
+          "Lines": {
+            "84": 2
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<GetScoresByUserAsync_ReturnsAllScoresForUser>d__6": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<GetScoresByUserAsync_ReturnsAllScoresForUser>d__6::MoveNext()": {
+          "Lines": {
+            "75": 1,
+            "77": 1,
+            "80": 1,
+            "83": 1,
+            "85": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<GetScoresByUserAsync_ReturnsEmpty_WhenUserHasNoScores>d__8": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<GetScoresByUserAsync_ReturnsEmpty_WhenUserHasNoScores>d__8::MoveNext()": {
+          "Lines": {
+            "107": 1,
+            "109": 1,
+            "112": 1,
+            "113": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresAsync_ReturnsEmpty_WhenNoScores>d__7": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresAsync_ReturnsEmpty_WhenNoScores>d__7::MoveNext()": {
+          "Lines": {
+            "89": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "95": 1,
+            "96": 1,
+            "99": 1,
+            "102": 1,
+            "103": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresAsync_ReturnsTopScores>d__4": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresAsync_ReturnsTopScores>d__4::MoveNext()": {
+          "Lines": {
+            "49": 1,
+            "51": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresByUserAsync_ReturnsUserTopScores>d__5": {
+        "System.Void Features.Score.Tests.ScoreRepositoryTests/<GetTopScoresByUserAsync_ReturnsUserTopScores>d__5::MoveNext()": {
+          "Lines": {
+            "60": 1,
+            "62": 1,
+            "65": 1,
+            "68": 1,
+            "70": 1,
+            "71": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Scores\\ScoreStatistics.cs": {
+      "Features.Score.Tests.ScoreStatisticsTests": {
+        "System.Void Features.Score.Tests.ScoreStatisticsTests::Constructor_InitializesValuesCorrectly()": {
+          "Lines": {
+            "9": 1,
+            "11": 1,
+            "12": 1,
+            "15": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Score.Tests.ScoreStatisticsTests::AddScore_UpdatesSumAndCountCorrectly()": {
+          "Lines": {
+            "24": 1,
+            "26": 1,
+            "29": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Score.Tests.ScoreStatisticsTests::GetAverageScore_ReturnsZero_WhenNoScores()": {
+          "Lines": {
+            "38": 1,
+            "40": 1,
+            "43": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Score.Tests.ScoreStatisticsTests::GetAverageScore_ReturnsCorrectValue_WhenScoresAreAdded()": {
+          "Lines": {
+            "51": 1,
+            "53": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Score.Tests.ScoreStatisticsTests::GetScoreCount_ReturnsCorrectCount()": {
+          "Lines": {
+            "67": 1,
+            "69": 1,
+            "72": 1,
+            "73": 1,
+            "76": 1,
+            "77": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Audio\\AudioFileController.cs": {
+      "Features.Audio.Tests.AudioControllerTests": {
+        "System.Void Features.Audio.Tests.AudioControllerTests::SeedDatabase()": {
+          "Lines": {
+            "40": 7,
+            "41": 7,
+            "42": 7,
+            "43": 7,
+            "44": 7,
+            "45": 7,
+            "47": 7,
+            "48": 7,
+            "49": 7
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Tests.AudioControllerTests::.ctor()": {
+          "Lines": {
+            "24": 7,
+            "25": 7,
+            "26": 7,
+            "27": 7,
+            "28": 7,
+            "30": 7,
+            "31": 7,
+            "34": 7,
+            "36": 7,
+            "37": 7
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__9": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAllAudioFiles_ReturnsListOfAudioFiles>d__9::MoveNext()": {
+          "Lines": {
+            "146": 1,
+            "148": 1,
+            "151": 1,
+            "152": 1,
+            "153": 1,
+            "154": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__10": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsCorrectSize>d__10::MoveNext()": {
+          "Lines": {
+            "158": 1,
+            "160": 1,
+            "163": 1,
+            "164": 1,
+            "165": 1,
+            "166": 1
+          },
+          "Branches": [
+            {
+              "Line": 165,
+              "Offset": 185,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 165,
+              "Offset": 185,
+              "EndOffset": 252,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__11": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudioFileSizeKB_ReturnsNotFound_WhenAudioDoesNotExist>d__11::MoveNext()": {
+          "Lines": {
+            "170": 1,
+            "172": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__7": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsFile_WhenAudioExists>d__7::MoveNext()": {
+          "Lines": {
+            "123": 1,
+            "125": 1,
+            "128": 1,
+            "129": 1,
+            "130": 1,
+            "131": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__8": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<GetAudio_ReturnsNotFound_WhenAudioDoesNotExist>d__8::MoveNext()": {
+          "Lines": {
+            "135": 1,
+            "137": 1,
+            "140": 1,
+            "141": 1,
+            "142": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsInvalid>d__6": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsBadRequest_WhenFileIsInvalid>d__6::MoveNext()": {
+          "Lines": {
+            "89": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "104": 1,
+            "105": 1,
+            "108": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__5": {
+        "System.Void Features.Audio.Tests.AudioControllerTests/<UploadAudio_ReturnsOk_WhenValidInput>d__5::MoveNext()": {
+          "Lines": {
+            "53": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "68": 1,
+            "69": 1,
+            "72": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\tests\\features\\Audio\\AudioFileMeta.cs": {
+      "Features.Audio.Tests.AudioFileExtensionsTests": {
+        "System.Void Features.Audio.Tests.AudioFileExtensionsTests::GetAudioFileSize_ReturnsCorrectSize_ForValidAudioFile()": {
+          "Lines": {
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "19": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Tests.AudioFileExtensionsTests::GetAudioFileSize_ReturnsZero_ForEmptyFileData()": {
+          "Lines": {
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "35": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        },
+        "System.Void Features.Audio.Tests.AudioFileExtensionsTests::GetAudioFileSize_HandlesLargeFiles_Correctly()": {
+          "Lines": {
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "51": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
