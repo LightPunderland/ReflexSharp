@@ -113,13 +113,21 @@ namespace ReflexSharp_BE.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
+                    b.Property<int>("Gold")
+                        .HasColumnType("integer")
+                        .HasColumnName("Gold");
+
                     b.Property<string>("GoogleId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
-                    b.Property<string>("Rank")
-                        .IsRequired()
-                        .HasColumnType("varchar(50)");
+                    b.Property<int>("Rank")
+                        .HasColumnType("integer")
+                        .HasColumnName("Rank");
+
+                    b.Property<int>("XP")
+                        .HasColumnType("integer")
+                        .HasColumnName("XP");
 
                     b.HasKey("Id");
 

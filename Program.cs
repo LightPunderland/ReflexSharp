@@ -1,6 +1,8 @@
 using Data;
 using Microsoft.EntityFrameworkCore;
+using DotNetEnv;
 
+Env.Load();
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -31,6 +33,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IScoreService, ScoreService>();
+builder.Services.AddScoped<IScoreRepository, ScoreRepository>();
 
 
 var app = builder.Build();

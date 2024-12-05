@@ -34,4 +34,48 @@ public class UserController : ControllerBase
 
         return NotFound();
     }
+
+    [HttpGet("api/users/google-id/{googleId}")]
+    public async Task<ActionResult<UserDTO>> GetUserByGoogleId(string googleId)
+    {
+        var user = await _userService.GetUserByGoogleIdAsync(googleId);
+
+        if (user is not null)
+        {
+            return Ok(user);
+        }
+
+        return NotFound();
+    }
+
+    [HttpPost("api/users/{userID}/rewardGoldXp")]
+    public async Task<ActionResult<UserDTO>> UpdateUserGoldXp(string userID, int addGold, int addXp)
+    {
+
+        if (Guid.TryParse(userID, out Guid guid))
+        {
+            var user = await _userService.GetUserAsync(guid);
+
+            int beforeGold = user.Gold;
+            int beforeXp = Convert.ToInt32(user.XP);
+
+            bool action = await _userService.UpdateUserGoldXp(guid, addGold, addXp);
+
+            // TO-DO, add rank-up check, if xp exceeds next rank-up xp then user is promoted.
+            if (action)
+            {
+                user = await _userService.GetUserAsync(guid);
+                if (user is not null)
+                {
+                    return Ok(new { message = $"Gold {beforeGold} -> {user.Gold}, XP {beforeXp} -> {user.XP}" });
+                }
+            }
+
+
+        }
+
+        return NotFound();
+    }
+
+
 }

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj": {}
+    "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj": {
+    "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+        "projectUniqueName": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
         "projectName": "ReflexSharp-BE",
-        "projectPath": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Everything\\Programs\\C_SHARP\\backend\\ReflexSharp-BE\\obj\\",
+        "projectPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+        "packagesPath": "C:\\Users\\noahm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\noahm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"

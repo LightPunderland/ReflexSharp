@@ -29,11 +29,11 @@ namespace Data
                 .ToTable("audiofiles")
                 .HasKey(a => a.Id);
 
-
             modelBuilder.Entity<ScoreEntity>()
                 .HasIndex(s => s.Score)
                 .HasDatabaseName("idx_score")
                 .IsUnique(false);
+
 
             base.OnModelCreating(modelBuilder);
 
