@@ -13,12 +13,10 @@ namespace Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<WardrobeItem> WardrobeItems { get; set;}
         public DbSet<ScoreEntity> Scores { get; set; }
-
         public DbSet<SpriteEntity> Sprites { get; set; }
-
         public DbSet<AudioFileEntity> AudioFiles { get; set; }
+         public DbSet<WardrobeItem> WardrobeItems { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,5 +1,6 @@
 using System;
 using Features.User.DTOs;
+using System.Text.Json.Serialization;
 
 namespace Features.Wardrobe.DTOs
 {
@@ -15,6 +16,7 @@ namespace Features.Wardrobe.DTOs
     {
         public string Name { get; init; } = null!;
         public int Price { get; init; }
+        [JsonConverter(typeof(JsonStringEnumConverter))]
         public Rank RankRequirement { get; init; }
     }
 }

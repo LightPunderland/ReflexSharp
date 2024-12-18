@@ -111,5 +111,19 @@ namespace Features.Wardrobe.Services
                 RankRequirement = wardrobeItem.RequiredRank
             };
         }
+
+        public async Task<WardrobeItemDTO?> GetWardrobeItemByNameAsync(string name)
+        {
+            var item = await _context.WardrobeItems.FirstOrDefaultAsync(w => w.Name == name);
+            if (item == null) return null;
+
+            return new WardrobeItemDTO
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Price = item.Price,
+                RankRequirement = item.RequiredRank
+            };
+        }
     }
 }

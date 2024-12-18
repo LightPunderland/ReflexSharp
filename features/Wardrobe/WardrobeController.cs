@@ -50,4 +50,17 @@ public class WardrobeController : ControllerBase
             return StatusCode(500, $"An error occurred while creating the wardrobe item: {ex.Message}");
         }
     }
+
+    [HttpGet("api/wardrobe/name/{name}")]
+    public async Task<ActionResult<WardrobeItemDTO>> GetWardrobeItemByName(string name)
+    {
+        var item = await _wardrobeService.GetWardrobeItemByNameAsync(name);
+        
+        if (item == null)
+        {
+            return NotFound($"Wardrobe item with name '{name}' not found");
+        }
+
+        return Ok(item);
+    }
 }
