@@ -4,6 +4,7 @@ using Features.User.Entities;
 using Microsoft.EntityFrameworkCore;
 using Features.Sprite.Entities;
 using Features.Audio.Entities;
+using Features.Wardrobe.Entities;
 
 namespace Data
 {
@@ -12,7 +13,7 @@ namespace Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
-
+        public DbSet<WardrobeItem> WardrobeItems { get; set;}
         public DbSet<ScoreEntity> Scores { get; set; }
 
         public DbSet<SpriteEntity> Sprites { get; set; }
@@ -34,6 +35,9 @@ namespace Data
                 .HasDatabaseName("idx_score")
                 .IsUnique(false);
 
+            modelBuilder.Entity<WardrobeItem>()
+                .ToTable("wardrobe_items")
+                .HasKey(w => w.Id);
 
             base.OnModelCreating(modelBuilder);
 
