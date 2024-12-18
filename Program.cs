@@ -18,10 +18,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", builder =>
     {
         builder
-            .WithOrigins("https://lukasjasiulionis.lt", "http://localhost:5173")
+            .WithOrigins("https://lukasjasiulionis.lt")
             .AllowAnyMethod()
             .AllowAnyHeader()
-        .AllowCredentials();
+	    .AllowCredentials();
     });
 });
 // Add this before app.UseAuthorization():

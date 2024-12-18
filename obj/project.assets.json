@@ -7648,19 +7648,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\noahm\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
+      "projectUniqueName": "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj",
       "projectName": "ReflexSharp-BE",
-      "projectPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\ReflexSharp-BE.csproj",
-      "packagesPath": "C:\\Users\\noahm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\noahm\\Desktop\\psi_project\\ReflexSharp-BE\\obj\\",
+      "projectPath": "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/var/www/ReflexSharp-BE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\noahm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -7683,7 +7683,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -7739,6 +7740,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-arm64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7747,7 +7762,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
