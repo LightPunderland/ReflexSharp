@@ -4,6 +4,7 @@ using DotNetEnv;
 
 Env.Load();
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://0.0.0.0:5050");
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -14,11 +15,16 @@ builder.Configuration.AddEnvironmentVariables();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp",
-        builder => builder.WithOrigins("http://localhost:5173", "https://localhost:5173") // Your React app's URL
-                          .AllowAnyHeader()
-                          .AllowAnyMethod());
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder
+            .WithOrigins("https://lukasjasiulionis.lt")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+	    .AllowCredentials();
+    });
 });
+// Add this before app.UseAuthorization():
 
 
 var host = builder.Configuration["PSI_PROJECT_HOST"];
@@ -38,19 +44,17 @@ builder.Services.AddScoped<IScoreRepository, ScoreRepository>();
 
 var app = builder.Build();
 
-app.UseCors("AllowReactApp");
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
-
+    app.UseHttpsRedirection();
 }
 
-app.UseHttpsRedirection();
-app.UseAuthorization();
 
+app.UseAuthorization();
+app.UseCors("AllowAll");
 app.MapControllers();
 
 app.Run();
