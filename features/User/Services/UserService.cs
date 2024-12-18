@@ -34,12 +34,10 @@ public class UserService : IUserService
         }).ToList();
     }
 
-    public async Task<UserDTO?> GetUserAsync(Guid userID)
+    public async Task<UserDTO?> GetUserAsync(Guid userId)
     {
-        var user = await _context.Users.FindAsync(userID);
-
-        if (user is null)
-            return null;
+        var user = await _context.Users.FindAsync(userId);
+        if (user == null) return null;
 
         return new UserDTO
         {
@@ -48,7 +46,9 @@ public class UserService : IUserService
             XP = user.XP,
             Gold = user.Gold,
             DisplayName = user.DisplayName,
-            PublicRank = user.Rank
+            PublicRank = user.Rank,
+            EquippedSkin = user.EquippedSkin,
+            OwnedSkins = user.OwnedSkins.Split(',', StringSplitOptions.RemoveEmptyEntries)
         };
     }
 
@@ -175,6 +175,33 @@ public class UserService : IUserService
             DisplayName = user.DisplayName,
             PublicRank = user.Rank
         };
+    }
+
+    public async Task<bool> AddSkinToUserAsync(Guid userId, string skinName)
+    {
+        var user = await _context.Users.FindAsync(userId);
+        if (user == null) return false;
+
+        var currentSkins = user.OwnedSkins.Split(',', StringSplitOptions.RemoveEmptyEntries);
+        if (!currentSkins.Contains(skinName))
+        {
+            user.OwnedSkins = string.Join(',', currentSkins.Append(skinName));
+            await _context.SaveChangesAsync();
+        }
+        return true;
+    }
+
+    public async Task<bool> EquipSkinAsync(Guid userId, string skinName)
+    {
+        var user = await _context.Users.FindAsync(userId);
+        if (user == null) return false;
+
+        var ownedSkins = user.OwnedSkins.Split(',', StringSplitOptions.RemoveEmptyEntries);
+        if (!ownedSkins.Contains(skinName)) return false;
+
+        user.EquippedSkin = skinName;
+        await _context.SaveChangesAsync();
+        return true;
     }
 
 

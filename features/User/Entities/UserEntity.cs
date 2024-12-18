@@ -34,6 +34,13 @@ namespace Features.User.Entities
         [Column("Gold")]
         public int Gold { get; set; } = 0;
 
+        [Required]
+        [Column(TypeName = "varchar(100)")]
+        public string EquippedSkin { get; set; } = "Ninja";
+
+        [Column(TypeName = "text")]
+        public string OwnedSkins { get; set; } = "Ninja";
+
         // Comapre by rank
         public int CompareTo(User? other)
         {

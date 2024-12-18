@@ -77,5 +77,33 @@ public class UserController : ControllerBase
         return NotFound();
     }
 
+    [HttpPost("api/users/{userId}/skins/{skinName}")]
+public async Task<ActionResult> AddSkinToUser(string userId, string skinName)
+{
+    if (!Guid.TryParse(userId, out Guid userGuid))
+    {
+        return BadRequest("Invalid user ID format");
+    }
+
+    var success = await _userService.AddSkinToUserAsync(userGuid, skinName);
+    if (!success) return NotFound("User not found");
+    
+    return Ok();
+}
+
+[HttpPost("api/users/{userId}/equip/{skinName}")]
+public async Task<ActionResult> EquipSkin(string userId, string skinName)
+{
+    if (!Guid.TryParse(userId, out Guid userGuid))
+    {
+        return BadRequest("Invalid user ID format");
+    }
+
+    var success = await _userService.EquipSkinAsync(userGuid, skinName);
+    if (!success) return NotFound("User not found or skin not owned");
+    
+    return Ok();
+}
+
 
 }

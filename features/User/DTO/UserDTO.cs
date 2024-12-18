@@ -9,7 +9,6 @@ public enum Rank
     Master,
     God,
     Admin
-
 }
 
 // Record
@@ -23,4 +22,7 @@ public record UserDTO
 
     public Int32 XP { get; init; } = 0;
     public int Gold { get; init; } = 0;
+
+    public string EquippedSkin { get; init; } = "Ninja";
+    public IEnumerable<string> OwnedSkins { get; init; } = new[] { "Ninja" };    
 }

@@ -20,5 +20,7 @@ public interface IUserService
     Task<User> CreateUserAsync(UserValidationDTO userValidationDTO);
 
     Task<UserDTO?> GetUserByGoogleIdAsync(string googleId);
+    Task<bool> EquipSkinAsync(Guid userId, string skinName);
+    Task<bool> AddSkinToUserAsync(Guid userId, string skinName);
 }
 
