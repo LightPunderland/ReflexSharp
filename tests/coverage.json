@@ -1,0 +1,7799 @@
+{
+  "ReflexSharp-BE.dll": {
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\IRepositories\\Repository.cs": {
+      "GenericRepository`2": {
+        "System.Void GenericRepository`2::Update(T)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepository`2::Delete(T)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void GenericRepository`2::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`2/<AddAsync>d__5": {
+        "System.Void GenericRepository`2/<AddAsync>d__5::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`2/<GetAllAsync>d__4": {
+        "System.Void GenericRepository`2/<GetAllAsync>d__4::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "GenericRepository`2/<GetByIdAsync>d__3": {
+        "System.Void GenericRepository`2/<GetByIdAsync>d__3::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Login\\LoginDto.cs": {
+      "GoogleSignInRequest": {
+        "System.String GoogleSignInRequest::get_ClientId()": {
+          "Lines": {
+            "3": 0
+          },
+          "Branches": []
+        },
+        "System.String GoogleSignInRequest::get_Username()": {
+          "Lines": {
+            "4": 3
+          },
+          "Branches": []
+        },
+        "System.String GoogleSignInRequest::get_Token()": {
+          "Lines": {
+            "5": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\CreateScoreDto.cs": {
+      "CreateScoreDto": {
+        "System.Guid CreateScoreDto::get_UserId()": {
+          "Lines": {
+            "3": 9
+          },
+          "Branches": []
+        },
+        "System.Int32 CreateScoreDto::get_Score()": {
+          "Lines": {
+            "4": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\ScoreController.cs": {
+      "ScoreController": {
+        "System.Void ScoreController::.ctor(IScoreService)": {
+          "Lines": {
+            "10": 15,
+            "11": 15,
+            "12": 15,
+            "13": 15
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<CreateScore>d__4": {
+        "System.Void ScoreController/<CreateScore>d__4::MoveNext()": {
+          "Lines": {
+            "75": 5,
+            "76": 5,
+            "77": 1,
+            "78": 1,
+            "81": 4,
+            "82": 1,
+            "83": 1,
+            "86": 3,
+            "87": 3,
+            "88": 1,
+            "89": 1,
+            "92": 2,
+            "93": 2,
+            "94": 1,
+            "95": 1,
+            "98": 1,
+            "99": 5
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 76,
+              "Offset": 50,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 81,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 97,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 87,
+              "Offset": 278,
+              "EndOffset": 280,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 278,
+              "EndOffset": 308,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 93,
+              "Offset": 477,
+              "EndOffset": 479,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 477,
+              "EndOffset": 509,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreController/<GetAverageScore>d__5": {
+        "System.Void ScoreController/<GetAverageScore>d__5::MoveNext()": {
+          "Lines": {
+            "103": 2,
+            "105": 2,
+            "106": 2,
+            "107": 1,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "113": 2
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<GetAverageScoreByUser>d__6": {
+        "System.Void ScoreController/<GetAverageScoreByUser>d__6::MoveNext()": {
+          "Lines": {
+            "117": 2,
+            "119": 2,
+            "120": 2,
+            "121": 1,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "127": 2
+          },
+          "Branches": []
+        }
+      },
+      "ScoreController/<GetTopScores>d__2": {
+        "System.Void ScoreController/<GetTopScores>d__2::MoveNext()": {
+          "Lines": {
+            "17": 3,
+            "20": 3,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "30": 3,
+            "31": 3,
+            "32": 1,
+            "33": 1,
+            "36": 2,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 3
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 20,
+              "Offset": 40,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 334,
+              "EndOffset": 336,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 31,
+              "Offset": 334,
+              "EndOffset": 352,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 357,
+              "EndOffset": 359,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 357,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "ScoreController/<GetTopScoresByUser>d__3": {
+        "System.Void ScoreController/<GetTopScoresByUser>d__3::MoveNext()": {
+          "Lines": {
+            "46": 3,
+            "49": 3,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "59": 3,
+            "60": 3,
+            "61": 1,
+            "62": 1,
+            "65": 2,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 3
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 49,
+              "Offset": 40,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 346,
+              "EndOffset": 348,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 60,
+              "Offset": 346,
+              "EndOffset": 364,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 369,
+              "EndOffset": 371,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 369,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\ScoreRepository.cs": {
+      "ScoreRepository": {
+        "System.Void ScoreRepository::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetScoresByUserAsync>d__3": {
+        "System.Void ScoreRepository/<GetScoresByUserAsync>d__3::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetTopScoresAsync>d__1": {
+        "System.Void ScoreRepository/<GetTopScoresAsync>d__1::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "ScoreRepository/<GetTopScoresByUserAsync>d__2": {
+        "System.Void ScoreRepository/<GetTopScoresByUserAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\ScoreService.cs": {
+      "ScoreService": {
+        "System.Void ScoreService::.ctor(IScoreRepository,Data.AppDbContext)": {
+          "Lines": {
+            "13": 7,
+            "15": 7,
+            "16": 7,
+            "17": 7,
+            "18": 7,
+            "19": 7
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<>c__DisplayClass8_0": {
+        "System.Double ScoreService/<>c__DisplayClass8_0::<CalculateAverageScoreAsync>b__0()": {
+          "Lines": {
+            "71": 1,
+            "72": 1,
+            "73": 9,
+            "74": 3,
+            "75": 3,
+            "76": 3,
+            "77": 1,
+            "78": 2
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 56,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 73,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<>c__DisplayClass9_0": {
+        "System.Double ScoreService/<>c__DisplayClass9_0::<GetAverageScoreByUser>b__0()": {
+          "Lines": {
+            "99": 1,
+            "100": 1,
+            "101": 7,
+            "102": 2,
+            "103": 2,
+            "104": 2,
+            "105": 1,
+            "106": 2
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 54,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 101,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<CalculateAverageScoreAsync>d__8": {
+        "System.Void ScoreService/<CalculateAverageScoreAsync>d__8::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "58": 1,
+            "61": 1,
+            "62": 0,
+            "63": 0,
+            "67": 1,
+            "70": 1,
+            "80": 1,
+            "82": 1,
+            "83": 1
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 81,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<CreateScoreAsync>d__6": {
+        "System.Void ScoreService/<CreateScoreAsync>d__6::MoveNext()": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "40": 1,
+            "41": 1,
+            "44": 1,
+            "45": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<GetAverageScoreByUser>d__9": {
+        "System.Void ScoreService/<GetAverageScoreByUser>d__9::MoveNext()": {
+          "Lines": {
+            "87": 1,
+            "88": 1,
+            "91": 1,
+            "92": 0,
+            "93": 0,
+            "96": 1,
+            "98": 1,
+            "108": 1,
+            "110": 1,
+            "111": 1
+          },
+          "Branches": [
+            {
+              "Line": 91,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 119,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "ScoreService/<GetTopScoresAsync>d__4": {
+        "System.Void ScoreService/<GetTopScoresAsync>d__4::MoveNext()": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<GetTopScoresbyUser>d__5": {
+        "System.Void ScoreService/<GetTopScoresbyUser>d__5::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "30": 1
+          },
+          "Branches": []
+        }
+      },
+      "ScoreService/<UserExistsAsync>d__7": {
+        "System.Void ScoreService/<UserExistsAsync>d__7::MoveNext()": {
+          "Lines": {
+            "51": 2,
+            "52": 2,
+            "53": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\ScoreStatistics.cs": {
+      "ScoreStatistics": {
+        "System.Void ScoreStatistics::AddScore(System.Int32)": {
+          "Lines": {
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "Branches": []
+        },
+        "System.Double ScoreStatistics::GetAverageScore()": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Int32 ScoreStatistics::GetScoreCount()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void ScoreStatistics::.ctor(System.Int32,System.Int32)": {
+          "Lines": {
+            "7": 2,
+            "8": 2,
+            "9": 2,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Sprites\\SpriteController.cs": {
+      "SpriteController": {
+        "System.Void SpriteController::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "15": 5,
+            "16": 5,
+            "17": 5,
+            "18": 5
+          },
+          "Branches": []
+        }
+      },
+      "SpriteController/<GetSprite>d__3": {
+        "System.Void SpriteController/<GetSprite>d__3::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 185,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "SpriteController/<GetSpriteByName>d__4": {
+        "System.Void SpriteController/<GetSpriteByName>d__4::MoveNext()": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 1,
+            "60": 1,
+            "61": 2
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 306,
+              "EndOffset": 308,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 306,
+              "EndOffset": 322,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "SpriteController/<UploadSprite>d__2": {
+        "System.Void SpriteController/<UploadSprite>d__2::MoveNext()": {
+          "Lines": {
+            "22": 2,
+            "23": 2,
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "40": 2
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 22,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 44,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\AllUsers\\AllUsers.cs": {
+      "UserList": {
+        "System.Collections.IEnumerator UserList::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void UserList::.ctor(System.Collections.Generic.List`1<Features.User.Entities.User>)": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        }
+      },
+      "UserList/<GetEnumerator>d__1": {
+        "System.Boolean UserList/<GetEnumerator>d__1::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 133,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 133,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\Controllers\\UserController.cs": {
+      "UserController": {
+        "System.Void UserController::.ctor(IUserService)": {
+          "Lines": {
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "13": 10
+          },
+          "Branches": []
+        }
+      },
+      "UserController/<AddSkinToUser>d__6": {
+        "System.Void UserController/<AddSkinToUser>d__6::MoveNext()": {
+          "Lines": {
+            "82": 2,
+            "83": 2,
+            "84": 0,
+            "85": 0,
+            "88": 2,
+            "89": 3,
+            "91": 1,
+            "92": 2
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 40,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 89,
+              "Offset": 214,
+              "EndOffset": 216,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 89,
+              "Offset": 214,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserController/<EquipSkin>d__7": {
+        "System.Void UserController/<EquipSkin>d__7::MoveNext()": {
+          "Lines": {
+            "96": 2,
+            "97": 2,
+            "98": 0,
+            "99": 0,
+            "102": 2,
+            "103": 3,
+            "105": 1,
+            "106": 2
+          },
+          "Branches": [
+            {
+              "Line": 97,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 40,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 103,
+              "Offset": 214,
+              "EndOffset": 216,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 103,
+              "Offset": 214,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserController/<GetAllUsers>d__2": {
+        "System.Void UserController/<GetAllUsers>d__2::MoveNext()": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserController/<GetUser>d__3": {
+        "System.Void UserController/<GetUser>d__3::MoveNext()": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "29": 2,
+            "30": 1,
+            "31": 1,
+            "33": 1,
+            "35": 1,
+            "36": 2
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 34,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 190,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 34,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserController/<GetUserByGoogleId>d__4": {
+        "System.Void UserController/<GetUserByGoogleId>d__4::MoveNext()": {
+          "Lines": {
+            "40": 2,
+            "41": 2,
+            "43": 2,
+            "44": 1,
+            "45": 1,
+            "48": 1,
+            "49": 2
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 164,
+              "EndOffset": 192,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserController/<UpdateUserGoldXp>d__5": {
+        "System.Void UserController/<UpdateUserGoldXp>d__5::MoveNext()": {
+          "Lines": {
+            "53": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "59": 1,
+            "60": 1,
+            "62": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "72": 0,
+            "75": 0,
+            "77": 0,
+            "78": 1
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 59,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 396,
+              "EndOffset": 401,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 555,
+              "EndOffset": 560,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 555,
+              "EndOffset": 720,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 396,
+              "EndOffset": 721,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 59,
+              "EndOffset": 729,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\Services\\UserService.cs": {
+      "UserService": {
+        "System.Void UserService::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "13": 38,
+            "14": 38,
+            "15": 38,
+            "16": 38
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c": {
+        "Features.User.DTOs.UserDTO UserService/<>c::<GetAllUsersAsync>b__2_0(Features.User.Entities.User)": {
+          "Lines": {
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c__DisplayClass4_0": {
+        "System.Boolean UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__0(Features.User.Entities.User)": {
+          "Lines": {
+            "61": 3
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.UserDTO UserService/<>c__DisplayClass4_0::<GetUsersByRankAsync>b__1(Features.User.Entities.User)": {
+          "Lines": {
+            "67": 3,
+            "68": 3,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "75": 3
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<>c__DisplayClass5_0": {
+        "System.Boolean UserService/<>c__DisplayClass5_0::<CheckUsernameAvailabilityAsync>b__0(Features.User.Entities.User)": {
+          "Lines": {
+            "83": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<AddSkinToUserAsync>d__13": {
+        "System.Void UserService/<AddSkinToUserAsync>d__13::MoveNext()": {
+          "Lines": {
+            "181": 1,
+            "182": 1,
+            "183": 1,
+            "185": 1,
+            "186": 1,
+            "187": 1,
+            "188": 1,
+            "189": 1,
+            "190": 1,
+            "191": 1,
+            "192": 1
+          },
+          "Branches": [
+            {
+              "Line": 183,
+              "Offset": 198,
+              "EndOffset": 200,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 183,
+              "Offset": 198,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 186,
+              "Offset": 256,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 186,
+              "Offset": 256,
+              "EndOffset": 416,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<CheckUsernameAvailabilityAsync>d__5": {
+        "System.Void UserService/<CheckUsernameAvailabilityAsync>d__5::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "84": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<CheckXPRequiredForLevelUp>d__6": {
+        "System.Void UserService/<CheckXPRequiredForLevelUp>d__6::MoveNext()": {
+          "Lines": {
+            "88": 1,
+            "90": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "101": 1
+          },
+          "Branches": [
+            {
+              "Line": 91,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 172,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 223,
+              "EndOffset": 225,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 223,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<CreateUserAsync>d__11": {
+        "System.Void UserService/<CreateUserAsync>d__11::MoveNext()": {
+          "Lines": {
+            "147": 1,
+            "148": 1,
+            "149": 1,
+            "150": 1,
+            "151": 1,
+            "152": 1,
+            "153": 1,
+            "155": 1,
+            "156": 1,
+            "158": 1,
+            "159": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<EquipSkinAsync>d__14": {
+        "System.Void UserService/<EquipSkinAsync>d__14::MoveNext()": {
+          "Lines": {
+            "195": 1,
+            "196": 1,
+            "197": 1,
+            "199": 1,
+            "200": 1,
+            "202": 1,
+            "203": 1,
+            "204": 1,
+            "205": 1
+          },
+          "Branches": [
+            {
+              "Line": 197,
+              "Offset": 198,
+              "EndOffset": 200,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 197,
+              "Offset": 198,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 200,
+              "Offset": 256,
+              "EndOffset": 258,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 200,
+              "Offset": 256,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<GetAllUsersAsync>d__2": {
+        "System.Void UserService/<GetAllUsersAsync>d__2::MoveNext()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "23": 1,
+            "35": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<GetUserAsync>d__3": {
+        "System.Void UserService/<GetUserAsync>d__3::MoveNext()": {
+          "Lines": {
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 187,
+              "EndOffset": 196,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<GetUserByGoogleIdAsync>d__12": {
+        "System.Void UserService/<GetUserByGoogleIdAsync>d__12::MoveNext()": {
+          "Lines": {
+            "162": 2,
+            "163": 2,
+            "165": 2,
+            "166": 1,
+            "168": 1,
+            "169": 1,
+            "170": 1,
+            "171": 1,
+            "172": 1,
+            "173": 1,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "178": 2
+          },
+          "Branches": [
+            {
+              "Line": 165,
+              "Offset": 303,
+              "EndOffset": 305,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 165,
+              "Offset": 303,
+              "EndOffset": 312,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<GetUsersByRankAsync>d__4": {
+        "System.Void UserService/<GetUsersByRankAsync>d__4::MoveNext()": {
+          "Lines": {
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "60": 1,
+            "62": 1,
+            "65": 1,
+            "76": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<IsEmailTakenAsync>d__10": {
+        "System.Void UserService/<IsEmailTakenAsync>d__10::MoveNext()": {
+          "Lines": {
+            "142": 1,
+            "143": 1,
+            "144": 1
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<IsUsernameTakenAsync>d__9": {
+        "System.Void UserService/<IsUsernameTakenAsync>d__9::MoveNext()": {
+          "Lines": {
+            "137": 0,
+            "138": 0,
+            "139": 0
+          },
+          "Branches": []
+        }
+      },
+      "UserService/<UpdateUserGoldXp>d__7": {
+        "System.Void UserService/<UpdateUserGoldXp>d__7::MoveNext()": {
+          "Lines": {
+            "104": 1,
+            "106": 1,
+            "107": 1,
+            "109": 1,
+            "110": 0,
+            "111": 0,
+            "113": 1,
+            "114": 0,
+            "115": 0,
+            "118": 1,
+            "119": 1,
+            "121": 1,
+            "122": 1,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 1
+          },
+          "Branches": [
+            {
+              "Line": 109,
+              "Offset": 208,
+              "EndOffset": 210,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 208,
+              "EndOffset": 274,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 113,
+              "Offset": 287,
+              "EndOffset": 289,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 287,
+              "EndOffset": 301,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UserService/<ValidateUserAsync>d__8": {
+        "System.Void UserService/<ValidateUserAsync>d__8::MoveNext()": {
+          "Lines": {
+            "131": 2,
+            "132": 2,
+            "133": 2,
+            "134": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Wardrobe\\WardrobeController.cs": {
+      "WardrobeController": {
+        "System.Void WardrobeController::.ctor(Features.Wardrobe.Services.IWardrobeService)": {
+          "Lines": {
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": []
+        }
+      },
+      "WardrobeController/<CheckPurchaseEligibility>d__3": {
+        "System.Void WardrobeController/<CheckPurchaseEligibility>d__3::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "31": 0,
+            "32": 0,
+            "33": 1
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 35,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 62,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WardrobeController/<CreateWardrobeItem>d__4": {
+        "System.Void WardrobeController/<CreateWardrobeItem>d__4::MoveNext()": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "39": 1,
+            "40": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 2
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 31,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WardrobeController/<GetAllItems>d__2": {
+        "System.Void WardrobeController/<GetAllItems>d__2::MoveNext()": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "WardrobeController/<GetWardrobeItemByName>d__5": {
+        "System.Void WardrobeController/<GetWardrobeItemByName>d__5::MoveNext()": {
+          "Lines": {
+            "56": 2,
+            "57": 2,
+            "59": 2,
+            "60": 1,
+            "61": 1,
+            "64": 1,
+            "65": 2
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 167,
+              "EndOffset": 169,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 167,
+              "EndOffset": 210,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 420,
+              "EndOffset": 422,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 420,
+              "EndOffset": 458,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241023121942_UserRankChanges1.cs": {
+      "ReflexSharp_BE.Migrations.UserRankChanges1": {
+        "System.Void ReflexSharp_BE.Migrations.UserRankChanges1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.UserRankChanges1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241023121942_UserRankChanges1.Designer.cs": {
+      "ReflexSharp_BE.Migrations.UserRankChanges1": {
+        "System.Void ReflexSharp_BE.Migrations.UserRankChanges1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241023194245_AddAudioFileEntity.cs": {
+      "ReflexSharp_BE.Migrations.AddAudioFileEntity": {
+        "System.Void ReflexSharp_BE.Migrations.AddAudioFileEntity::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddAudioFileEntity::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241023194245_AddAudioFileEntity.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddAudioFileEntity": {
+        "System.Void ReflexSharp_BE.Migrations.AddAudioFileEntity::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "152": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113182741_winget.cs": {
+      "ReflexSharp_BE.Migrations.winget": {
+        "System.Void ReflexSharp_BE.Migrations.winget::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.winget::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113182741_winget.Designer.cs": {
+      "ReflexSharp_BE.Migrations.winget": {
+        "System.Void ReflexSharp_BE.Migrations.winget::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113182910_AddCoinsColumnToUsers.cs": {
+      "ReflexSharp_BE.Migrations.AddCoinsColumnToUsers": {
+        "System.Void ReflexSharp_BE.Migrations.AddCoinsColumnToUsers::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddCoinsColumnToUsers::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113182910_AddCoinsColumnToUsers.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddCoinsColumnToUsers": {
+        "System.Void ReflexSharp_BE.Migrations.AddCoinsColumnToUsers::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183206_AddGoldColumnToUsers.cs": {
+      "ReflexSharp_BE.Migrations.AddGoldColumnToUsers": {
+        "System.Void ReflexSharp_BE.Migrations.AddGoldColumnToUsers::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddGoldColumnToUsers::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183206_AddGoldColumnToUsers.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddGoldColumnToUsers": {
+        "System.Void ReflexSharp_BE.Migrations.AddGoldColumnToUsers::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183428_ConvertRankToInteger.cs": {
+      "ReflexSharp_BE.Migrations.ConvertRankToInteger": {
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183428_ConvertRankToInteger.Designer.cs": {
+      "ReflexSharp_BE.Migrations.ConvertRankToInteger": {
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183631_ConvertRankToInteger2.cs": {
+      "ReflexSharp_BE.Migrations.ConvertRankToInteger2": {
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger2::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger2::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113183631_ConvertRankToInteger2.Designer.cs": {
+      "ReflexSharp_BE.Migrations.ConvertRankToInteger2": {
+        "System.Void ReflexSharp_BE.Migrations.ConvertRankToInteger2::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113184429_PrayToGod.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113184429_PrayToGod.Designer.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113185144_PrayToGod3.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod3": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod3::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod3::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113185144_PrayToGod3.Designer.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod3": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod3::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113190138_PrayToGod4.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod4": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod4::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod4::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113190138_PrayToGod4.Designer.cs": {
+      "ReflexSharp_BE.Migrations.PrayToGod4": {
+        "System.Void ReflexSharp_BE.Migrations.PrayToGod4::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113190743_GodisNotGood.cs": {
+      "ReflexSharp_BE.Migrations.GodisNotGood": {
+        "System.Void ReflexSharp_BE.Migrations.GodisNotGood::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.GodisNotGood::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113190743_GodisNotGood.Designer.cs": {
+      "ReflexSharp_BE.Migrations.GodisNotGood": {
+        "System.Void ReflexSharp_BE.Migrations.GodisNotGood::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113191233_notfunny.cs": {
+      "ReflexSharp_BE.Migrations.notfunny": {
+        "System.Void ReflexSharp_BE.Migrations.notfunny::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.notfunny::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113191233_notfunny.Designer.cs": {
+      "ReflexSharp_BE.Migrations.notfunny": {
+        "System.Void ReflexSharp_BE.Migrations.notfunny::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113191947_test3.cs": {
+      "ReflexSharp_BE.Migrations.test3": {
+        "System.Void ReflexSharp_BE.Migrations.test3::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.test3::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113191947_test3.Designer.cs": {
+      "ReflexSharp_BE.Migrations.test3": {
+        "System.Void ReflexSharp_BE.Migrations.test3::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113192305_test4.cs": {
+      "ReflexSharp_BE.Migrations.test4": {
+        "System.Void ReflexSharp_BE.Migrations.test4::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.test4::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113192305_test4.Designer.cs": {
+      "ReflexSharp_BE.Migrations.test4": {
+        "System.Void ReflexSharp_BE.Migrations.test4::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113192401_test5.cs": {
+      "ReflexSharp_BE.Migrations.test5": {
+        "System.Void ReflexSharp_BE.Migrations.test5::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.test5::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113192401_test5.Designer.cs": {
+      "ReflexSharp_BE.Migrations.test5": {
+        "System.Void ReflexSharp_BE.Migrations.test5::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "154": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113195800_testing1.cs": {
+      "ReflexSharp_BE.Migrations.testing1": {
+        "System.Void ReflexSharp_BE.Migrations.testing1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.testing1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113195800_testing1.Designer.cs": {
+      "ReflexSharp_BE.Migrations.testing1": {
+        "System.Void ReflexSharp_BE.Migrations.testing1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113200424_FixXPColumnType.cs": {
+      "ReflexSharp_BE.Migrations.FixXPColumnType": {
+        "System.Void ReflexSharp_BE.Migrations.FixXPColumnType::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.FixXPColumnType::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113200424_FixXPColumnType.Designer.cs": {
+      "ReflexSharp_BE.Migrations.FixXPColumnType": {
+        "System.Void ReflexSharp_BE.Migrations.FixXPColumnType::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113204655_testing5.cs": {
+      "ReflexSharp_BE.Migrations.testing5": {
+        "System.Void ReflexSharp_BE.Migrations.testing5::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.testing5::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113204655_testing5.Designer.cs": {
+      "ReflexSharp_BE.Migrations.testing5": {
+        "System.Void ReflexSharp_BE.Migrations.testing5::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113205708_testing6.cs": {
+      "ReflexSharp_BE.Migrations.testing6": {
+        "System.Void ReflexSharp_BE.Migrations.testing6::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.testing6::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113205708_testing6.Designer.cs": {
+      "ReflexSharp_BE.Migrations.testing6": {
+        "System.Void ReflexSharp_BE.Migrations.testing6::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113210327_testing8.cs": {
+      "ReflexSharp_BE.Migrations.testing8": {
+        "System.Void ReflexSharp_BE.Migrations.testing8::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.testing8::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113210327_testing8.Designer.cs": {
+      "ReflexSharp_BE.Migrations.testing8": {
+        "System.Void ReflexSharp_BE.Migrations.testing8::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113210534_testing9.cs": {
+      "ReflexSharp_BE.Migrations.testing9": {
+        "System.Void ReflexSharp_BE.Migrations.testing9::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.testing9::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241113210534_testing9.Designer.cs": {
+      "ReflexSharp_BE.Migrations.testing9": {
+        "System.Void ReflexSharp_BE.Migrations.testing9::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241114095451_test37.cs": {
+      "ReflexSharp_BE.Migrations.test37": {
+        "System.Void ReflexSharp_BE.Migrations.test37::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.test37::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241114095451_test37.Designer.cs": {
+      "ReflexSharp_BE.Migrations.test37": {
+        "System.Void ReflexSharp_BE.Migrations.test37::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241114095800_test38.cs": {
+      "ReflexSharp_BE.Migrations.test38": {
+        "System.Void ReflexSharp_BE.Migrations.test38::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.test38::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241114095800_test38.Designer.cs": {
+      "ReflexSharp_BE.Migrations.test38": {
+        "System.Void ReflexSharp_BE.Migrations.test38::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218125728_AddWardrobeItems.cs": {
+      "ReflexSharp_BE.Migrations.AddWardrobeItems": {
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218125728_AddWardrobeItems.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddWardrobeItems": {
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218131024_AddedWarDPOST.cs": {
+      "ReflexSharp_BE.Migrations.AddedWarDPOST": {
+        "System.Void ReflexSharp_BE.Migrations.AddedWarDPOST::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddedWarDPOST::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218131024_AddedWarDPOST.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddedWarDPOST": {
+        "System.Void ReflexSharp_BE.Migrations.AddedWarDPOST::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218153148_AddWardrobeItems2.cs": {
+      "ReflexSharp_BE.Migrations.AddWardrobeItems2": {
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems2::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems2::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218153148_AddWardrobeItems2.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddWardrobeItems2": {
+        "System.Void ReflexSharp_BE.Migrations.AddWardrobeItems2::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218162229_AddUserSkins.cs": {
+      "ReflexSharp_BE.Migrations.AddUserSkins": {
+        "System.Void ReflexSharp_BE.Migrations.AddUserSkins::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void ReflexSharp_BE.Migrations.AddUserSkins::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\20241218162229_AddUserSkins.Designer.cs": {
+      "ReflexSharp_BE.Migrations.AddUserSkins": {
+        "System.Void ReflexSharp_BE.Migrations.AddUserSkins::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "189": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Migrations\\AppDbContextModelSnapshot.cs": {
+      "ReflexSharp_BE.Migrations.AppDbContextModelSnapshot": {
+        "System.Void ReflexSharp_BE.Migrations.AppDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "186": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Login\\LoginController.cs": {
+      "features.Login.LoginController": {
+        "System.Void features.Login.LoginController::.ctor(IUserService)": {
+          "Lines": {
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        }
+      },
+      "features.Login.LoginController/<GoogleSignIn>d__2": {
+        "System.Void features.Login.LoginController/<GoogleSignIn>d__2::MoveNext()": {
+          "Lines": {
+            "20": 2,
+            "22": 2,
+            "23": 2,
+            "25": 2,
+            "26": 1,
+            "27": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "98": 2
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 509,
+              "EndOffset": 511,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 509,
+              "EndOffset": 566,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 714,
+              "EndOffset": 716,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 714,
+              "EndOffset": 744,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 887,
+              "EndOffset": 889,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 887,
+              "EndOffset": 917,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Wardrobe\\WardrobeItem.cs": {
+      "Features.Wardrobe.Entities.WardrobeItem": {
+        "System.Guid Features.Wardrobe.Entities.WardrobeItem::get_Id()": {
+          "Lines": {
+            "11": 35
+          },
+          "Branches": []
+        },
+        "System.String Features.Wardrobe.Entities.WardrobeItem::get_Name()": {
+          "Lines": {
+            "15": 31
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.Wardrobe.Entities.WardrobeItem::get_Price()": {
+          "Lines": {
+            "18": 20
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.Wardrobe.Entities.WardrobeItem::get_RequiredRank()": {
+          "Lines": {
+            "21": 30
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Wardrobe\\PurchaseEligibilityDTO.cs": {
+      "Features.Wardrobe.DTOs.PurchaseEligibilityDTO": {
+        "System.Boolean Features.Wardrobe.DTOs.PurchaseEligibilityDTO::get_HasSufficientGold()": {
+          "Lines": {
+            "7": 12
+          },
+          "Branches": []
+        },
+        "System.Boolean Features.Wardrobe.DTOs.PurchaseEligibilityDTO::get_MeetsRankRequirement()": {
+          "Lines": {
+            "8": 12
+          },
+          "Branches": []
+        },
+        "System.Boolean Features.Wardrobe.DTOs.PurchaseEligibilityDTO::get_IsEligibleForPurchase()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 6,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Features.Wardrobe.DTOs.PurchaseEligibilityDTO::get_Message()": {
+          "Lines": {
+            "10": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Wardrobe\\WardrobeItemDTO.cs": {
+      "Features.Wardrobe.DTOs.WardrobeItemDTO": {
+        "System.Guid Features.Wardrobe.DTOs.WardrobeItemDTO::get_Id()": {
+          "Lines": {
+            "9": 16
+          },
+          "Branches": []
+        },
+        "System.String Features.Wardrobe.DTOs.WardrobeItemDTO::get_Name()": {
+          "Lines": {
+            "10": 34
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.Wardrobe.DTOs.WardrobeItemDTO::get_Price()": {
+          "Lines": {
+            "11": 21
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.Wardrobe.DTOs.WardrobeItemDTO::get_RankRequirement()": {
+          "Lines": {
+            "12": 16
+          },
+          "Branches": []
+        }
+      },
+      "Features.Wardrobe.DTOs.CreateWardrobeItemDTO": {
+        "System.String Features.Wardrobe.DTOs.CreateWardrobeItemDTO::get_Name()": {
+          "Lines": {
+            "17": 7
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.Wardrobe.DTOs.CreateWardrobeItemDTO::get_Price()": {
+          "Lines": {
+            "18": 6
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.Wardrobe.DTOs.CreateWardrobeItemDTO::get_RankRequirement()": {
+          "Lines": {
+            "20": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Wardrobe\\WardrobeService.cs": {
+      "Features.Wardrobe.Services.WardrobeService": {
+        "System.Void Features.Wardrobe.Services.WardrobeService::.ctor(Data.AppDbContext,IUserService)": {
+          "Lines": {
+            "18": 12,
+            "19": 12,
+            "20": 12,
+            "21": 12,
+            "22": 12
+          },
+          "Branches": []
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<>c": {
+        "Features.Wardrobe.DTOs.WardrobeItemDTO Features.Wardrobe.Services.WardrobeService/<>c::<GetAllWardrobeItemsAsync>b__3_0(Features.Wardrobe.Entities.WardrobeItem)": {
+          "Lines": {
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3
+          },
+          "Branches": []
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<CheckPurchaseEligibilityAsync>d__5": {
+        "System.Void Features.Wardrobe.Services.WardrobeService/<CheckPurchaseEligibilityAsync>d__5::MoveNext()": {
+          "Lines": {
+            "51": 6,
+            "52": 6,
+            "53": 6,
+            "55": 6,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "65": 5,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "75": 4,
+            "76": 4,
+            "78": 4,
+            "79": 4,
+            "80": 1,
+            "81": 3,
+            "82": 1,
+            "83": 2,
+            "84": 1,
+            "86": 4,
+            "87": 4,
+            "88": 4,
+            "89": 4,
+            "90": 4,
+            "91": 4,
+            "92": 6
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 312,
+              "EndOffset": 314,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 312,
+              "EndOffset": 354,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 65,
+              "Offset": 370,
+              "EndOffset": 372,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 370,
+              "EndOffset": 412,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 79,
+              "Offset": 491,
+              "EndOffset": 493,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 79,
+              "Offset": 491,
+              "EndOffset": 504,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 79,
+              "Offset": 509,
+              "EndOffset": 511,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 79,
+              "Offset": 509,
+              "EndOffset": 524,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 81,
+              "Offset": 537,
+              "EndOffset": 539,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 537,
+              "EndOffset": 552,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 83,
+              "Offset": 565,
+              "EndOffset": 567,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 565,
+              "EndOffset": 578,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<CreateWardrobeItemAsync>d__6": {
+        "System.Void Features.Wardrobe.Services.WardrobeService/<CreateWardrobeItemAsync>d__6::MoveNext()": {
+          "Lines": {
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "103": 1,
+            "104": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<GetAllWardrobeItemsAsync>d__3": {
+        "System.Void Features.Wardrobe.Services.WardrobeService/<GetAllWardrobeItemsAsync>d__3::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "34": 1
+          },
+          "Branches": []
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<GetWardrobeItemAsync>d__4": {
+        "System.Void Features.Wardrobe.Services.WardrobeService/<GetWardrobeItemAsync>d__4::MoveNext()": {
+          "Lines": {
+            "37": 8,
+            "38": 8,
+            "39": 10,
+            "41": 6,
+            "42": 6,
+            "43": 6,
+            "44": 6,
+            "45": 6,
+            "46": 6,
+            "47": 6,
+            "48": 8
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 39,
+              "Offset": 187,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        }
+      },
+      "Features.Wardrobe.Services.WardrobeService/<GetWardrobeItemByNameAsync>d__7": {
+        "System.Void Features.Wardrobe.Services.WardrobeService/<GetWardrobeItemByNameAsync>d__7::MoveNext()": {
+          "Lines": {
+            "116": 2,
+            "117": 2,
+            "118": 3,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "126": 1,
+            "127": 2
+          },
+          "Branches": [
+            {
+              "Line": 118,
+              "Offset": 303,
+              "EndOffset": 305,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 118,
+              "Offset": 303,
+              "EndOffset": 309,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\Entities\\UserEntity.cs": {
+      "Features.User.Entities.User": {
+        "System.Guid Features.User.Entities.User::get_Id()": {
+          "Lines": {
+            "14": 62
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_GoogleId()": {
+          "Lines": {
+            "17": 54
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_Email()": {
+          "Lines": {
+            "20": 60
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_DisplayName()": {
+          "Lines": {
+            "23": 84
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.User.Entities.User::get_Rank()": {
+          "Lines": {
+            "27": 73
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::get_XP()": {
+          "Lines": {
+            "31": 52
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::get_Gold()": {
+          "Lines": {
+            "35": 52
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_EquippedSkin()": {
+          "Lines": {
+            "39": 36
+          },
+          "Branches": []
+        },
+        "System.String Features.User.Entities.User::get_OwnedSkins()": {
+          "Lines": {
+            "42": 40
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.Entities.User::CompareTo(Features.User.Entities.User)": {
+          "Lines": {
+            "46": 2,
+            "47": 2,
+            "48": 0,
+            "49": 2,
+            "50": 2
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Boolean Features.User.Entities.User::Equals(Features.User.Entities.User)": {
+          "Lines": {
+            "54": 5,
+            "55": 5,
+            "56": 1,
+            "58": 4,
+            "59": 5
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Boolean Features.User.Entities.User::Equals(System.Object)": {
+          "Lines": {
+            "62": 3,
+            "63": 3,
+            "64": 2,
+            "65": 2,
+            "67": 1,
+            "68": 3
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 63,
+              "Offset": 14,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Int32 Features.User.Entities.User::GetHashCode()": {
+          "Lines": {
+            "71": 4,
+            "72": 4,
+            "73": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\DTO\\UserDTO.cs": {
+      "Features.User.DTOs.UserDTO": {
+        "System.Guid Features.User.DTOs.UserDTO::get_Id()": {
+          "Lines": {
+            "17": 12
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_GoogleId()": {
+          "Lines": {
+            "18": 20
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_Email()": {
+          "Lines": {
+            "19": 30
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_DisplayName()": {
+          "Lines": {
+            "20": 29
+          },
+          "Branches": []
+        },
+        "Features.User.DTOs.Rank Features.User.DTOs.UserDTO::get_PublicRank()": {
+          "Lines": {
+            "21": 34
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.DTOs.UserDTO::get_XP()": {
+          "Lines": {
+            "23": 27
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.User.DTOs.UserDTO::get_Gold()": {
+          "Lines": {
+            "24": 35
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserDTO::get_EquippedSkin()": {
+          "Lines": {
+            "26": 17
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<System.String> Features.User.DTOs.UserDTO::get_OwnedSkins()": {
+          "Lines": {
+            "27": 17
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\User\\DTO\\UserValidationDTO.cs": {
+      "Features.User.DTOs.UserValidationDTO": {
+        "System.String Features.User.DTOs.UserValidationDTO::get_GoogleId()": {
+          "Lines": {
+            "5": 3
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserValidationDTO::get_Email()": {
+          "Lines": {
+            "6": 4
+          },
+          "Branches": []
+        },
+        "System.String Features.User.DTOs.UserValidationDTO::get_DisplayName()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Sprites\\SpriteEntity.cs": {
+      "Features.Sprite.Entities.SpriteEntity": {
+        "System.Int32 Features.Sprite.Entities.SpriteEntity::get_Id()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.String Features.Sprite.Entities.SpriteEntity::get_Name()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.Byte[] Features.Sprite.Entities.SpriteEntity::get_ImageData()": {
+          "Lines": {
+            "17": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Score\\ScoreEntity.cs": {
+      "Features.Score.ScoreEntity": {
+        "System.Guid Features.Score.ScoreEntity::get_Id()": {
+          "Lines": {
+            "11": 17
+          },
+          "Branches": []
+        },
+        "System.Guid Features.Score.ScoreEntity::get_UserId()": {
+          "Lines": {
+            "15": 18
+          },
+          "Branches": []
+        },
+        "Features.User.Entities.User Features.Score.ScoreEntity::get_User()": {
+          "Lines": {
+            "18": 17
+          },
+          "Branches": []
+        },
+        "System.Int32 Features.Score.ScoreEntity::get_Score()": {
+          "Lines": {
+            "22": 27
+          },
+          "Branches": []
+        },
+        "System.DateTime Features.Score.ScoreEntity::get_CreatedAt()": {
+          "Lines": {
+            "26": 17
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Audio\\AudioFileMeta.cs": {
+      "Features.Audio.Extension.AudioFileExtensions": {
+        "System.Double Features.Audio.Extension.AudioFileExtensions::GetAudioFileSize(Features.Audio.Entities.AudioFileEntity)": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Audio\\AudioFileController.cs": {
+      "Features.Audio.Controllers.AudioController": {
+        "System.Void Features.Audio.Controllers.AudioController::.ctor(Data.AppDbContext)": {
+          "Lines": {
+            "19": 8,
+            "20": 8,
+            "21": 8,
+            "22": 8
+          },
+          "Branches": []
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<DownloadAudio>d__5": {
+        "System.Void Features.Audio.Controllers.AudioController/<DownloadAudio>d__5::MoveNext()": {
+          "Lines": {
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 201,
+              "EndOffset": 203,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 201,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__4": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAllAudioFiles>d__4::MoveNext()": {
+          "Lines": {
+            "69": 2,
+            "70": 2,
+            "71": 2,
+            "73": 10,
+            "74": 2,
+            "75": 2,
+            "76": 2,
+            "78": 2,
+            "79": 2
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 267,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 73,
+              "Offset": 267,
+              "EndOffset": 269,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAudio>d__3": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudio>d__3::MoveNext()": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "65": 2
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 190,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__6": {
+        "System.Void Features.Audio.Controllers.AudioController/<GetAudioFileSizeKB>d__6::MoveNext()": {
+          "Lines": {
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 0,
+            "110": 1,
+            "112": 1,
+            "113": 1
+          },
+          "Branches": [
+            {
+              "Line": 106,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 190,
+              "EndOffset": 217,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Features.Audio.Controllers.AudioController/<UploadAudio>d__2": {
+        "System.Void Features.Audio.Controllers.AudioController/<UploadAudio>d__2::MoveNext()": {
+          "Lines": {
+            "26": 3,
+            "27": 3,
+            "28": 1,
+            "30": 2,
+            "31": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "51": 3
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 27,
+              "Offset": 22,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 44,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 30,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 81,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\features\\Audio\\AudioEntity.cs": {
+      "Features.Audio.Entities.AudioFileEntity": {
+        "System.Int32 Features.Audio.Entities.AudioFileEntity::get_Id()": {
+          "Lines": {
+            "11": 5
+          },
+          "Branches": []
+        },
+        "System.String Features.Audio.Entities.AudioFileEntity::get_Name()": {
+          "Lines": {
+            "14": 8
+          },
+          "Branches": []
+        },
+        "System.Byte[] Features.Audio.Entities.AudioFileEntity::get_FileData()": {
+          "Lines": {
+            "17": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Data\\AppDbContext.cs": {
+      "Data.AppDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.User.Entities.User> Data.AppDbContext::get_Users()": {
+          "Lines": {
+            "15": 99
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Score.ScoreEntity> Data.AppDbContext::get_Scores()": {
+          "Lines": {
+            "16": 74
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Sprite.Entities.SpriteEntity> Data.AppDbContext::get_Sprites()": {
+          "Lines": {
+            "17": 74
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Audio.Entities.AudioFileEntity> Data.AppDbContext::get_AudioFiles()": {
+          "Lines": {
+            "18": 91
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Features.Wardrobe.Entities.WardrobeItem> Data.AppDbContext::get_WardrobeItems()": {
+          "Lines": {
+            "19": 91
+          },
+          "Branches": []
+        },
+        "System.Void Data.AppDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Void Data.AppDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Data.AppDbContext>)": {
+          "Lines": {
+            "13": 210
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\edgar\\OneDrive\\Dokumentai\\GitHub\\ReflexSharp-BE\\Data\\Configurations\\UserConfiguration.cs": {
+      "Data.Configurations.UserConfiguration": {
+        "System.Void Data.Configurations.UserConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Features.User.Entities.User>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
