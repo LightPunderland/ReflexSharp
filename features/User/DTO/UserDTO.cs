@@ -3,7 +3,7 @@ namespace Features.User.DTOs;
 // enum
 public enum Rank
 {
-    None,
+        None,
     Noob,
     Pro,
     Master,

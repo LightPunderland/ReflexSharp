@@ -9,7 +9,6 @@ namespace Features.Wardrobe.Services
     {
         Task<IEnumerable<WardrobeItemDTO>> GetAllWardrobeItemsAsync();
         Task<WardrobeItemDTO?> GetWardrobeItemAsync(Guid itemId);
-        Task<PurchaseEligibilityDTO> CheckPurchaseEligibilityAsync(Guid userId, Guid itemId);
         Task<WardrobeItemDTO> CreateWardrobeItemAsync(CreateWardrobeItemDTO itemDto);
         Task<WardrobeItemDTO?> GetWardrobeItemByNameAsync(string name);
     }

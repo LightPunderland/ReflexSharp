@@ -47,50 +47,6 @@ namespace Features.Wardrobe.Services
             };
         }
 
-        public async Task<PurchaseEligibilityDTO> CheckPurchaseEligibilityAsync(Guid userId, Guid itemId)
-        {
-            var user = await _userService.GetUserAsync(userId);
-            var item = await GetWardrobeItemAsync(itemId);
-
-            if (user == null)
-            {
-                return new PurchaseEligibilityDTO
-                {
-                    HasSufficientGold = false,
-                    MeetsRankRequirement = false,
-                    Message = "User not found"
-                };
-            }
-
-            if (item == null)
-            {
-                return new PurchaseEligibilityDTO
-                {
-                    HasSufficientGold = false,
-                    MeetsRankRequirement = false,
-                    Message = "Item not found"
-                };
-            }
-
-            bool hasEnoughGold = user.Gold >= item.Price;
-            bool hasRequiredRank = user.PublicRank >= item.RankRequirement;
-
-            string? message = null;
-            if (!hasEnoughGold && !hasRequiredRank)
-                message = "Insufficient gold and rank";
-            else if (!hasEnoughGold)
-                message = "Insufficient gold";
-            else if (!hasRequiredRank)
-                message = "Insufficient rank";
-
-            return new PurchaseEligibilityDTO
-            {
-                HasSufficientGold = hasEnoughGold,
-                MeetsRankRequirement = hasRequiredRank,
-                Message = message
-            };
-        }
-
         public async Task<WardrobeItemDTO> CreateWardrobeItemAsync(CreateWardrobeItemDTO itemDto)
         {
             var wardrobeItem = new WardrobeItem
