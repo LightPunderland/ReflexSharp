@@ -2,6 +2,9 @@ using Data;
 using Microsoft.EntityFrameworkCore;
 using DotNetEnv;
 using Features.Wardrobe.Services;
+using Features.TraficMonitoring;
+using Features.TraficMonitoring.Middleware;
+using System.Threading.Tasks;
 
 Env.Load();
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +14,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Configuration.AddEnvironmentVariables();
+
+Task.Run(async () =>
+{
+    while (true)
+    {
+        await Task.Delay(50000); // 50 sec
+        Console.Clear();
+        Console.WriteLine($"=== API Monitor Active === {DateTime.Now}");
+        Console.WriteLine("Listening...");
+    }
+});
 
 builder.Services.AddCors(options =>
 {
@@ -38,6 +52,7 @@ builder.Services.AddScoped<IScoreRepository, ScoreRepository>();
 builder.Services.AddScoped<IWardrobeService, WardrobeService>();
 
 var app = builder.Build();
+app.UseMiddleware<TraficMonitoringMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {
