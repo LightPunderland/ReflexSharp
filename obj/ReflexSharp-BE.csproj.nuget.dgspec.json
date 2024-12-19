@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lukas/Desktop/Programs/Doge/ReflexSharp-BE/ReflexSharp-BE.csproj": {}
+    "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj": {}
   },
   "projects": {
-    "/home/lukas/Desktop/Programs/Doge/ReflexSharp-BE/ReflexSharp-BE.csproj": {
+    "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lukas/Desktop/Programs/Doge/ReflexSharp-BE/ReflexSharp-BE.csproj",
+        "projectUniqueName": "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj",
         "projectName": "ReflexSharp-BE",
-        "projectPath": "/home/lukas/Desktop/Programs/Doge/ReflexSharp-BE/ReflexSharp-BE.csproj",
-        "packagesPath": "/home/lukas/.nuget/packages/",
-        "outputPath": "/home/lukas/Desktop/Programs/Doge/ReflexSharp-BE/obj/",
+        "projectPath": "/var/www/ReflexSharp-BE/ReflexSharp-BE.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/www/ReflexSharp-BE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lukas/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -91,7 +97,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.10, 8.0.10]"
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
